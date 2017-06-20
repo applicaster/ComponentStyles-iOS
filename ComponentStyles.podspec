@@ -3,14 +3,13 @@ Pod::Spec.new do |s|
 	s.version = "4.1.1"
 	s.platform = :ios
 	s.ios.deployment_target = "8.0"
-	s.summary = "Components Styles"
-	s.description = "Components Styles"
+	s.summary = "Component Styles"
+	s.description = "Component Styles"
 	s.homepage = "https://applicaster.com"
 	s.license = ''
 	s.author = "Applicaster LTD."
 	s.source       = {
-		:git => 'https://github.com/applicaster/ComponentsStyles-iOS.git',
-		:branch => 'master',
+		:git => 'https://github.com/applicaster/ComponentStyles-iOS.git',
 		:tag => s.version.to_s
   }
 
