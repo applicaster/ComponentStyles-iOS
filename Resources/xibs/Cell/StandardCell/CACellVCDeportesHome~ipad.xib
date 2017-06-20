@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemDescriptionLabel" destination="A28-WP-bqz" id="9i7-JY-4Tz"/>
+                <outlet property="itemImageView" destination="SxP-wf-7Ks" id="KOb-7R-jm0"/>
+                <outlet property="itemNameLabel" destination="2i3-tB-zPY" id="hk5-Wv-Pzy"/>
+                <outlet property="itemTimeLabel" destination="7h7-Tq-DYf" id="KJ3-fP-U1z"/>
+                <outlet property="reminderButton" destination="nzZ-5n-PQS" id="lPa-hN-WOQ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="tkY-XM-LDU"/>
+                <outletCollection property="imageViewCollection" destination="irN-ik-h9W" id="jt5-tK-miV"/>
+                <outletCollection property="buttonsViewCollection" destination="pKJ-o1-Rs6" id="oiB-vn-EbS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GAHiddenKickerViewContainer">
+            <rect key="frame" x="0.0" y="0.0" width="497" height="141"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SxP-wf-7Ks" userLabel="ItemImageView" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="141"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="SxP-wf-7Ks" secondAttribute="height" multiplier="39:22" id="gQy-OR-45p"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2i3-tB-zPY" userLabel="TitleLabel">
+                    <rect key="frame" x="258" y="8" width="231" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="TMh-e9-DzZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1" verticalCompressionResistancePriority="1" text="" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A28-WP-bqz" userLabel="DescriptionLabel">
+                    <rect key="frame" x="258" y="12" width="231" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7h7-Tq-DYf" userLabel="Date Label">
+                    <rect key="frame" x="258" y="130" width="191" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="olW-bf-xeG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKJ-o1-Rs6" userLabel="Native Share" customClass="CAButton">
+                    <rect key="frame" x="457" y="101" width="40" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Eg8-TS-aTL"/>
+                        <constraint firstAttribute="height" constant="40" id="c9u-RN-Swc"/>
+                    </constraints>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="irN-ik-h9W" userLabel="ArticleImage" customClass="APImageView">
+                    <rect key="frame" x="56" y="0.0" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="evc-gv-K86"/>
+                        <constraint firstAttribute="height" constant="140" id="mww-z7-dyj"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzZ-5n-PQS" userLabel="Reminder Button">
+                    <rect key="frame" x="56" y="1" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="V3E-42-WMn"/>
+                        <constraint firstAttribute="width" constant="140" id="tg0-5P-Jec"/>
+                    </constraints>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7h7-Tq-DYf" firstAttribute="leading" secondItem="SxP-wf-7Ks" secondAttribute="trailing" constant="8" id="2Au-pP-iHc"/>
+                <constraint firstItem="2i3-tB-zPY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="6IH-gh-YlM"/>
+                <constraint firstItem="irN-ik-h9W" firstAttribute="centerY" secondItem="SxP-wf-7Ks" secondAttribute="centerY" id="7jZ-B2-vZp"/>
+                <constraint firstItem="nzZ-5n-PQS" firstAttribute="centerY" secondItem="SxP-wf-7Ks" secondAttribute="centerY" id="8hj-SM-ETg"/>
+                <constraint firstItem="A28-WP-bqz" firstAttribute="top" secondItem="2i3-tB-zPY" secondAttribute="bottom" constant="4" id="Htj-Dn-fiW"/>
+                <constraint firstItem="SxP-wf-7Ks" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Lvq-Gh-uWj"/>
+                <constraint firstAttribute="trailing" secondItem="A28-WP-bqz" secondAttribute="trailing" constant="8" id="OAg-hx-vi6"/>
+                <constraint firstAttribute="trailing" secondItem="pKJ-o1-Rs6" secondAttribute="trailing" id="TWp-Cl-iA8"/>
+                <constraint firstAttribute="bottom" secondItem="SxP-wf-7Ks" secondAttribute="bottom" id="Vj5-qS-fA8"/>
+                <constraint firstItem="A28-WP-bqz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" priority="1" constant="8" id="Zuo-tv-5n8"/>
+                <constraint firstAttribute="bottom" secondItem="7h7-Tq-DYf" secondAttribute="bottom" constant="11" id="cAa-nh-KJ7"/>
+                <constraint firstItem="pKJ-o1-Rs6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="A28-WP-bqz" secondAttribute="bottom" constant="2" id="dV3-yT-7JU"/>
+                <constraint firstAttribute="trailing" secondItem="2i3-tB-zPY" secondAttribute="trailing" constant="8" id="eZ0-qy-aqm"/>
+                <constraint firstItem="A28-WP-bqz" firstAttribute="leading" secondItem="SxP-wf-7Ks" secondAttribute="trailing" constant="8" id="gfw-RO-Xel"/>
+                <constraint firstItem="SxP-wf-7Ks" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gke-jg-Id4"/>
+                <constraint firstItem="irN-ik-h9W" firstAttribute="centerX" secondItem="SxP-wf-7Ks" secondAttribute="centerX" constant="1" id="lip-dX-OPj"/>
+                <constraint firstItem="nzZ-5n-PQS" firstAttribute="centerX" secondItem="SxP-wf-7Ks" secondAttribute="centerX" constant="1" id="mbQ-mJ-YJH"/>
+                <constraint firstItem="2i3-tB-zPY" firstAttribute="leading" secondItem="SxP-wf-7Ks" secondAttribute="trailing" constant="8" id="nG3-07-2Gq"/>
+                <constraint firstAttribute="bottom" secondItem="pKJ-o1-Rs6" secondAttribute="bottom" id="sgM-wg-qWY"/>
+                <constraint firstItem="pKJ-o1-Rs6" firstAttribute="leading" secondItem="7h7-Tq-DYf" secondAttribute="trailing" constant="8" id="xVS-ie-LU0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="503" y="197"/>
+        </view>
+    </objects>
+</document>

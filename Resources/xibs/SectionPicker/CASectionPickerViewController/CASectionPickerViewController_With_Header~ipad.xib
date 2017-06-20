@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CASectionPickerViewController">
+            <connections>
+                <outlet property="collectionView" destination="y68-ZW-6fa" id="3Ca-c2-vdB"/>
+                <outlet property="collectionWidthConstraint" destination="5zY-ey-1bL" id="u0E-iP-XST"/>
+                <outlet property="titleLabel" destination="Kdg-S5-JFM" id="FIz-i1-Vsh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="imageViewCollection" destination="AJK-nn-QLu" id="rNH-An-41A"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="76"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AJK-nn-QLu">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="76"/>
+                </imageView>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="y68-ZW-6fa">
+                    <rect key="frame" x="0.0" y="23" width="600" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" priority="900" constant="1024" id="5zY-ey-1bL"/>
+                        <constraint firstAttribute="height" constant="30" id="EsN-37-fpg"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="S2D-Np-rBM">
+                        <size key="itemSize" width="320" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="76K-Gv-lne"/>
+                        <outlet property="delegate" destination="-1" id="xkC-H9-agw"/>
+                    </connections>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdg-S5-JFM">
+                    <rect key="frame" x="0.0" y="23" width="0.0" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AJK-nn-QLu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NRN-rl-c3v"/>
+                <constraint firstAttribute="bottom" secondItem="AJK-nn-QLu" secondAttribute="bottom" id="S4h-T5-3ka"/>
+                <constraint firstAttribute="trailing" secondItem="y68-ZW-6fa" secondAttribute="trailing" id="VbJ-Zb-OQx"/>
+                <constraint firstItem="Kdg-S5-JFM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bwW-Jb-6Fk"/>
+                <constraint firstItem="y68-ZW-6fa" firstAttribute="bottom" secondItem="Kdg-S5-JFM" secondAttribute="bottom" id="cV6-h3-PUR"/>
+                <constraint firstAttribute="trailing" secondItem="AJK-nn-QLu" secondAttribute="trailing" id="gKL-c4-Mbd"/>
+                <constraint firstItem="AJK-nn-QLu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hcO-2b-Q5m"/>
+                <constraint firstItem="y68-ZW-6fa" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kcF-pq-PF6"/>
+                <constraint firstItem="y68-ZW-6fa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Kdg-S5-JFM" secondAttribute="trailing" id="pQk-g9-dxP"/>
+                <constraint firstItem="y68-ZW-6fa" firstAttribute="top" secondItem="Kdg-S5-JFM" secondAttribute="top" id="w9D-Sp-gIg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26" y="35"/>
+        </view>
+    </objects>
+</document>

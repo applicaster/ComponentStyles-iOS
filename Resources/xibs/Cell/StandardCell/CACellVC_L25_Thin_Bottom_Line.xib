@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemDescriptionLabel" destination="Kw1-ZD-8hS" id="PeQ-Ls-B7p"/>
+                <outlet property="itemNameLabel" destination="Ysg-nB-tnW" id="vkp-KF-QJD"/>
+                <outlet property="view" destination="fEQ-vk-iRG" id="n2R-G4-kru"/>
+                <outletCollection property="imageViewCollection" destination="srB-GV-iP4" id="seb-Zx-gFI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fEQ-vk-iRG">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ysg-nB-tnW">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="srB-GV-iP4">
+                    <rect key="frame" x="0.0" y="69" width="320" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="pSc-oF-bfT"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kw1-ZD-8hS">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ysg-nB-tnW" secondAttribute="trailing" id="3uc-7Z-U8W"/>
+                <constraint firstAttribute="trailing" secondItem="Kw1-ZD-8hS" secondAttribute="trailing" id="5JW-OI-oTw"/>
+                <constraint firstItem="Ysg-nB-tnW" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" id="9fY-EO-MgG"/>
+                <constraint firstItem="srB-GV-iP4" firstAttribute="top" secondItem="Kw1-ZD-8hS" secondAttribute="bottom" id="EXg-20-0Ju"/>
+                <constraint firstItem="Kw1-ZD-8hS" firstAttribute="top" secondItem="fEQ-vk-iRG" secondAttribute="top" id="SEX-S9-bYv"/>
+                <constraint firstItem="Ysg-nB-tnW" firstAttribute="top" secondItem="fEQ-vk-iRG" secondAttribute="top" id="WJ1-l0-7e6"/>
+                <constraint firstItem="Kw1-ZD-8hS" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" id="Zzc-68-c19"/>
+                <constraint firstAttribute="bottom" secondItem="srB-GV-iP4" secondAttribute="bottom" id="dSu-SQ-AJe"/>
+                <constraint firstAttribute="trailing" secondItem="srB-GV-iP4" secondAttribute="trailing" id="ktc-D9-6j2"/>
+                <constraint firstItem="srB-GV-iP4" firstAttribute="top" secondItem="Ysg-nB-tnW" secondAttribute="bottom" id="ytU-eK-XQN"/>
+                <constraint firstItem="srB-GV-iP4" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" id="zMq-ag-Y0j"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

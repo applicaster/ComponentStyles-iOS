@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellAtomMediaContainerViewController" customModule="ComponentsSDK">
+            <connections>
+                <outlet property="playerContainerView" destination="ZjU-Hh-hgT" id="hRG-jE-Ev9"/>
+                <outlet property="playlistContainerView" destination="Fhc-aK-YG5" id="cBK-5D-23K"/>
+                <outlet property="view" destination="iN0-l3-epB" id="TLg-Jf-G3U"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fhc-aK-YG5" userLabel="Playlist Container View">
+                    <rect key="frame" x="0.0" y="0.0" width="512" height="768"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZjU-Hh-hgT" userLabel="Player Container View">
+                    <rect key="frame" x="514" y="0.0" width="510" height="768"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Fhc-aK-YG5" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="7xT-BX-u96"/>
+                <constraint firstAttribute="bottom" secondItem="Fhc-aK-YG5" secondAttribute="bottom" id="Bth-EZ-Swx"/>
+                <constraint firstItem="ZjU-Hh-hgT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="P6w-7w-UOD"/>
+                <constraint firstAttribute="bottom" secondItem="ZjU-Hh-hgT" secondAttribute="bottom" id="PPA-WQ-l5i"/>
+                <constraint firstItem="ZjU-Hh-hgT" firstAttribute="leading" secondItem="Fhc-aK-YG5" secondAttribute="trailing" constant="2" id="Vyd-3n-4Xa"/>
+                <constraint firstItem="Fhc-aK-YG5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pLM-fT-6oH"/>
+                <constraint firstItem="Fhc-aK-YG5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="r71-ih-nxt"/>
+                <constraint firstAttribute="trailing" secondItem="ZjU-Hh-hgT" secondAttribute="trailing" id="vVC-WK-nMP"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

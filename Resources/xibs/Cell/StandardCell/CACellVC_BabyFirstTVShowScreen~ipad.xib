@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="deleteButton" destination="2Lg-er-D3x" id="u1P-Du-L4K"/>
+                <outlet property="inAppRibbonImageView" destination="iGB-pt-D5f" id="q8k-6q-2Oc"/>
+                <outlet property="itemImageView" destination="Szx-vp-W7a" id="XHx-gg-3QJ"/>
+                <outlet property="itemLockedImageView" destination="4fH-Js-Gk6" id="HRl-7Y-8Yo"/>
+                <outlet property="itemNameLabel" destination="jIG-G7-pKP" id="gjq-Zr-l1z"/>
+                <outlet property="view" destination="Oyh-dp-YWq" id="YVa-hL-qEy"/>
+                <outletCollection property="imageViewCollection" destination="fqI-Gb-alp" id="z1C-rN-qpX"/>
+                <outletCollection property="imageViewCollection" destination="Y8o-OV-GMX" id="iy1-CB-i2q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Oyh-dp-YWq">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="748"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fqI-Gb-alp" userLabel="Image View 0 (Background)" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="748"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Szx-vp-W7a" userLabel="Item Image View" customClass="APImageView">
+                    <rect key="frame" x="45" y="222" width="310" height="310"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="310" id="WEb-OY-RbY"/>
+                        <constraint firstAttribute="height" constant="310" id="v3p-qE-eEe"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iGB-pt-D5f" userLabel="Free ribbon" customClass="APImageView">
+                    <rect key="frame" x="45" y="222" width="310" height="310"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="310" id="609-8u-jkl"/>
+                        <constraint firstAttribute="height" constant="310" id="Kl2-DJ-hsv"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4fH-Js-Gk6" userLabel="item blocked image View" customClass="APImageView">
+                    <rect key="frame" x="88" y="442" width="55" height="55"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="W56-r7-xUW"/>
+                        <constraint firstAttribute="height" constant="55" id="bBG-Zt-DRd"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y8o-OV-GMX" userLabel="Gif Image" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="348" width="400" height="400"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="400" id="27P-aa-Tgf"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Lg-er-D3x" userLabel="Delete Button">
+                    <rect key="frame" x="261" y="259" width="55" height="55"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="2E6-nm-nRE"/>
+                        <constraint firstAttribute="height" constant="55" id="7Me-EU-hv0"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="hqmeDeleteButtonTapped:" destination="-1" eventType="touchUpInside" id="tLb-ZL-qrc"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIG-G7-pKP" userLabel="Title Label">
+                    <rect key="frame" x="45" y="535" width="310" height="0.0"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="1IG-5Z-krc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Szx-vp-W7a" firstAttribute="top" secondItem="Oyh-dp-YWq" secondAttribute="top" constant="222" id="0au-vI-44w"/>
+                <constraint firstAttribute="centerX" secondItem="Szx-vp-W7a" secondAttribute="centerX" id="4z7-Xl-uyQ"/>
+                <constraint firstItem="Szx-vp-W7a" firstAttribute="width" secondItem="jIG-G7-pKP" secondAttribute="width" id="BdT-t0-kko"/>
+                <constraint firstItem="fqI-Gb-alp" firstAttribute="leading" secondItem="Oyh-dp-YWq" secondAttribute="leading" id="NAY-nS-Cvj"/>
+                <constraint firstItem="2Lg-er-D3x" firstAttribute="top" secondItem="Szx-vp-W7a" secondAttribute="top" constant="37" id="UDU-au-2SQ"/>
+                <constraint firstItem="iGB-pt-D5f" firstAttribute="centerX" secondItem="Szx-vp-W7a" secondAttribute="centerX" id="V6m-mV-Nsw"/>
+                <constraint firstAttribute="centerX" secondItem="jIG-G7-pKP" secondAttribute="centerX" id="VFX-jp-4D8"/>
+                <constraint firstItem="iGB-pt-D5f" firstAttribute="centerY" secondItem="Szx-vp-W7a" secondAttribute="centerY" id="XBA-9b-hv8"/>
+                <constraint firstAttribute="trailing" secondItem="Y8o-OV-GMX" secondAttribute="trailing" id="YdK-qa-kve"/>
+                <constraint firstAttribute="bottom" secondItem="Y8o-OV-GMX" secondAttribute="bottom" id="b0B-c1-MH4"/>
+                <constraint firstItem="Szx-vp-W7a" firstAttribute="bottom" secondItem="4fH-Js-Gk6" secondAttribute="bottom" constant="35" id="bmH-7W-oRN"/>
+                <constraint firstItem="2Lg-er-D3x" firstAttribute="trailing" secondItem="Szx-vp-W7a" secondAttribute="trailing" constant="-39" id="gOd-di-Sg5"/>
+                <constraint firstItem="Y8o-OV-GMX" firstAttribute="leading" secondItem="Oyh-dp-YWq" secondAttribute="leading" id="hAp-xn-pRo"/>
+                <constraint firstAttribute="trailing" secondItem="fqI-Gb-alp" secondAttribute="trailing" id="o3p-L2-dgd"/>
+                <constraint firstItem="Szx-vp-W7a" firstAttribute="leading" secondItem="4fH-Js-Gk6" secondAttribute="leading" constant="-43" id="oZ7-m0-asA"/>
+                <constraint firstAttribute="bottom" secondItem="fqI-Gb-alp" secondAttribute="bottom" id="wdp-eS-gW8"/>
+                <constraint firstItem="fqI-Gb-alp" firstAttribute="top" secondItem="Oyh-dp-YWq" secondAttribute="top" id="xcB-xl-Hp6"/>
+                <constraint firstItem="jIG-G7-pKP" firstAttribute="top" secondItem="Szx-vp-W7a" secondAttribute="bottom" constant="3" id="zwS-JF-2pT"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

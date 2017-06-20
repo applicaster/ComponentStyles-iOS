@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellTitleViewController">
+            <connections>
+                <outlet property="borderView" destination="T6E-WF-Dqu" id="vJK-b3-7Ic"/>
+                <outlet property="indicatorImageView" destination="Qnk-Uy-sL4" id="xA8-8R-ZQM"/>
+                <outlet property="itemNameLabel" destination="L94-FL-Jwi" id="Gv2-fg-tNQ"/>
+                <outlet property="view" destination="fEQ-vk-iRG" id="n2R-G4-kru"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fEQ-vk-iRG">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L94-FL-Jwi">
+                    <rect key="frame" x="10" y="0.0" width="245" height="70"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qnk-Uy-sL4" customClass="APImageView">
+                    <rect key="frame" x="265" y="0.0" width="50" height="70"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="4Px-2R-2s9"/>
+                        <constraint firstAttribute="width" constant="50" id="YS3-o7-5ug"/>
+                    </constraints>
+                </imageView>
+                <view appearanceType="aqua" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6E-WF-Dqu" userLabel="Border view">
+                    <rect key="frame" x="0.0" y="70" width="320" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="DYw-lG-zmW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="L94-FL-Jwi" firstAttribute="top" secondItem="fEQ-vk-iRG" secondAttribute="top" id="2s4-VO-E64"/>
+                <constraint firstAttribute="bottom" secondItem="Qnk-Uy-sL4" secondAttribute="bottom" id="4f7-Gh-bkl"/>
+                <constraint firstItem="L94-FL-Jwi" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" constant="10" id="6wl-G0-Ieo"/>
+                <constraint firstAttribute="trailing" secondItem="Qnk-Uy-sL4" secondAttribute="trailing" constant="5" id="9K3-nX-04d"/>
+                <constraint firstItem="Qnk-Uy-sL4" firstAttribute="leading" secondItem="L94-FL-Jwi" secondAttribute="trailing" constant="10" id="By1-3G-7mh" userLabel="Horizontal Space - (288) - Image View - Label"/>
+                <constraint firstItem="Qnk-Uy-sL4" firstAttribute="top" secondItem="fEQ-vk-iRG" secondAttribute="top" id="D4A-9J-VAO"/>
+                <constraint firstAttribute="bottom" secondItem="T6E-WF-Dqu" secondAttribute="bottom" constant="-2" id="MUg-zd-gSJ"/>
+                <constraint firstAttribute="trailing" secondItem="T6E-WF-Dqu" secondAttribute="trailing" id="UG5-GE-bLk"/>
+                <constraint firstAttribute="bottom" secondItem="L94-FL-Jwi" secondAttribute="bottom" id="Z3x-lz-hfq"/>
+                <constraint firstItem="T6E-WF-Dqu" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" id="ggM-y0-Gdm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

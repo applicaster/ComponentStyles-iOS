@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACollectionViewController">
+            <connections>
+                <outlet property="backgroundImageView" destination="6Mr-MM-NmA" id="2lT-EN-Y8T"/>
+                <outlet property="closeButton" destination="mRf-Sb-MEj" id="Tf0-Z7-dya"/>
+                <outlet property="collectionView" destination="wRa-9Q-Uak" id="w7e-2q-9Km"/>
+                <outlet property="noDataTitleLabel" destination="XxQ-C9-S1a" id="O7g-mR-adx"/>
+                <outlet property="noDataView" destination="dYC-Zt-jGN" id="lp5-FW-R7n"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Mr-MM-NmA" userLabel="background Image view" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wRa-9Q-Uak">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <collectionViewLayout key="collectionViewLayout" id="SgX-Zl-iEY"/>
+                    <cells/>
+                </collectionView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dYC-Zt-jGN" userLabel="No Data View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="204" translatesAutoresizingMaskIntoConstraints="NO" id="XxQ-C9-S1a">
+                            <rect key="frame" x="58" y="60" width="204" height="0.0"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="XxQ-C9-S1a" firstAttribute="leading" secondItem="dYC-Zt-jGN" secondAttribute="leading" constant="58" id="EmD-c9-TL6"/>
+                        <constraint firstAttribute="trailing" secondItem="XxQ-C9-S1a" secondAttribute="trailing" constant="58" id="bDr-An-OUm"/>
+                        <constraint firstItem="XxQ-C9-S1a" firstAttribute="top" secondItem="dYC-Zt-jGN" secondAttribute="top" constant="60" id="tUo-lt-S6O"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="XxQ-C9-S1a" secondAttribute="bottom" constant="60" id="yCc-Jf-Oa6"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRf-Sb-MEj" userLabel="Close Button">
+                    <rect key="frame" x="272" y="8" width="40" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4g4-Aw-waN"/>
+                        <constraint firstAttribute="width" constant="40" id="9e9-5x-Tmv"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="handleCloseButton:" destination="-1" eventType="touchUpInside" id="U8Q-I5-hpc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mRf-Sb-MEj" secondAttribute="trailing" constant="8" id="7Dq-SJ-TaU"/>
+                <constraint firstItem="mRf-Sb-MEj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="Btn-KF-Gd7"/>
+                <constraint firstAttribute="bottom" secondItem="wRa-9Q-Uak" secondAttribute="bottom" id="CEu-x0-uKK"/>
+                <constraint firstItem="wRa-9Q-Uak" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gpp-Km-XEX"/>
+                <constraint firstAttribute="trailing" secondItem="dYC-Zt-jGN" secondAttribute="trailing" id="QB0-NF-P9f"/>
+                <constraint firstAttribute="bottom" secondItem="6Mr-MM-NmA" secondAttribute="bottom" id="RkS-xA-M0W"/>
+                <constraint firstItem="wRa-9Q-Uak" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ty9-Lf-FVL"/>
+                <constraint firstAttribute="trailing" secondItem="wRa-9Q-Uak" secondAttribute="trailing" id="XLN-C3-Rgn"/>
+                <constraint firstItem="dYC-Zt-jGN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XOD-CC-RVB"/>
+                <constraint firstItem="dYC-Zt-jGN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="e5K-V7-M2A"/>
+                <constraint firstAttribute="bottom" secondItem="dYC-Zt-jGN" secondAttribute="bottom" id="qZu-A4-raW"/>
+                <constraint firstItem="6Mr-MM-NmA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="sOf-Am-3f9"/>
+                <constraint firstAttribute="trailing" secondItem="6Mr-MM-NmA" secondAttribute="trailing" id="xZs-ti-LQL"/>
+                <constraint firstItem="6Mr-MM-NmA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xrS-Ii-Er2"/>
+            </constraints>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

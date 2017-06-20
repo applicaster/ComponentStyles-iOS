@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellAtomEntryViewController">
+            <connections>
+                <outlet property="facebookButton" destination="wxk-bQ-ePx" id="PIJ-ao-Thm"/>
+                <outlet property="imageView" destination="TnK-r7-Pzn" id="9Ue-Sd-0dz"/>
+                <outlet property="mailButton" destination="0uG-KZ-og1" id="Hga-M3-MZR"/>
+                <outlet property="summaryLabel" destination="Iqn-r1-vbF" id="pu6-Er-pk2"/>
+                <outlet property="twitterButton" destination="EXs-KC-Z1P" id="URJ-nC-PPh"/>
+                <outlet property="updatedLabel" destination="1Sq-xa-Nil" id="tbg-QL-tsI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="N2w-0C-YEa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GAHiddenKickerViewContainer">
+            <rect key="frame" x="0.0" y="0.0" width="739" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TnK-r7-Pzn" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="739" height="416"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="416" id="6ut-bi-abA"/>
+                        <constraint firstAttribute="width" constant="739" id="R66-Zx-2uZ"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SMQ-Gx-VOm" userLabel="sharingView">
+                    <rect key="frame" x="597" y="421" width="142" height="41"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxk-bQ-ePx" userLabel="Facebook Button">
+                            <rect key="frame" x="0.0" y="2" width="38" height="38"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="handleUserPushFacebookButton:" destination="-1" eventType="touchUpInside" id="x2U-AS-Nca"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXs-KC-Z1P" userLabel="Twitter Button">
+                            <rect key="frame" x="52" y="2" width="38" height="38"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="handleUserPushTwitterButton:" destination="-1" eventType="touchUpInside" id="P8g-Ep-Wbj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uG-KZ-og1" userLabel="Mail Button">
+                            <rect key="frame" x="104" y="2" width="38" height="38"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="handleUserPushMailButton:" destination="-1" eventType="touchUpInside" id="4zL-7s-9se"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="6wW-A8-HhE"/>
+                        <constraint firstAttribute="width" constant="142" id="Jml-M8-kzr"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="584" translatesAutoresizingMaskIntoConstraints="NO" id="1Sq-xa-Nil" userLabel="Updated Label">
+                    <rect key="frame" x="0.0" y="429" width="584" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="QHr-Gg-ojd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="739" translatesAutoresizingMaskIntoConstraints="NO" id="Iqn-r1-vbF" userLabel="Summary Label">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TnK-r7-Pzn" firstAttribute="trailing" secondItem="SMQ-Gx-VOm" secondAttribute="trailing" id="0W6-2I-QAV"/>
+                <constraint firstItem="SMQ-Gx-VOm" firstAttribute="top" secondItem="TnK-r7-Pzn" secondAttribute="bottom" constant="5" id="1dU-jX-cqT"/>
+                <constraint firstItem="1Sq-xa-Nil" firstAttribute="leading" secondItem="TnK-r7-Pzn" secondAttribute="leading" id="7Fh-f4-13J"/>
+                <constraint firstItem="Iqn-r1-vbF" firstAttribute="top" secondItem="SMQ-Gx-VOm" secondAttribute="bottom" priority="999" constant="12" id="7tL-jj-WkG"/>
+                <constraint firstItem="TnK-r7-Pzn" firstAttribute="leading" secondItem="Iqn-r1-vbF" secondAttribute="leading" id="Dn3-3u-GAE"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Iqn-r1-vbF" secondAttribute="bottom" constant="10" id="EGE-IS-VYk"/>
+                <constraint firstItem="1Sq-xa-Nil" firstAttribute="top" secondItem="TnK-r7-Pzn" secondAttribute="bottom" constant="13" id="KrH-bh-fel"/>
+                <constraint firstItem="SMQ-Gx-VOm" firstAttribute="leading" secondItem="1Sq-xa-Nil" secondAttribute="trailing" constant="13" id="Vo3-8h-07w"/>
+                <constraint firstAttribute="centerX" secondItem="TnK-r7-Pzn" secondAttribute="centerX" id="gFE-N1-i9k"/>
+                <constraint firstItem="TnK-r7-Pzn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pf3-71-ckX"/>
+                <constraint firstItem="TnK-r7-Pzn" firstAttribute="trailing" secondItem="Iqn-r1-vbF" secondAttribute="trailing" id="rQZ-kk-RcM"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

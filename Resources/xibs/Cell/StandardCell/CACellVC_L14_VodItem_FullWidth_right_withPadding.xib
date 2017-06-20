@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemDurationLabel" destination="bqf-Fh-q97" id="a9f-zP-TMn"/>
+                <outlet property="itemImageView" destination="a05-86-kil" id="923-Ln-K7s"/>
+                <outlet property="itemNameLabel" destination="NQI-wL-jVQ" id="Ohq-yO-xnG"/>
+                <outlet property="itemShowNameLabel" destination="tDU-jQ-6fM" id="nG9-QQ-cxa"/>
+                <outlet property="view" destination="6dN-3g-JfJ" id="QH9-FU-0wu"/>
+                <outletCollection property="imageViewCollection" destination="Zv1-jI-aFT" id="Ogi-2O-wTj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6dN-3g-JfJ">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dj3-Nh-uH0" userLabel="Titles container" customClass="APHiddenKickerViewContainer">
+                    <rect key="frame" x="14" y="185" width="292" height="55"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDU-jQ-6fM">
+                            <rect key="frame" x="0.0" y="3" width="292" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Sw7-qN-cuc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-wL-jVQ">
+                            <rect key="frame" x="0.0" y="3" width="292" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Oh0-Gg-UrY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="NQI-wL-jVQ" secondAttribute="trailing" id="727-cu-ERs"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="tDU-jQ-6fM" secondAttribute="bottom" priority="500" id="93H-Ik-Xn1"/>
+                        <constraint firstItem="tDU-jQ-6fM" firstAttribute="top" secondItem="dj3-Nh-uH0" secondAttribute="top" constant="3" id="B75-9T-U3s"/>
+                        <constraint firstItem="tDU-jQ-6fM" firstAttribute="leading" secondItem="dj3-Nh-uH0" secondAttribute="leading" id="NH0-r2-IWp"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NQI-wL-jVQ" secondAttribute="bottom" id="SNJ-0R-dpE"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="leading" secondItem="dj3-Nh-uH0" secondAttribute="leading" id="bVn-ry-xFT"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="top" secondItem="dj3-Nh-uH0" secondAttribute="top" priority="500" constant="3" id="nHh-Ti-cDO"/>
+                        <constraint firstAttribute="trailing" secondItem="tDU-jQ-6fM" secondAttribute="trailing" id="nVo-fa-DTr"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="tDU-jQ-6fM" secondAttribute="bottom" id="woV-Tx-KOr"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a05-86-kil" customClass="APImageView">
+                    <rect key="frame" x="14" y="14" width="292" height="164"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a05-86-kil" secondAttribute="height" multiplier="464:261" id="D1d-hf-Qcx"/>
+                        <constraint firstAttribute="height" constant="261" id="UOD-Ys-0Pg"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="UOD-Ys-0Pg"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="constraints">
+                            <exclude reference="D1d-hf-Qcx"/>
+                            <include reference="UOD-Ys-0Pg"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zv1-jI-aFT" userLabel="Duration BG Image View" customClass="APImageView">
+                    <rect key="frame" x="14" y="150" width="292" height="28"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="IUM-X7-z8g">
+                            <variation key="heightClass=regular-widthClass=regular" constant="45"/>
+                        </constraint>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="hiddenDependencies" destination="bqf-Fh-q97" id="IFs-XC-O00"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqf-Fh-q97" userLabel="Duration label">
+                    <rect key="frame" x="21" y="157" width="278" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bqf-Fh-q97" firstAttribute="trailing" secondItem="Zv1-jI-aFT" secondAttribute="trailing" constant="-7" id="0G2-Aw-NtN"/>
+                <constraint firstItem="Zv1-jI-aFT" firstAttribute="trailing" secondItem="a05-86-kil" secondAttribute="trailing" id="AgZ-18-pM1"/>
+                <constraint firstItem="a05-86-kil" firstAttribute="top" secondItem="6dN-3g-JfJ" secondAttribute="top" constant="14" id="BtL-Re-S5h">
+                    <variation key="heightClass=regular-widthClass=regular" constant="22"/>
+                </constraint>
+                <constraint firstItem="dj3-Nh-uH0" firstAttribute="top" secondItem="a05-86-kil" secondAttribute="bottom" constant="7" id="GsB-Mm-BYJ">
+                    <variation key="heightClass=regular-widthClass=regular" constant="9"/>
+                </constraint>
+                <constraint firstItem="bqf-Fh-q97" firstAttribute="top" secondItem="Zv1-jI-aFT" secondAttribute="top" constant="7" id="LNT-l3-iN1">
+                    <variation key="heightClass=regular-widthClass=regular" constant="17"/>
+                </constraint>
+                <constraint firstItem="bqf-Fh-q97" firstAttribute="leading" secondItem="Zv1-jI-aFT" secondAttribute="leading" constant="7" id="LmG-yn-yCE">
+                    <variation key="heightClass=regular-widthClass=regular" constant="14"/>
+                </constraint>
+                <constraint firstItem="a05-86-kil" firstAttribute="leading" secondItem="6dN-3g-JfJ" secondAttribute="leading" constant="14" id="SbQ-EU-8I8">
+                    <variation key="heightClass=regular-widthClass=regular" constant="16"/>
+                </constraint>
+                <constraint firstItem="Zv1-jI-aFT" firstAttribute="bottom" secondItem="a05-86-kil" secondAttribute="bottom" id="XFN-bm-kol"/>
+                <constraint firstAttribute="bottom" secondItem="dj3-Nh-uH0" secondAttribute="bottom" id="b5y-iu-ubB">
+                    <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="dj3-Nh-uH0" secondAttribute="trailing" constant="14" id="lUV-bv-lJM">
+                    <variation key="heightClass=regular-widthClass=regular" constant="32"/>
+                </constraint>
+                <constraint firstItem="dj3-Nh-uH0" firstAttribute="leading" secondItem="6dN-3g-JfJ" secondAttribute="leading" constant="14" id="mYo-cl-DjO">
+                    <variation key="heightClass=regular-widthClass=regular" constant="16"/>
+                </constraint>
+                <constraint firstItem="Zv1-jI-aFT" firstAttribute="leading" secondItem="a05-86-kil" secondAttribute="leading" id="mbe-rR-oGB"/>
+                <constraint firstAttribute="trailing" secondItem="a05-86-kil" secondAttribute="trailing" constant="14" id="n9i-FK-nAO">
+                    <variation key="heightClass=regular-widthClass=regular" constant="32"/>
+                </constraint>
+                <constraint firstItem="bqf-Fh-q97" firstAttribute="bottom" secondItem="Zv1-jI-aFT" secondAttribute="bottom" id="okH-UI-rdF">
+                    <variation key="heightClass=regular-widthClass=regular" constant="-12"/>
+                </constraint>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="401" y="310"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,1757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CD55FD0345480C2F361414A /* Pods_ComponentStyles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0645BE043990DD56620F2B /* Pods_ComponentStyles.framework */; };
+		23118A861CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23118A841CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard.xib */; };
+		23118A871CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23118A851CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard~ipad.xib */; };
+		231DA0151E25AC360098645C /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line_mplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 231DA0141E25AC360098645C /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line_mplay.xib */; };
+		231EF3331D363A7200A3465F /* CACellVC_TVGO_Intermediate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 231EF3321D363A7200A3465F /* CACellVC_TVGO_Intermediate.xib */; };
+		23484E6D1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Big.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23484E6B1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Big.xib */; };
+		23484E6E1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Regular.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23484E6C1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Regular.xib */; };
+		23484E701D09CE1A00AE1DAC /* CACellVC_JellyJamm_AllShows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23484E6F1D09CE1A00AE1DAC /* CACellVC_JellyJamm_AllShows.xib */; };
+		236DCC3E1E1858D5004BBA60 /* CACellVC_Carousel_RPC_LTR.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236DCC3D1E1858D5004BBA60 /* CACellVC_Carousel_RPC_LTR.xib */; };
+		239C01A91CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Big~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239C01A61CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Big~ipad.xib */; };
+		239C01AA1CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Regular~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239C01A71CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Regular~ipad.xib */; };
+		239C01AB1CF1D1D30067BAD7 /* CACellVC_TVGO_Favorites.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239C01A81CF1D1D30067BAD7 /* CACellVC_TVGO_Favorites.xib */; };
+		239C01AF1CF2056D0067BAD7 /* CACellVC_JellyJamm_AllShows~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239C01AE1CF2056D0067BAD7 /* CACellVC_JellyJamm_AllShows~ipad.xib */; };
+		239E13211CFDD47E006B5528 /* CACellVCJellyJammTitleDescription~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239E13201CFDD47E006B5528 /* CACellVCJellyJammTitleDescription~ipad.xib */; };
+		239FB3E51DB1412D0095E57C /* CACellVC_lasestrellas_vod_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FB3E41DB1412D0095E57C /* CACellVC_lasestrellas_vod_cell.xib */; };
+		239FB3E71DB15FA10095E57C /* CACellVC_Lasestrellas_Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FB3E61DB15FA10095E57C /* CACellVC_Lasestrellas_Header.xib */; };
+		239FEC421E1123C10012DA14 /* CACellVC_L23_DetailedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FEC411E1123C10012DA14 /* CACellVC_L23_DetailedCell.xib */; };
+		239FEC441E1123F90012DA14 /* CACellVCImageOnlyMPlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FEC431E1123F90012DA14 /* CACellVCImageOnlyMPlay.xib */; };
+		239FEC461E12C21C0012DA14 /* CACellVC_Side_Titles_rpc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FEC451E12C21C0012DA14 /* CACellVC_Side_Titles_rpc.xib */; };
+		4000E41A1C96E64000DC8477 /* ComponentStyles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4000E4191C96E64000DC8477 /* ComponentStyles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401640361CA43E0B0017243B /* ComponentsStylesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401640351CA43E0B0017243B /* ComponentsStylesHelper.swift */; };
+		401BA23D1DD378EC009BF8E2 /* CACarouselVC_Comicon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401BA23C1DD378EC009BF8E2 /* CACarouselVC_Comicon.xib */; };
+		40277FBA1CAA3FC50020960C /* ComponentStylesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40277FB91CAA3FC50020960C /* ComponentStylesTests.swift */; };
+		40277FBC1CAA3FC50020960C /* ComponentStyles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4000E4161C96E64000DC8477 /* ComponentStyles.framework */; };
+		40E923071CA256C400861073 /* CAComponentsStylesMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40E923061CA256C400861073 /* CAComponentsStylesMapping.plist */; };
+		40E923D21CA257C700861073 /* CACarouselVC_Bars.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9230B1CA257C700861073 /* CACarouselVC_Bars.xib */; };
+		40E923D31CA257C700861073 /* CACarouselVC_Bars_AlmostBottom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9230C1CA257C700861073 /* CACarouselVC_Bars_AlmostBottom.xib */; };
+		40E923D41CA257C700861073 /* CACarouselVC_Bars_AlmostBottom_tlv.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9230D1CA257C700861073 /* CACarouselVC_Bars_AlmostBottom_tlv.xib */; };
+		40E923D51CA257C700861073 /* CACarouselVC_Bars_Noticieros.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9230E1CA257C700861073 /* CACarouselVC_Bars_Noticieros.xib */; };
+		40E923D61CA257C700861073 /* CACarouselVC_Bars_Noticieros_promoted_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9230F1CA257C700861073 /* CACarouselVC_Bars_Noticieros_promoted_ipad.xib */; };
+		40E923D71CA257C700861073 /* CACarouselVC_Bars_TLC_Show.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923101CA257C700861073 /* CACarouselVC_Bars_TLC_Show.xib */; };
+		40E923D81CA257C700861073 /* CACarouselVC_BottomRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923111CA257C700861073 /* CACarouselVC_BottomRight.xib */; };
+		40E923D91CA257C700861073 /* CACarouselVC_Center.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923121CA257C700861073 /* CACarouselVC_Center.xib */; };
+		40E923DA1CA257C700861073 /* CACarouselVC_Center_Bottom_thai.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923131CA257C700861073 /* CACarouselVC_Center_Bottom_thai.xib */; };
+		40E923DB1CA257C700861073 /* CACarouselVC_Center_Deportes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923141CA257C700861073 /* CACarouselVC_Center_Deportes.xib */; };
+		40E923DC1CA257C700861073 /* CACarouselVC_Center_Deportes_Promoted.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923151CA257C700861073 /* CACarouselVC_Center_Deportes_Promoted.xib */; };
+		40E923DD1CA257C700861073 /* CACarouselVC_Center_Photogallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923161CA257C700861073 /* CACarouselVC_Center_Photogallery.xib */; };
+		40E923DE1CA257C700861073 /* CACarouselVC_Center_Top.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923171CA257C700861073 /* CACarouselVC_Center_Top.xib */; };
+		40E923DF1CA257C700861073 /* CACarouselVC_Left.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923181CA257C700861073 /* CACarouselVC_Left.xib */; };
+		40E923E01CA257C700861073 /* CACarouselVC_Left_channel10.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923191CA257C700861073 /* CACarouselVC_Left_channel10.xib */; };
+		40E923E11CA257C700861073 /* CACarouselVC_Right.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9231A1CA257C700861073 /* CACarouselVC_Right.xib */; };
+		40E923E21CA257C700861073 /* CACellAtomArticleStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9231D1CA257C700861073 /* CACellAtomArticleStandard.xib */; };
+		40E923E31CA257C700861073 /* CACellAtomArticleStandard_nativeShare.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9231E1CA257C700861073 /* CACellAtomArticleStandard_nativeShare.xib */; };
+		40E923E41CA257C700861073 /* CACellAtomArticleStandard_nativeShare~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9231F1CA257C700861073 /* CACellAtomArticleStandard_nativeShare~ipad.xib */; };
+		40E923E51CA257C700861073 /* CACellAtomArticleStandard~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923201CA257C700861073 /* CACellAtomArticleStandard~ipad.xib */; };
+		40E923E61CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923211CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes.xib */; };
+		40E923E71CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923221CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes~ipad.xib */; };
+		40E923E81CA257C700861073 /* CACellAtomPhotoGalleryStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923231CA257C700861073 /* CACellAtomPhotoGalleryStandard.xib */; };
+		40E923E91CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923241CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare.xib */; };
+		40E923EA1CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923251CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare~ipad.xib */; };
+		40E923EB1CA257C700861073 /* CACellAtomPhotoGalleryStandard~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923261CA257C700861073 /* CACellAtomPhotoGalleryStandard~ipad.xib */; };
+		40E923EC1CA257C700861073 /* CACellVC_HTML.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923281CA257C700861073 /* CACellVC_HTML.xib */; };
+		40E923ED1CA257C700861073 /* CACellVC_HTML_Button.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923291CA257C700861073 /* CACellVC_HTML_Button.xib */; };
+		40E923EE1CA257C700861073 /* CACellPromotionImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9232B1CA257C700861073 /* CACellPromotionImage.xib */; };
+		40E923EF1CA257C700861073 /* CACellPromotionImageWithTitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9232C1CA257C700861073 /* CACellPromotionImageWithTitle.xib */; };
+		40E923F01CA257C700861073 /* CACellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9232E1CA257C700861073 /* CACellVC.xib */; };
+		40E923F11CA257C700861073 /* CACellVC_BabyFirstTVShowScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9232F1CA257C700861073 /* CACellVC_BabyFirstTVShowScreen.xib */; };
+		40E923F21CA257C700861073 /* CACellVC_BabyFirstTVShowScreen~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923301CA257C700861073 /* CACellVC_BabyFirstTVShowScreen~ipad.xib */; };
+		40E923F31CA257C700861073 /* CACellVC_Badge_Side_Title.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923311CA257C700861073 /* CACellVC_Badge_Side_Title.xib */; };
+		40E923F41CA257C700861073 /* CACellVC_Bottom_Titles_Reshet_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923321CA257C700861073 /* CACellVC_Bottom_Titles_Reshet_RTL.xib */; };
+		40E923F51CA257C700861073 /* CACellVC_caracol_standard_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923331CA257C700861073 /* CACellVC_caracol_standard_iPad.xib */; };
+		40E923F61CA257C700861073 /* CACellVC_caracol_standard_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923341CA257C700861073 /* CACellVC_caracol_standard_iPhone.xib */; };
+		40E923F71CA257C700861073 /* CACellVC_Carousel_Reshet_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923351CA257C700861073 /* CACellVC_Carousel_Reshet_cell.xib */; };
+		40E923F81CA257C700861073 /* CACellVC_Reshet_generic_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923361CA257C700861073 /* CACellVC_Reshet_generic_cell.xib */; };
+		40E923F91CA257C700861073 /* CACellVC_ch1_show.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923371CA257C700861073 /* CACellVC_ch1_show.xib */; };
+		40E923FA1CA257C700861073 /* CACellVC_ch1_show_picker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923381CA257C700861073 /* CACellVC_ch1_show_picker.xib */; };
+		40E923FB1CA257C700861073 /* CACellVC_ch1_standard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923391CA257C700861073 /* CACellVC_ch1_standard.xib */; };
+		40E923FC1CA257C700861073 /* CACellVC_ch1_vod.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9233A1CA257C700861073 /* CACellVC_ch1_vod.xib */; };
+		40E923FD1CA257C700861073 /* CACellVC_channel10_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9233B1CA257C700861073 /* CACellVC_channel10_RTL.xib */; };
+		40E923FE1CA257C700861073 /* CACellVC_frecuencia_standard_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9233C1CA257C700861073 /* CACellVC_frecuencia_standard_cell.xib */; };
+		40E923FF1CA257C700861073 /* CACellVC_Fuse_AllShows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9233D1CA257C700861073 /* CACellVC_Fuse_AllShows.xib */; };
+		40E924001CA257C700861073 /* CACellVC_Fuse_AllShows~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9233E1CA257C700861073 /* CACellVC_Fuse_AllShows~ipad.xib */; };
+		40E924011CA257C700861073 /* CACellVC_Fuse_Black.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9233F1CA257C700861073 /* CACellVC_Fuse_Black.xib */; };
+		40E924021CA257C700861073 /* CACellVC_Fuse_Black_Carousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923401CA257C700861073 /* CACellVC_Fuse_Black_Carousel.xib */; };
+		40E924031CA257C700861073 /* CACellVC_Fuse_Black_Carousel~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923411CA257C700861073 /* CACellVC_Fuse_Black_Carousel~ipad.xib */; };
+		40E924041CA257C700861073 /* CACellVC_Fuse_Home_iPad_Carousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923421CA257C700861073 /* CACellVC_Fuse_Home_iPad_Carousel.xib */; };
+		40E924051CA257C700861073 /* CACellVC_Fuse_List.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923431CA257C700861073 /* CACellVC_Fuse_List.xib */; };
+		40E924061CA257C700861073 /* CACellVC_Hot_Carousel_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923441CA257C700861073 /* CACellVC_Hot_Carousel_RTL.xib */; };
+		40E924071CA257C700861073 /* CACellVC_Hot_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923451CA257C700861073 /* CACellVC_Hot_RTL.xib */; };
+		40E924081CA257C700861073 /* CACellVC_Hot_RTL~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923461CA257C700861073 /* CACellVC_Hot_RTL~ipad.xib */; };
+		40E924091CA257C700861073 /* CACellVC_HQME_Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923471CA257C700861073 /* CACellVC_HQME_Test.xib */; };
+		40E9240A1CA257C700861073 /* CACellVC_LTR.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923481CA257C700861073 /* CACellVC_LTR.xib */; };
+		40E9240B1CA257C700861073 /* CACellVC_LTR_Small.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923491CA257C700861073 /* CACellVC_LTR_Small.xib */; };
+		40E9240C1CA257C700861073 /* CACellVC_LTR~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9234A1CA257C700861073 /* CACellVC_LTR~ipad.xib */; };
+		40E9240D1CA257C700861073 /* CACellVC_Reshet_RTL_Carousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9234B1CA257C700861073 /* CACellVC_Reshet_RTL_Carousel.xib */; };
+		40E924101CA257C700861073 /* CACellVC_RPC_Categories.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9234E1CA257C700861073 /* CACellVC_RPC_Categories.xib */; };
+		40E924111CA257C700861073 /* CACellVC_RPC_Categories~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9234F1CA257C700861073 /* CACellVC_RPC_Categories~ipad.xib */; };
+		40E924121CA257C700861073 /* CACellVC_RPC_Home_Vod.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923501CA257C700861073 /* CACellVC_RPC_Home_Vod.xib */; };
+		40E924131CA257C700861073 /* CACellVC_RPC_Home_Vod~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923511CA257C700861073 /* CACellVC_RPC_Home_Vod~ipad.xib */; };
+		40E924141CA257C700861073 /* CACellVC_RPC_iPhone_standard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923521CA257C700861073 /* CACellVC_RPC_iPhone_standard.xib */; };
+		40E924151CA257C700861073 /* CACellVC_RPC_Show~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923531CA257C700861073 /* CACellVC_RPC_Show~ipad.xib */; };
+		40E924161CA257C700861073 /* CACellVC_RPC~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923541CA257C700861073 /* CACellVC_RPC~ipad.xib */; };
+		40E924171CA257C700861073 /* CACellVC_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923551CA257C700861073 /* CACellVC_RTL.xib */; };
+		40E924181CA257C700861073 /* CACellVC_RTL_Reshet_Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923561CA257C700861073 /* CACellVC_RTL_Reshet_Header.xib */; };
+		40E924191CA257C700861073 /* CACellVC_RTL_Reshet_Promoted.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923571CA257C700861073 /* CACellVC_RTL_Reshet_Promoted.xib */; };
+		40E9241A1CA257C700861073 /* CACellVC_Side_Title_Only_Hot_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923581CA257C700861073 /* CACellVC_Side_Title_Only_Hot_RTL.xib */; };
+		40E9241B1CA257C700861073 /* CACellVC_Side_Titles.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923591CA257C700861073 /* CACellVC_Side_Titles.xib */; };
+		40E9241C1CA257C700861073 /* CACellVC_Side_Titles_Hot_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9235A1CA257C700861073 /* CACellVC_Side_Titles_Hot_RTL.xib */; };
+		40E9241D1CA257C700861073 /* CACellVC_Side_Titles_Reshet_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9235B1CA257C700861073 /* CACellVC_Side_Titles_Reshet_RTL.xib */; };
+		40E9241E1CA257C700861073 /* CACellVC_telefe_standard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9235C1CA257C700861073 /* CACellVC_telefe_standard.xib */; };
+		40E9241F1CA257C700861073 /* CACellVC_Telemetro_Categories.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9235D1CA257C700861073 /* CACellVC_Telemetro_Categories.xib */; };
+		40E924201CA257C700861073 /* CACellVC_Telemetro_Categories~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9235E1CA257C700861073 /* CACellVC_Telemetro_Categories~ipad.xib */; };
+		40E924211CA257C700861073 /* CACellVC_telemetro_favorites.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9235F1CA257C700861073 /* CACellVC_telemetro_favorites.xib */; };
+		40E924221CA257C700861073 /* CACellVC_telemetro_favorites~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923601CA257C700861073 /* CACellVC_telemetro_favorites~ipad.xib */; };
+		40E924231CA257C700861073 /* CACellVC_telemetro_home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923611CA257C700861073 /* CACellVC_telemetro_home.xib */; };
+		40E924241CA257C700861073 /* CACellVC_telemetro_home_one_line.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923621CA257C700861073 /* CACellVC_telemetro_home_one_line.xib */; };
+		40E924251CA257C700861073 /* CACellVC_telemetro_home_one_line~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923631CA257C700861073 /* CACellVC_telemetro_home_one_line~ipad.xib */; };
+		40E924261CA257C700861073 /* CACellVC_telemetro_home~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923641CA257C700861073 /* CACellVC_telemetro_home~ipad.xib */; };
+		40E924271CA257C700861073 /* CACellVC_Thai_AllShows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923651CA257C700861073 /* CACellVC_Thai_AllShows.xib */; };
+		40E924281CA257C700861073 /* CACellVC_Thai_Article.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923661CA257C700861073 /* CACellVC_Thai_Article.xib */; };
+		40E924291CA257C700861073 /* CACellVC_Thai_Article~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923671CA257C700861073 /* CACellVC_Thai_Article~ipad.xib */; };
+		40E9242A1CA257C700861073 /* CACellVC_Thai_Promoted_Article~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923681CA257C700861073 /* CACellVC_Thai_Promoted_Article~ipad.xib */; };
+		40E9242B1CA257C700861073 /* CACellVC_Thai_Promoted_Show~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923691CA257C700861073 /* CACellVC_Thai_Promoted_Show~ipad.xib */; };
+		40E9242C1CA257C700861073 /* CACellVC_Thai_Show.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9236A1CA257C700861073 /* CACellVC_Thai_Show.xib */; };
+		40E9242D1CA257C700861073 /* CACellVC_Thai_Show~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9236B1CA257C700861073 /* CACellVC_Thai_Show~ipad.xib */; };
+		40E9242E1CA257C700861073 /* CACellVC_Thai_Standard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9236C1CA257C700861073 /* CACellVC_Thai_Standard.xib */; };
+		40E9242F1CA257C700861073 /* CACellVC_Thai_Standard~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9236D1CA257C700861073 /* CACellVC_Thai_Standard~ipad.xib */; };
+		40E924301CA257C700861073 /* CACellVC_tlv_channel_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9236E1CA257C700861073 /* CACellVC_tlv_channel_cell.xib */; };
+		40E924311CA257C700861073 /* CACellVC_tlv_intermidiate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9236F1CA257C700861073 /* CACellVC_tlv_intermidiate.xib */; };
+		40E924321CA257C700861073 /* CACellVC_tlv_show.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923701CA257C700861073 /* CACellVC_tlv_show.xib */; };
+		40E924331CA257C700861073 /* CACellVC_tlv_show_details.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923711CA257C700861073 /* CACellVC_tlv_show_details.xib */; };
+		40E924341CA257C700861073 /* CACellVC_tlv_show_details_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923721CA257C700861073 /* CACellVC_tlv_show_details_ipad.xib */; };
+		40E924351CA257C700861073 /* CACellVC_tlv_show_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923731CA257C700861073 /* CACellVC_tlv_show_ipad.xib */; };
+		40E924361CA257C700861073 /* CACellVC_tlv_special_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923741CA257C700861073 /* CACellVC_tlv_special_iPad.xib */; };
+		40E924371CA257C700861073 /* CACellVC_tlv_special_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923751CA257C700861073 /* CACellVC_tlv_special_iphone.xib */; };
+		40E924381CA257C700861073 /* CACellVC_tlv_standard_Big.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923761CA257C700861073 /* CACellVC_tlv_standard_Big.xib */; };
+		40E924391CA257C700861073 /* CACellVC_tlv_standard_Big_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923771CA257C700861073 /* CACellVC_tlv_standard_Big_ipad.xib */; };
+		40E9243A1CA257C700861073 /* CACellVC_tlv_standard_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923781CA257C700861073 /* CACellVC_tlv_standard_cell.xib */; };
+		40E9243B1CA257C700861073 /* CACellVC_tlv_standard_iPhoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923791CA257C700861073 /* CACellVC_tlv_standard_iPhoneCell.xib */; };
+		40E9243C1CA257C700861073 /* CACellVC_tlv_standard_Small.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9237A1CA257C700861073 /* CACellVC_tlv_standard_Small.xib */; };
+		40E9243D1CA257C700861073 /* CACellVC_TVGO_Carousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9237B1CA257C700861073 /* CACellVC_TVGO_Carousel.xib */; };
+		40E9243E1CA257C700861073 /* CACellVC_TVGO_Carousel~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9237C1CA257C700861073 /* CACellVC_TVGO_Carousel~ipad.xib */; };
+		40E9243F1CA257C700861073 /* CACellVC_TVGO_HomeStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9237D1CA257C700861073 /* CACellVC_TVGO_HomeStandard.xib */; };
+		40E924401CA257C700861073 /* CACellVC_TVGO_HomeStandard~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9237E1CA257C700861073 /* CACellVC_TVGO_HomeStandard~ipad.xib */; };
+		40E924411CA257C700861073 /* CACellVCBabyFirstSubscription.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9237F1CA257C700861073 /* CACellVCBabyFirstSubscription.xib */; };
+		40E924421CA257C700861073 /* CACellVCBabyFirstSubscription~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923801CA257C700861073 /* CACellVCBabyFirstSubscription~ipad.xib */; };
+		40E924431CA257C700861073 /* CACellVCBabyFirstTVAllShows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923811CA257C700861073 /* CACellVCBabyFirstTVAllShows.xib */; };
+		40E924441CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923821CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText.xib */; };
+		40E924451CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923831CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText_iphone.xib */; };
+		40E924461CA257C700861073 /* CACellVCBabyFirstTVAllShows~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923841CA257C700861073 /* CACellVCBabyFirstTVAllShows~ipad.xib */; };
+		40E924471CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923851CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall.xib */; };
+		40E924481CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923861CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall~ipad.xib */; };
+		40E924491CA257C700861073 /* CACellVCBabyFirstTVTitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923871CA257C700861073 /* CACellVCBabyFirstTVTitle.xib */; };
+		40E9244A1CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923881CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_ipad.xib */; };
+		40E9244B1CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923891CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_iphone.xib */; };
+		40E9244C1CA257C700861073 /* CACellVCBabyTVDateUntil.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9238A1CA257C700861073 /* CACellVCBabyTVDateUntil.xib */; };
+		40E9244D1CA257C700861073 /* CACellVCBabyTVEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9238B1CA257C700861073 /* CACellVCBabyTVEdit.xib */; };
+		40E9244E1CA257C700861073 /* CACellVCBabyTVEdit~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9238C1CA257C700861073 /* CACellVCBabyTVEdit~ipad.xib */; };
+		40E9244F1CA257C700861073 /* CACellVCBabyTVFavorites.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9238D1CA257C700861073 /* CACellVCBabyTVFavorites.xib */; };
+		40E924501CA257C700861073 /* CACellVCBabyTVStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9238E1CA257C700861073 /* CACellVCBabyTVStandard.xib */; };
+		40E924511CA257C700861073 /* CACellVCBabyTVSubscription.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9238F1CA257C700861073 /* CACellVCBabyTVSubscription.xib */; };
+		40E924521CA257C700861073 /* CACellVCBabyTVSubscription~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923901CA257C700861073 /* CACellVCBabyTVSubscription~ipad.xib */; };
+		40E924531CA257C700861073 /* CACellVCBabyTVTitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923911CA257C700861073 /* CACellVCBabyTVTitle.xib */; };
+		40E924541CA257C700861073 /* CACellVCBabyTVTitleSubtitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923921CA257C700861073 /* CACellVCBabyTVTitleSubtitle.xib */; };
+		40E924551CA257C700861073 /* CACellVCDeportesHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923931CA257C700861073 /* CACellVCDeportesHome.xib */; };
+		40E924561CA257C700861073 /* CACellVCDeportesHomeBig.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923941CA257C700861073 /* CACellVCDeportesHomeBig.xib */; };
+		40E924571CA257C700861073 /* CACellVCDeportesHomeBig~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923951CA257C700861073 /* CACellVCDeportesHomeBig~ipad.xib */; };
+		40E924581CA257C700861073 /* CACellVCDeportesHomePromoted.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923961CA257C700861073 /* CACellVCDeportesHomePromoted.xib */; };
+		40E924591CA257C700861073 /* CACellVCDeportesHomePromoted~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923971CA257C700861073 /* CACellVCDeportesHomePromoted~ipad.xib */; };
+		40E9245A1CA257C700861073 /* CACellVCDeportesHome~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923981CA257C700861073 /* CACellVCDeportesHome~ipad.xib */; };
+		40E9245B1CA257C700861073 /* CACellVCHotShow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923991CA257C700861073 /* CACellVCHotShow.xib */; };
+		40E9245C1CA257C700861073 /* CACellVCImageOnly.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9239A1CA257C700861073 /* CACellVCImageOnly.xib */; };
+		40E9245D1CA257C700861073 /* CACellVCNoticiasAtomNoImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9239B1CA257C700861073 /* CACellVCNoticiasAtomNoImage.xib */; };
+		40E9245E1CA257C700861073 /* CACellVCNoticiasAtomNoImage_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9239C1CA257C700861073 /* CACellVCNoticiasAtomNoImage_ipad.xib */; };
+		40E9245F1CA257C700861073 /* CACellVCNoticiasBigAtom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9239D1CA257C700861073 /* CACellVCNoticiasBigAtom.xib */; };
+		40E924601CA257C700861073 /* CACellVCNoticiasBigPromotedAtom_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9239E1CA257C700861073 /* CACellVCNoticiasBigPromotedAtom_ipad.xib */; };
+		40E924611CA257C700861073 /* CACellVCNoticierosAtomNoImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E9239F1CA257C700861073 /* CACellVCNoticierosAtomNoImage.xib */; };
+		40E924621CA257C700861073 /* CACellVCNoticierosAtomNoImage_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A01CA257C700861073 /* CACellVCNoticierosAtomNoImage_ipad.xib */; };
+		40E924631CA257C700861073 /* CACellVCNoticierosBig.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A11CA257C700861073 /* CACellVCNoticierosBig.xib */; };
+		40E924641CA257C700861073 /* CACellVCNoticierosBig_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A21CA257C700861073 /* CACellVCNoticierosBig_ipad.xib */; };
+		40E924651CA257C700861073 /* CACellVCNoticierosBigAtom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A31CA257C700861073 /* CACellVCNoticierosBigAtom.xib */; };
+		40E924661CA257C700861073 /* CACellVCNoticierosBigAtom_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A41CA257C700861073 /* CACellVCNoticierosBigAtom_ipad.xib */; };
+		40E924671CA257C700861073 /* CACellVCNoticierosBigPromoted_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A51CA257C700861073 /* CACellVCNoticierosBigPromoted_ipad.xib */; };
+		40E924681CA257C700861073 /* CACellVCNoticierosBigPromotedAtom_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A61CA257C700861073 /* CACellVCNoticierosBigPromotedAtom_ipad.xib */; };
+		40E924691CA257C700861073 /* CACellVCNoticierosShow_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A71CA257C700861073 /* CACellVCNoticierosShow_ipad.xib */; };
+		40E9246A1CA257C700861073 /* CACellVCNoticierosStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A81CA257C700861073 /* CACellVCNoticierosStandard.xib */; };
+		40E9246B1CA257C700861073 /* CACellVCNoticierosStandard_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923A91CA257C700861073 /* CACellVCNoticierosStandard_ipad.xib */; };
+		40E9246C1CA257C700861073 /* CACellVCNoticierosStandardAtom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923AA1CA257C700861073 /* CACellVCNoticierosStandardAtom.xib */; };
+		40E9246D1CA257C700861073 /* CACellVCNoticierosStandardAtom_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923AB1CA257C700861073 /* CACellVCNoticierosStandardAtom_ipad.xib */; };
+		40E9246E1CA257C700861073 /* CACellVCTelevisaIntermidiate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923AC1CA257C700861073 /* CACellVCTelevisaIntermidiate.xib */; };
+		40E9246F1CA257C700861073 /* CACellVC_Center_Title_No_Image.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923AE1CA257C700861073 /* CACellVC_Center_Title_No_Image.xib */; };
+		40E924701CA257C700861073 /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923AF1CA257C700861073 /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line.xib */; };
+		40E924711CA257C700861073 /* CACellVC_Center_Title_No_Image_Two_lines.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B01CA257C700861073 /* CACellVC_Center_Title_No_Image_Two_lines.xib */; };
+		40E924721CA257C700861073 /* CACellVC_HOT_Center_Title_No_Image.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B11CA257C700861073 /* CACellVC_HOT_Center_Title_No_Image.xib */; };
+		40E924731CA257C700861073 /* CACellVC_LTR_Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B21CA257C700861073 /* CACellVC_LTR_Header.xib */; };
+		40E924741CA257C700861073 /* CACellVC_LTR_Title.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B31CA257C700861073 /* CACellVC_LTR_Title.xib */; };
+		40E924751CA257C700861073 /* CACellVC_LTR_Title_No_Image.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B41CA257C700861073 /* CACellVC_LTR_Title_No_Image.xib */; };
+		40E924761CA257C700861073 /* CACellVC_LTR_Title_Photogallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B51CA257C700861073 /* CACellVC_LTR_Title_Photogallery.xib */; };
+		40E924771CA257C700861073 /* CACellVC_LTR_Title_Photogallery_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B61CA257C700861073 /* CACellVC_LTR_Title_Photogallery_ipad.xib */; };
+		40E924781CA257C700861073 /* CACellVC_LTR_title_thai.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B71CA257C700861073 /* CACellVC_LTR_title_thai.xib */; };
+		40E924791CA257C700861073 /* CACellVC_LTR~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B81CA257C700861073 /* CACellVC_LTR~ipad.xib */; };
+		40E9247A1CA257C700861073 /* CACellVC_RTL_Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923B91CA257C700861073 /* CACellVC_RTL_Header.xib */; };
+		40E9247B1CA257C700861073 /* CACellVC_RTL_Title.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923BA1CA257C700861073 /* CACellVC_RTL_Title.xib */; };
+		40E9247C1CA257C700861073 /* CACellVC_RTL_Title2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923BB1CA257C700861073 /* CACellVC_RTL_Title2.xib */; };
+		40E9247D1CA257C700861073 /* CACellVC_storeFront_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923BC1CA257C700861073 /* CACellVC_storeFront_cell.xib */; };
+		40E9247E1CA257C700861073 /* CACellVC_storeFront_Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923BD1CA257C700861073 /* CACellVC_storeFront_Header.xib */; };
+		40E9247F1CA257C700861073 /* CACellVC_thai_Center_Title_No_Image.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923BE1CA257C700861073 /* CACellVC_thai_Center_Title_No_Image.xib */; };
+		40E924801CA257C700861073 /* CACollectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C01CA257C700861073 /* CACollectionVC.xib */; };
+		40E924811CA257C700861073 /* CACollectionVCBabyFirstTVShow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C11CA257C700861073 /* CACollectionVCBabyFirstTVShow.xib */; };
+		40E924821CA257C700861073 /* CACollectionVCBabyFirstTVShow~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C21CA257C700861073 /* CACollectionVCBabyFirstTVShow~ipad.xib */; };
+		40E924831CA257C700861073 /* CACollectionVCBabyTVShow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C31CA257C700861073 /* CACollectionVCBabyTVShow.xib */; };
+		40E924841CA257C700861073 /* CACollectionVCBabyTVShow~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C41CA257C700861073 /* CACollectionVCBabyTVShow~ipad.xib */; };
+		40E924851CA257C700861073 /* CACollectionWithCloseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C51CA257C700861073 /* CACollectionWithCloseVC.xib */; };
+		40E924861CA257C700861073 /* CACompositeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C71CA257C700861073 /* CACompositeVC.xib */; };
+		40E924871CA257C700861073 /* CADropSheetStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923C91CA257C700861073 /* CADropSheetStandard.xib */; };
+		40E924881CA257C700861073 /* CAPopoverStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923CB1CA257C700861073 /* CAPopoverStandard.xib */; };
+		40E924891CA257C700861073 /* CASectionPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923CE1CA257C700861073 /* CASectionPickerViewController.xib */; };
+		40E9248B1CA257C700861073 /* CATableStandard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E923D11CA257C700861073 /* CATableStandard.xib */; };
+		4D1A1A1C1E96333D00555746 /* CACellVC_Next_intermidiate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A1B1E96333D00555746 /* CACellVC_Next_intermidiate.xib */; };
+		4D43CE6C1E5AC3D100369C13 /* CACellAtomMediaPlayerL26.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D43CE6B1E5AC3D100369C13 /* CACellAtomMediaPlayerL26.xib */; };
+		4D5BC8391E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BC8371E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst.xib */; };
+		4D5BC83A1E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BC8381E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst~ipad.xib */; };
+		4D5FD4F81E2F91A90010B456 /* CACellVC_Channel20_top_list_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5FD4F71E2F91A90010B456 /* CACellVC_Channel20_top_list_cell.xib */; };
+		4D809C071EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic_promoted.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D809C051EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic_promoted.xib */; };
+		4D809C081EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D809C061EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic.xib */; };
+		4DBAE09E1E795C5B002DE689 /* CACellVC_Next_standard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBAE09C1E795C5B002DE689 /* CACellVC_Next_standard.xib */; };
+		4DD931FF1E2765FD003F8E6A /* CAHQMEViewControllerBabyTV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD931FD1E2765FC003F8E6A /* CAHQMEViewControllerBabyTV.xib */; };
+		4DD932001E2765FD003F8E6A /* CAHQMEViewControllerBabyTV~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD931FE1E2765FD003F8E6A /* CAHQMEViewControllerBabyTV~ipad.xib */; };
+		4DED55361E7E53B5007A58F4 /* CACellVC_Next_more.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED55301E7E53B5007A58F4 /* CACellVC_Next_more.xib */; };
+		4DED55371E7E53B5007A58F4 /* CACellVC_Next_more~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED55311E7E53B5007A58F4 /* CACellVC_Next_more~ipad.xib */; };
+		4DED55381E7E53B5007A58F4 /* CACellVC_Next_show_promoted.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED55321E7E53B5007A58F4 /* CACellVC_Next_show_promoted.xib */; };
+		4DED55391E7E53B5007A58F4 /* CACellVC_Next_show.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED55331E7E53B5007A58F4 /* CACellVC_Next_show.xib */; };
+		4DED553A1E7E53B5007A58F4 /* CACellVC_Next_show~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED55341E7E53B5007A58F4 /* CACellVC_Next_show~ipad.xib */; };
+		4DED553B1E7E53B5007A58F4 /* CACellVC_Next_standard~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED55351E7E53B5007A58F4 /* CACellVC_Next_standard~ipad.xib */; };
+		4DED553D1E7E53E8007A58F4 /* CACellVC_Next_generic_header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DED553C1E7E53E8007A58F4 /* CACellVC_Next_generic_header.xib */; };
+		712D50EE1E4A5FD500D73BB7 /* CACellVC_Miaomi_Show.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712D50ED1E4A5FD500D73BB7 /* CACellVC_Miaomi_Show.xib */; };
+		712D50F21E4ADBFB00D73BB7 /* CACellVC_Miaomi_Show~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712D50F11E4ADBFB00D73BB7 /* CACellVC_Miaomi_Show~ipad.xib */; };
+		71360AE21E0934A500EF903B /* CACellAtomMediaContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71360ADF1E0934A500EF903B /* CACellAtomMediaContainer.xib */; };
+		71360AE31E0934A500EF903B /* CACellAtomMediaList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71360AE01E0934A500EF903B /* CACellAtomMediaList.xib */; };
+		71360AE41E0934A500EF903B /* CACellAtomMediaPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71360AE11E0934A500EF903B /* CACellAtomMediaPlayer.xib */; };
+		714284A91E4B607A00BE9D75 /* CACellVC_Miaomi_AllShowsGrid~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714284A81E4B607A00BE9D75 /* CACellVC_Miaomi_AllShowsGrid~ipad.xib */; };
+		714284AB1E4B608700BE9D75 /* CACellVC_Miaomi_AllShowsGrid.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714284AA1E4B608700BE9D75 /* CACellVC_Miaomi_AllShowsGrid.xib */; };
+		716C93ED1E54C61B004D0988 /* GANavigationBarL33.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716C93EC1E54C61B004D0988 /* GANavigationBarL33.xib */; };
+		71B71EC81E6363910032C164 /* CACellVC_Miaomi_AllShows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B71EC71E6363910032C164 /* CACellVC_Miaomi_AllShows.xib */; };
+		71B71ECA1E6363A00032C164 /* CACellVC_Miaomi_AllShows~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B71EC91E6363A00032C164 /* CACellVC_Miaomi_AllShows~ipad.xib */; };
+		71F66BED1E50B479007E6111 /* CACellVC_Miaomi_Logo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F66BEC1E50B479007E6111 /* CACellVC_Miaomi_Logo.xib */; };
+		71F66BF11E50B75D007E6111 /* CACellVC_Miaomi_Logo~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F66BF01E50B75D007E6111 /* CACellVC_Miaomi_Logo~ipad.xib */; };
+		A7CF8D218F7B3F6CADCFC9BE /* Pods_ComponentStylesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8381EFDCBB1B9749DE1B14A3 /* Pods_ComponentStylesTests.framework */; };
+		FA6C25361E1A4A41007553D1 /* CACellVC_Channel20_Carousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25241E1A4A41007553D1 /* CACellVC_Channel20_Carousel.xib */; };
+		FA6C25371E1A4A41007553D1 /* CACellVC_Channel20_generic_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25251E1A4A41007553D1 /* CACellVC_Channel20_generic_cell.xib */; };
+		FA6C25381E1A4A41007553D1 /* CACellVC_Channel20_top_generic_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25261E1A4A41007553D1 /* CACellVC_Channel20_top_generic_cell.xib */; };
+		FA6C25391E1A4A41007553D1 /* CACellVC_Kan_Ganre_Item.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25271E1A4A41007553D1 /* CACellVC_Kan_Ganre_Item.xib */; };
+		FA6C253A1E1A4A41007553D1 /* CACellVC_Kan_Item_SideDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25281E1A4A41007553D1 /* CACellVC_Kan_Item_SideDetails.xib */; };
+		FA6C253B1E1A4A41007553D1 /* CACellVC_Kan_Radio_Section_Item.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25291E1A4A41007553D1 /* CACellVC_Kan_Radio_Section_Item.xib */; };
+		FA6C253C1E1A4A41007553D1 /* CACellVC_L24_CarouselHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C252A1E1A4A41007553D1 /* CACellVC_L24_CarouselHeader.xib */; };
+		FA6C253D1E1A4A41007553D1 /* CACellVC_L24_CarouselItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C252B1E1A4A41007553D1 /* CACellVC_L24_CarouselItem.xib */; };
+		FA6C253E1E1A4A41007553D1 /* CACellVC_L24_CenteredLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C252C1E1A4A41007553D1 /* CACellVC_L24_CenteredLabel.xib */; };
+		FA6C253F1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C252D1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow.xib */; };
+		FA6C25401E1A4A41007553D1 /* CACellVC_L24_FeaturedShow~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C252E1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow~ipad.xib */; };
+		FA6C25411E1A4A41007553D1 /* CACellVC_L24_LiveScreenItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C252F1E1A4A41007553D1 /* CACellVC_L24_LiveScreenItem.xib */; };
+		FA6C25421E1A4A41007553D1 /* CACellVC_L24_ShowItem_FullWidth.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25301E1A4A41007553D1 /* CACellVC_L24_ShowItem_FullWidth.xib */; };
+		FA6C25431E1A4A41007553D1 /* CACellVC_L24_ShowItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25311E1A4A41007553D1 /* CACellVC_L24_ShowItem.xib */; };
+		FA6C25441E1A4A41007553D1 /* CACellVC_RTL_Channel20_Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25321E1A4A41007553D1 /* CACellVC_RTL_Channel20_Header.xib */; };
+		FA6C25451E1A4A41007553D1 /* CACellVC_Side_Titles_Channel20_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25331E1A4A41007553D1 /* CACellVC_Side_Titles_Channel20_RTL.xib */; };
+		FA6C25461E1A4A41007553D1 /* CACellVC_Side_Titles_Lasestrellas_RTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25341E1A4A41007553D1 /* CACellVC_Side_Titles_Lasestrellas_RTL.xib */; };
+		FA6C25471E1A4A41007553D1 /* CACellVCBabyTVPlayAll.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25351E1A4A41007553D1 /* CACellVCBabyTVPlayAll.xib */; };
+		FA6C254A1E1A4A52007553D1 /* CACellVC_Kan_Center_Title_No_Image_Thin_Bottom_Line.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25481E1A4A52007553D1 /* CACellVC_Kan_Center_Title_No_Image_Thin_Bottom_Line.xib */; };
+		FA6C254B1E1A4A52007553D1 /* CACellVC_L24_Title_with_bg_image.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C25491E1A4A52007553D1 /* CACellVC_L24_Title_with_bg_image.xib */; };
+		FAD3E5CC1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_left_withPadding.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD3E5CA1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_left_withPadding.xib */; };
+		FAD3E5CD1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_right_withPadding.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD3E5CB1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_right_withPadding.xib */; };
+		FAF58EC91D07FF290003BF22 /* CACellVC_L14_CenteredLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EBE1D07FF290003BF22 /* CACellVC_L14_CenteredLabel.xib */; };
+		FAF58ECA1D07FF290003BF22 /* CACellVC_L14_EpgItem_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EBF1D07FF290003BF22 /* CACellVC_L14_EpgItem_ipad.xib */; };
+		FAF58ECB1D07FF290003BF22 /* CACellVC_L14_EpgItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC01D07FF290003BF22 /* CACellVC_L14_EpgItem.xib */; };
+		FAF58ECC1D07FF290003BF22 /* CACellVC_L14_VodItem_FullWidth_withPadding.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC11D07FF290003BF22 /* CACellVC_L14_VodItem_FullWidth_withPadding.xib */; };
+		FAF58ECD1D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_leftPadding.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC21D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_leftPadding.xib */; };
+		FAF58ECE1D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_middePadding.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC31D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_middePadding.xib */; };
+		FAF58ECF1D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_rightPadding.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC41D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_rightPadding.xib */; };
+		FAF58ED01D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC51D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth.xib */; };
+		FAF58ED11D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails_nodates.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC61D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails_nodates.xib */; };
+		FAF58ED21D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58EC71D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails.xib */; };
+		FAF58ED51D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader_with_padding.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58ED31D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader_with_padding.xib */; };
+		FAF58ED61D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF58ED41D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader.xib */; };
+		FAFEBD391D227AB4002B11BE /* CACellVC_L14_Black_Carousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFEBD381D227AB4002B11BE /* CACellVC_L14_Black_Carousel.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40277FBD1CAA3FC50020960C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4000E40D1C96E64000DC8477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4000E4151C96E64000DC8477;
+			remoteInfo = ComponentStyles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23118A841CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_TVGO_ShowStandard.xib; sourceTree = "<group>"; };
+		23118A851CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_TVGO_ShowStandard~ipad.xib"; sourceTree = "<group>"; };
+		231DA0141E25AC360098645C /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line_mplay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Center_Title_No_Image_Thin_Bottom_Line_mplay.xib; sourceTree = "<group>"; };
+		231EF3321D363A7200A3465F /* CACellVC_TVGO_Intermediate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_TVGO_Intermediate.xib; sourceTree = "<group>"; };
+		23484E6B1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Big.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_JellyJamm_Home_Big.xib; sourceTree = "<group>"; };
+		23484E6C1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Regular.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_JellyJamm_Home_Regular.xib; sourceTree = "<group>"; };
+		23484E6F1D09CE1A00AE1DAC /* CACellVC_JellyJamm_AllShows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_JellyJamm_AllShows.xib; sourceTree = "<group>"; };
+		236DCC3D1E1858D5004BBA60 /* CACellVC_Carousel_RPC_LTR.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Carousel_RPC_LTR.xib; sourceTree = "<group>"; };
+		239C01A61CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Big~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_JellyJamm_Home_Big~ipad.xib"; sourceTree = "<group>"; };
+		239C01A71CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Regular~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_JellyJamm_Home_Regular~ipad.xib"; sourceTree = "<group>"; };
+		239C01A81CF1D1D30067BAD7 /* CACellVC_TVGO_Favorites.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_TVGO_Favorites.xib; sourceTree = "<group>"; };
+		239C01AE1CF2056D0067BAD7 /* CACellVC_JellyJamm_AllShows~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_JellyJamm_AllShows~ipad.xib"; sourceTree = "<group>"; };
+		239E13201CFDD47E006B5528 /* CACellVCJellyJammTitleDescription~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCJellyJammTitleDescription~ipad.xib"; sourceTree = "<group>"; };
+		239FB3E41DB1412D0095E57C /* CACellVC_lasestrellas_vod_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_lasestrellas_vod_cell.xib; sourceTree = "<group>"; };
+		239FB3E61DB15FA10095E57C /* CACellVC_Lasestrellas_Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Lasestrellas_Header.xib; sourceTree = "<group>"; };
+		239FEC411E1123C10012DA14 /* CACellVC_L23_DetailedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L23_DetailedCell.xib; sourceTree = "<group>"; };
+		239FEC431E1123F90012DA14 /* CACellVCImageOnlyMPlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCImageOnlyMPlay.xib; sourceTree = "<group>"; };
+		239FEC451E12C21C0012DA14 /* CACellVC_Side_Titles_rpc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Side_Titles_rpc.xib; sourceTree = "<group>"; };
+		23E866201CF5E7160073CE62 /* CACellVC_JellyJamm_Show~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_JellyJamm_Show~ipad.xib"; sourceTree = "<group>"; };
+		300A6C6B38BDE18AC472CBF1 /* Pods-ComponentStylesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentStylesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentStylesTests/Pods-ComponentStylesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DC8E9C29FCB5612E33A7E38 /* Pods-ComponentStyles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentStyles.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentStyles/Pods-ComponentStyles.release.xcconfig"; sourceTree = "<group>"; };
+		4000E4161C96E64000DC8477 /* ComponentStyles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComponentStyles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4000E4191C96E64000DC8477 /* ComponentStyles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentStyles.h; sourceTree = "<group>"; };
+		4000E41B1C96E64000DC8477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401640351CA43E0B0017243B /* ComponentsStylesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentsStylesHelper.swift; sourceTree = "<group>"; };
+		401BA23C1DD378EC009BF8E2 /* CACarouselVC_Comicon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Comicon.xib; sourceTree = "<group>"; };
+		40277FB71CAA3FC50020960C /* ComponentStylesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentStylesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40277FB91CAA3FC50020960C /* ComponentStylesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentStylesTests.swift; sourceTree = "<group>"; };
+		40277FBB1CAA3FC50020960C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E923061CA256C400861073 /* CAComponentsStylesMapping.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CAComponentsStylesMapping.plist; sourceTree = "<group>"; };
+		40E9230B1CA257C700861073 /* CACarouselVC_Bars.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Bars.xib; sourceTree = "<group>"; };
+		40E9230C1CA257C700861073 /* CACarouselVC_Bars_AlmostBottom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Bars_AlmostBottom.xib; sourceTree = "<group>"; };
+		40E9230D1CA257C700861073 /* CACarouselVC_Bars_AlmostBottom_tlv.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Bars_AlmostBottom_tlv.xib; sourceTree = "<group>"; };
+		40E9230E1CA257C700861073 /* CACarouselVC_Bars_Noticieros.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Bars_Noticieros.xib; sourceTree = "<group>"; };
+		40E9230F1CA257C700861073 /* CACarouselVC_Bars_Noticieros_promoted_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Bars_Noticieros_promoted_ipad.xib; sourceTree = "<group>"; };
+		40E923101CA257C700861073 /* CACarouselVC_Bars_TLC_Show.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Bars_TLC_Show.xib; sourceTree = "<group>"; };
+		40E923111CA257C700861073 /* CACarouselVC_BottomRight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_BottomRight.xib; sourceTree = "<group>"; };
+		40E923121CA257C700861073 /* CACarouselVC_Center.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Center.xib; sourceTree = "<group>"; };
+		40E923131CA257C700861073 /* CACarouselVC_Center_Bottom_thai.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Center_Bottom_thai.xib; sourceTree = "<group>"; };
+		40E923141CA257C700861073 /* CACarouselVC_Center_Deportes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Center_Deportes.xib; sourceTree = "<group>"; };
+		40E923151CA257C700861073 /* CACarouselVC_Center_Deportes_Promoted.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Center_Deportes_Promoted.xib; sourceTree = "<group>"; };
+		40E923161CA257C700861073 /* CACarouselVC_Center_Photogallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Center_Photogallery.xib; sourceTree = "<group>"; };
+		40E923171CA257C700861073 /* CACarouselVC_Center_Top.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Center_Top.xib; sourceTree = "<group>"; };
+		40E923181CA257C700861073 /* CACarouselVC_Left.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Left.xib; sourceTree = "<group>"; };
+		40E923191CA257C700861073 /* CACarouselVC_Left_channel10.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Left_channel10.xib; sourceTree = "<group>"; };
+		40E9231A1CA257C700861073 /* CACarouselVC_Right.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACarouselVC_Right.xib; sourceTree = "<group>"; };
+		40E9231D1CA257C700861073 /* CACellAtomArticleStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomArticleStandard.xib; sourceTree = "<group>"; };
+		40E9231E1CA257C700861073 /* CACellAtomArticleStandard_nativeShare.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomArticleStandard_nativeShare.xib; sourceTree = "<group>"; };
+		40E9231F1CA257C700861073 /* CACellAtomArticleStandard_nativeShare~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellAtomArticleStandard_nativeShare~ipad.xib"; sourceTree = "<group>"; };
+		40E923201CA257C700861073 /* CACellAtomArticleStandard~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellAtomArticleStandard~ipad.xib"; sourceTree = "<group>"; };
+		40E923211CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomPhotoGalleryAmericaDeportes.xib; sourceTree = "<group>"; };
+		40E923221CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellAtomPhotoGalleryAmericaDeportes~ipad.xib"; sourceTree = "<group>"; };
+		40E923231CA257C700861073 /* CACellAtomPhotoGalleryStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomPhotoGalleryStandard.xib; sourceTree = "<group>"; };
+		40E923241CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomPhotoGalleryStandard_nativeShare.xib; sourceTree = "<group>"; };
+		40E923251CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellAtomPhotoGalleryStandard_nativeShare~ipad.xib"; sourceTree = "<group>"; };
+		40E923261CA257C700861073 /* CACellAtomPhotoGalleryStandard~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellAtomPhotoGalleryStandard~ipad.xib"; sourceTree = "<group>"; };
+		40E923281CA257C700861073 /* CACellVC_HTML.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_HTML.xib; sourceTree = "<group>"; };
+		40E923291CA257C700861073 /* CACellVC_HTML_Button.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_HTML_Button.xib; sourceTree = "<group>"; };
+		40E9232B1CA257C700861073 /* CACellPromotionImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellPromotionImage.xib; sourceTree = "<group>"; };
+		40E9232C1CA257C700861073 /* CACellPromotionImageWithTitle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellPromotionImageWithTitle.xib; sourceTree = "<group>"; };
+		40E9232E1CA257C700861073 /* CACellVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC.xib; sourceTree = "<group>"; };
+		40E9232F1CA257C700861073 /* CACellVC_BabyFirstTVShowScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_BabyFirstTVShowScreen.xib; sourceTree = "<group>"; };
+		40E923301CA257C700861073 /* CACellVC_BabyFirstTVShowScreen~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_BabyFirstTVShowScreen~ipad.xib"; sourceTree = "<group>"; };
+		40E923311CA257C700861073 /* CACellVC_Badge_Side_Title.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Badge_Side_Title.xib; sourceTree = "<group>"; };
+		40E923321CA257C700861073 /* CACellVC_Bottom_Titles_Reshet_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Bottom_Titles_Reshet_RTL.xib; sourceTree = "<group>"; };
+		40E923331CA257C700861073 /* CACellVC_caracol_standard_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_caracol_standard_iPad.xib; sourceTree = "<group>"; };
+		40E923341CA257C700861073 /* CACellVC_caracol_standard_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_caracol_standard_iPhone.xib; sourceTree = "<group>"; };
+		40E923351CA257C700861073 /* CACellVC_Carousel_Reshet_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Carousel_Reshet_cell.xib; sourceTree = "<group>"; };
+		40E923361CA257C700861073 /* CACellVC_Reshet_generic_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Reshet_generic_cell.xib; sourceTree = "<group>"; };
+		40E923371CA257C700861073 /* CACellVC_ch1_show.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_ch1_show.xib; sourceTree = "<group>"; };
+		40E923381CA257C700861073 /* CACellVC_ch1_show_picker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_ch1_show_picker.xib; sourceTree = "<group>"; };
+		40E923391CA257C700861073 /* CACellVC_ch1_standard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_ch1_standard.xib; sourceTree = "<group>"; };
+		40E9233A1CA257C700861073 /* CACellVC_ch1_vod.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_ch1_vod.xib; sourceTree = "<group>"; };
+		40E9233B1CA257C700861073 /* CACellVC_channel10_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_channel10_RTL.xib; sourceTree = "<group>"; };
+		40E9233C1CA257C700861073 /* CACellVC_frecuencia_standard_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_frecuencia_standard_cell.xib; sourceTree = "<group>"; };
+		40E9233D1CA257C700861073 /* CACellVC_Fuse_AllShows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Fuse_AllShows.xib; sourceTree = "<group>"; };
+		40E9233E1CA257C700861073 /* CACellVC_Fuse_AllShows~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Fuse_AllShows~ipad.xib"; sourceTree = "<group>"; };
+		40E9233F1CA257C700861073 /* CACellVC_Fuse_Black.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Fuse_Black.xib; sourceTree = "<group>"; };
+		40E923401CA257C700861073 /* CACellVC_Fuse_Black_Carousel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Fuse_Black_Carousel.xib; sourceTree = "<group>"; };
+		40E923411CA257C700861073 /* CACellVC_Fuse_Black_Carousel~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Fuse_Black_Carousel~ipad.xib"; sourceTree = "<group>"; };
+		40E923421CA257C700861073 /* CACellVC_Fuse_Home_iPad_Carousel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Fuse_Home_iPad_Carousel.xib; sourceTree = "<group>"; };
+		40E923431CA257C700861073 /* CACellVC_Fuse_List.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Fuse_List.xib; sourceTree = "<group>"; };
+		40E923441CA257C700861073 /* CACellVC_Hot_Carousel_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Hot_Carousel_RTL.xib; sourceTree = "<group>"; };
+		40E923451CA257C700861073 /* CACellVC_Hot_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Hot_RTL.xib; sourceTree = "<group>"; };
+		40E923461CA257C700861073 /* CACellVC_Hot_RTL~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Hot_RTL~ipad.xib"; sourceTree = "<group>"; };
+		40E923471CA257C700861073 /* CACellVC_HQME_Test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_HQME_Test.xib; sourceTree = "<group>"; };
+		40E923481CA257C700861073 /* CACellVC_LTR.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR.xib; sourceTree = "<group>"; };
+		40E923491CA257C700861073 /* CACellVC_LTR_Small.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR_Small.xib; sourceTree = "<group>"; };
+		40E9234A1CA257C700861073 /* CACellVC_LTR~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_LTR~ipad.xib"; sourceTree = "<group>"; };
+		40E9234B1CA257C700861073 /* CACellVC_Reshet_RTL_Carousel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Reshet_RTL_Carousel.xib; sourceTree = "<group>"; };
+		40E9234E1CA257C700861073 /* CACellVC_RPC_Categories.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RPC_Categories.xib; sourceTree = "<group>"; };
+		40E9234F1CA257C700861073 /* CACellVC_RPC_Categories~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_RPC_Categories~ipad.xib"; sourceTree = "<group>"; };
+		40E923501CA257C700861073 /* CACellVC_RPC_Home_Vod.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RPC_Home_Vod.xib; sourceTree = "<group>"; };
+		40E923511CA257C700861073 /* CACellVC_RPC_Home_Vod~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_RPC_Home_Vod~ipad.xib"; sourceTree = "<group>"; };
+		40E923521CA257C700861073 /* CACellVC_RPC_iPhone_standard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RPC_iPhone_standard.xib; sourceTree = "<group>"; };
+		40E923531CA257C700861073 /* CACellVC_RPC_Show~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_RPC_Show~ipad.xib"; sourceTree = "<group>"; };
+		40E923541CA257C700861073 /* CACellVC_RPC~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_RPC~ipad.xib"; sourceTree = "<group>"; };
+		40E923551CA257C700861073 /* CACellVC_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RTL.xib; sourceTree = "<group>"; };
+		40E923561CA257C700861073 /* CACellVC_RTL_Reshet_Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RTL_Reshet_Header.xib; sourceTree = "<group>"; };
+		40E923571CA257C700861073 /* CACellVC_RTL_Reshet_Promoted.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RTL_Reshet_Promoted.xib; sourceTree = "<group>"; };
+		40E923581CA257C700861073 /* CACellVC_Side_Title_Only_Hot_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Side_Title_Only_Hot_RTL.xib; sourceTree = "<group>"; };
+		40E923591CA257C700861073 /* CACellVC_Side_Titles.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Side_Titles.xib; sourceTree = "<group>"; };
+		40E9235A1CA257C700861073 /* CACellVC_Side_Titles_Hot_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Side_Titles_Hot_RTL.xib; sourceTree = "<group>"; };
+		40E9235B1CA257C700861073 /* CACellVC_Side_Titles_Reshet_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Side_Titles_Reshet_RTL.xib; sourceTree = "<group>"; };
+		40E9235C1CA257C700861073 /* CACellVC_telefe_standard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_telefe_standard.xib; sourceTree = "<group>"; };
+		40E9235D1CA257C700861073 /* CACellVC_Telemetro_Categories.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Telemetro_Categories.xib; sourceTree = "<group>"; };
+		40E9235E1CA257C700861073 /* CACellVC_Telemetro_Categories~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Telemetro_Categories~ipad.xib"; sourceTree = "<group>"; };
+		40E9235F1CA257C700861073 /* CACellVC_telemetro_favorites.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_telemetro_favorites.xib; sourceTree = "<group>"; };
+		40E923601CA257C700861073 /* CACellVC_telemetro_favorites~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_telemetro_favorites~ipad.xib"; sourceTree = "<group>"; };
+		40E923611CA257C700861073 /* CACellVC_telemetro_home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_telemetro_home.xib; sourceTree = "<group>"; };
+		40E923621CA257C700861073 /* CACellVC_telemetro_home_one_line.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_telemetro_home_one_line.xib; sourceTree = "<group>"; };
+		40E923631CA257C700861073 /* CACellVC_telemetro_home_one_line~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_telemetro_home_one_line~ipad.xib"; sourceTree = "<group>"; };
+		40E923641CA257C700861073 /* CACellVC_telemetro_home~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_telemetro_home~ipad.xib"; sourceTree = "<group>"; };
+		40E923651CA257C700861073 /* CACellVC_Thai_AllShows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Thai_AllShows.xib; sourceTree = "<group>"; };
+		40E923661CA257C700861073 /* CACellVC_Thai_Article.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Thai_Article.xib; sourceTree = "<group>"; };
+		40E923671CA257C700861073 /* CACellVC_Thai_Article~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Thai_Article~ipad.xib"; sourceTree = "<group>"; };
+		40E923681CA257C700861073 /* CACellVC_Thai_Promoted_Article~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Thai_Promoted_Article~ipad.xib"; sourceTree = "<group>"; };
+		40E923691CA257C700861073 /* CACellVC_Thai_Promoted_Show~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Thai_Promoted_Show~ipad.xib"; sourceTree = "<group>"; };
+		40E9236A1CA257C700861073 /* CACellVC_Thai_Show.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Thai_Show.xib; sourceTree = "<group>"; };
+		40E9236B1CA257C700861073 /* CACellVC_Thai_Show~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Thai_Show~ipad.xib"; sourceTree = "<group>"; };
+		40E9236C1CA257C700861073 /* CACellVC_Thai_Standard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Thai_Standard.xib; sourceTree = "<group>"; };
+		40E9236D1CA257C700861073 /* CACellVC_Thai_Standard~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Thai_Standard~ipad.xib"; sourceTree = "<group>"; };
+		40E9236E1CA257C700861073 /* CACellVC_tlv_channel_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_channel_cell.xib; sourceTree = "<group>"; };
+		40E9236F1CA257C700861073 /* CACellVC_tlv_intermidiate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_intermidiate.xib; sourceTree = "<group>"; };
+		40E923701CA257C700861073 /* CACellVC_tlv_show.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_show.xib; sourceTree = "<group>"; };
+		40E923711CA257C700861073 /* CACellVC_tlv_show_details.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_show_details.xib; sourceTree = "<group>"; };
+		40E923721CA257C700861073 /* CACellVC_tlv_show_details_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_show_details_ipad.xib; sourceTree = "<group>"; };
+		40E923731CA257C700861073 /* CACellVC_tlv_show_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_show_ipad.xib; sourceTree = "<group>"; };
+		40E923741CA257C700861073 /* CACellVC_tlv_special_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_special_iPad.xib; sourceTree = "<group>"; };
+		40E923751CA257C700861073 /* CACellVC_tlv_special_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_special_iphone.xib; sourceTree = "<group>"; };
+		40E923761CA257C700861073 /* CACellVC_tlv_standard_Big.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_standard_Big.xib; sourceTree = "<group>"; };
+		40E923771CA257C700861073 /* CACellVC_tlv_standard_Big_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_standard_Big_ipad.xib; sourceTree = "<group>"; };
+		40E923781CA257C700861073 /* CACellVC_tlv_standard_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_standard_cell.xib; sourceTree = "<group>"; };
+		40E923791CA257C700861073 /* CACellVC_tlv_standard_iPhoneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_standard_iPhoneCell.xib; sourceTree = "<group>"; };
+		40E9237A1CA257C700861073 /* CACellVC_tlv_standard_Small.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_tlv_standard_Small.xib; sourceTree = "<group>"; };
+		40E9237B1CA257C700861073 /* CACellVC_TVGO_Carousel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_TVGO_Carousel.xib; sourceTree = "<group>"; };
+		40E9237C1CA257C700861073 /* CACellVC_TVGO_Carousel~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_TVGO_Carousel~ipad.xib"; sourceTree = "<group>"; };
+		40E9237D1CA257C700861073 /* CACellVC_TVGO_HomeStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_TVGO_HomeStandard.xib; sourceTree = "<group>"; };
+		40E9237E1CA257C700861073 /* CACellVC_TVGO_HomeStandard~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_TVGO_HomeStandard~ipad.xib"; sourceTree = "<group>"; };
+		40E9237F1CA257C700861073 /* CACellVCBabyFirstSubscription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstSubscription.xib; sourceTree = "<group>"; };
+		40E923801CA257C700861073 /* CACellVCBabyFirstSubscription~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCBabyFirstSubscription~ipad.xib"; sourceTree = "<group>"; };
+		40E923811CA257C700861073 /* CACellVCBabyFirstTVAllShows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstTVAllShows.xib; sourceTree = "<group>"; };
+		40E923821CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstTVAllShowsWithText.xib; sourceTree = "<group>"; };
+		40E923831CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstTVAllShowsWithText_iphone.xib; sourceTree = "<group>"; };
+		40E923841CA257C700861073 /* CACellVCBabyFirstTVAllShows~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCBabyFirstTVAllShows~ipad.xib"; sourceTree = "<group>"; };
+		40E923851CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstTVSubscriptionSmall.xib; sourceTree = "<group>"; };
+		40E923861CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCBabyFirstTVSubscriptionSmall~ipad.xib"; sourceTree = "<group>"; };
+		40E923871CA257C700861073 /* CACellVCBabyFirstTVTitle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstTVTitle.xib; sourceTree = "<group>"; };
+		40E923881CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstTVTitleDescription_ipad.xib; sourceTree = "<group>"; };
+		40E923891CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyFirstTVTitleDescription_iphone.xib; sourceTree = "<group>"; };
+		40E9238A1CA257C700861073 /* CACellVCBabyTVDateUntil.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVDateUntil.xib; sourceTree = "<group>"; };
+		40E9238B1CA257C700861073 /* CACellVCBabyTVEdit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVEdit.xib; sourceTree = "<group>"; };
+		40E9238C1CA257C700861073 /* CACellVCBabyTVEdit~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCBabyTVEdit~ipad.xib"; sourceTree = "<group>"; };
+		40E9238D1CA257C700861073 /* CACellVCBabyTVFavorites.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVFavorites.xib; sourceTree = "<group>"; };
+		40E9238E1CA257C700861073 /* CACellVCBabyTVStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVStandard.xib; sourceTree = "<group>"; };
+		40E9238F1CA257C700861073 /* CACellVCBabyTVSubscription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVSubscription.xib; sourceTree = "<group>"; };
+		40E923901CA257C700861073 /* CACellVCBabyTVSubscription~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCBabyTVSubscription~ipad.xib"; sourceTree = "<group>"; };
+		40E923911CA257C700861073 /* CACellVCBabyTVTitle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVTitle.xib; sourceTree = "<group>"; };
+		40E923921CA257C700861073 /* CACellVCBabyTVTitleSubtitle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVTitleSubtitle.xib; sourceTree = "<group>"; };
+		40E923931CA257C700861073 /* CACellVCDeportesHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCDeportesHome.xib; sourceTree = "<group>"; };
+		40E923941CA257C700861073 /* CACellVCDeportesHomeBig.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCDeportesHomeBig.xib; sourceTree = "<group>"; };
+		40E923951CA257C700861073 /* CACellVCDeportesHomeBig~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCDeportesHomeBig~ipad.xib"; sourceTree = "<group>"; };
+		40E923961CA257C700861073 /* CACellVCDeportesHomePromoted.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCDeportesHomePromoted.xib; sourceTree = "<group>"; };
+		40E923971CA257C700861073 /* CACellVCDeportesHomePromoted~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCDeportesHomePromoted~ipad.xib"; sourceTree = "<group>"; };
+		40E923981CA257C700861073 /* CACellVCDeportesHome~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVCDeportesHome~ipad.xib"; sourceTree = "<group>"; };
+		40E923991CA257C700861073 /* CACellVCHotShow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCHotShow.xib; sourceTree = "<group>"; };
+		40E9239A1CA257C700861073 /* CACellVCImageOnly.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCImageOnly.xib; sourceTree = "<group>"; };
+		40E9239B1CA257C700861073 /* CACellVCNoticiasAtomNoImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticiasAtomNoImage.xib; sourceTree = "<group>"; };
+		40E9239C1CA257C700861073 /* CACellVCNoticiasAtomNoImage_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticiasAtomNoImage_ipad.xib; sourceTree = "<group>"; };
+		40E9239D1CA257C700861073 /* CACellVCNoticiasBigAtom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticiasBigAtom.xib; sourceTree = "<group>"; };
+		40E9239E1CA257C700861073 /* CACellVCNoticiasBigPromotedAtom_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticiasBigPromotedAtom_ipad.xib; sourceTree = "<group>"; };
+		40E9239F1CA257C700861073 /* CACellVCNoticierosAtomNoImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosAtomNoImage.xib; sourceTree = "<group>"; };
+		40E923A01CA257C700861073 /* CACellVCNoticierosAtomNoImage_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosAtomNoImage_ipad.xib; sourceTree = "<group>"; };
+		40E923A11CA257C700861073 /* CACellVCNoticierosBig.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosBig.xib; sourceTree = "<group>"; };
+		40E923A21CA257C700861073 /* CACellVCNoticierosBig_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosBig_ipad.xib; sourceTree = "<group>"; };
+		40E923A31CA257C700861073 /* CACellVCNoticierosBigAtom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosBigAtom.xib; sourceTree = "<group>"; };
+		40E923A41CA257C700861073 /* CACellVCNoticierosBigAtom_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosBigAtom_ipad.xib; sourceTree = "<group>"; };
+		40E923A51CA257C700861073 /* CACellVCNoticierosBigPromoted_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosBigPromoted_ipad.xib; sourceTree = "<group>"; };
+		40E923A61CA257C700861073 /* CACellVCNoticierosBigPromotedAtom_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosBigPromotedAtom_ipad.xib; sourceTree = "<group>"; };
+		40E923A71CA257C700861073 /* CACellVCNoticierosShow_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosShow_ipad.xib; sourceTree = "<group>"; };
+		40E923A81CA257C700861073 /* CACellVCNoticierosStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosStandard.xib; sourceTree = "<group>"; };
+		40E923A91CA257C700861073 /* CACellVCNoticierosStandard_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosStandard_ipad.xib; sourceTree = "<group>"; };
+		40E923AA1CA257C700861073 /* CACellVCNoticierosStandardAtom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosStandardAtom.xib; sourceTree = "<group>"; };
+		40E923AB1CA257C700861073 /* CACellVCNoticierosStandardAtom_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCNoticierosStandardAtom_ipad.xib; sourceTree = "<group>"; };
+		40E923AC1CA257C700861073 /* CACellVCTelevisaIntermidiate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCTelevisaIntermidiate.xib; sourceTree = "<group>"; };
+		40E923AE1CA257C700861073 /* CACellVC_Center_Title_No_Image.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Center_Title_No_Image.xib; sourceTree = "<group>"; };
+		40E923AF1CA257C700861073 /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Center_Title_No_Image_Thin_Bottom_Line.xib; sourceTree = "<group>"; };
+		40E923B01CA257C700861073 /* CACellVC_Center_Title_No_Image_Two_lines.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Center_Title_No_Image_Two_lines.xib; sourceTree = "<group>"; };
+		40E923B11CA257C700861073 /* CACellVC_HOT_Center_Title_No_Image.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_HOT_Center_Title_No_Image.xib; sourceTree = "<group>"; };
+		40E923B21CA257C700861073 /* CACellVC_LTR_Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR_Header.xib; sourceTree = "<group>"; };
+		40E923B31CA257C700861073 /* CACellVC_LTR_Title.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR_Title.xib; sourceTree = "<group>"; };
+		40E923B41CA257C700861073 /* CACellVC_LTR_Title_No_Image.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR_Title_No_Image.xib; sourceTree = "<group>"; };
+		40E923B51CA257C700861073 /* CACellVC_LTR_Title_Photogallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR_Title_Photogallery.xib; sourceTree = "<group>"; };
+		40E923B61CA257C700861073 /* CACellVC_LTR_Title_Photogallery_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR_Title_Photogallery_ipad.xib; sourceTree = "<group>"; };
+		40E923B71CA257C700861073 /* CACellVC_LTR_title_thai.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_LTR_title_thai.xib; sourceTree = "<group>"; };
+		40E923B81CA257C700861073 /* CACellVC_LTR~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_LTR~ipad.xib"; sourceTree = "<group>"; };
+		40E923B91CA257C700861073 /* CACellVC_RTL_Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RTL_Header.xib; sourceTree = "<group>"; };
+		40E923BA1CA257C700861073 /* CACellVC_RTL_Title.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RTL_Title.xib; sourceTree = "<group>"; };
+		40E923BB1CA257C700861073 /* CACellVC_RTL_Title2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RTL_Title2.xib; sourceTree = "<group>"; };
+		40E923BC1CA257C700861073 /* CACellVC_storeFront_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_storeFront_cell.xib; sourceTree = "<group>"; };
+		40E923BD1CA257C700861073 /* CACellVC_storeFront_Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_storeFront_Header.xib; sourceTree = "<group>"; };
+		40E923BE1CA257C700861073 /* CACellVC_thai_Center_Title_No_Image.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_thai_Center_Title_No_Image.xib; sourceTree = "<group>"; };
+		40E923C01CA257C700861073 /* CACollectionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACollectionVC.xib; sourceTree = "<group>"; };
+		40E923C11CA257C700861073 /* CACollectionVCBabyFirstTVShow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACollectionVCBabyFirstTVShow.xib; sourceTree = "<group>"; };
+		40E923C21CA257C700861073 /* CACollectionVCBabyFirstTVShow~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACollectionVCBabyFirstTVShow~ipad.xib"; sourceTree = "<group>"; };
+		40E923C31CA257C700861073 /* CACollectionVCBabyTVShow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACollectionVCBabyTVShow.xib; sourceTree = "<group>"; };
+		40E923C41CA257C700861073 /* CACollectionVCBabyTVShow~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACollectionVCBabyTVShow~ipad.xib"; sourceTree = "<group>"; };
+		40E923C51CA257C700861073 /* CACollectionWithCloseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACollectionWithCloseVC.xib; sourceTree = "<group>"; };
+		40E923C71CA257C700861073 /* CACompositeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACompositeVC.xib; sourceTree = "<group>"; };
+		40E923C91CA257C700861073 /* CADropSheetStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CADropSheetStandard.xib; sourceTree = "<group>"; };
+		40E923CB1CA257C700861073 /* CAPopoverStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAPopoverStandard.xib; sourceTree = "<group>"; };
+		40E923CE1CA257C700861073 /* CASectionPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CASectionPickerViewController.xib; sourceTree = "<group>"; };
+		40E923D11CA257C700861073 /* CATableStandard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CATableStandard.xib; sourceTree = "<group>"; };
+		464D2C799BF3681A1D32D1B9 /* Pods-ComponentStylesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentStylesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentStylesTests/Pods-ComponentStylesTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D1A1A1B1E96333D00555746 /* CACellVC_Next_intermidiate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Next_intermidiate.xib; sourceTree = "<group>"; };
+		4D43CE6B1E5AC3D100369C13 /* CACellAtomMediaPlayerL26.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomMediaPlayerL26.xib; sourceTree = "<group>"; };
+		4D5BC8371E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAHQMEViewControllerBabyFirst.xib; sourceTree = "<group>"; };
+		4D5BC8381E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CAHQMEViewControllerBabyFirst~ipad.xib"; sourceTree = "<group>"; };
+		4D5FD4F71E2F91A90010B456 /* CACellVC_Channel20_top_list_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Channel20_top_list_cell.xib; sourceTree = "<group>"; };
+		4D809C051EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic_promoted.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_KanVideo_generic_promoted.xib; sourceTree = "<group>"; };
+		4D809C061EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_KanVideo_generic.xib; sourceTree = "<group>"; };
+		4DBAE09C1E795C5B002DE689 /* CACellVC_Next_standard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Next_standard.xib; sourceTree = "<group>"; };
+		4DD931FD1E2765FC003F8E6A /* CAHQMEViewControllerBabyTV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAHQMEViewControllerBabyTV.xib; sourceTree = "<group>"; };
+		4DD931FE1E2765FD003F8E6A /* CAHQMEViewControllerBabyTV~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CAHQMEViewControllerBabyTV~ipad.xib"; sourceTree = "<group>"; };
+		4DED55301E7E53B5007A58F4 /* CACellVC_Next_more.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Next_more.xib; sourceTree = "<group>"; };
+		4DED55311E7E53B5007A58F4 /* CACellVC_Next_more~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Next_more~ipad.xib"; sourceTree = "<group>"; };
+		4DED55321E7E53B5007A58F4 /* CACellVC_Next_show_promoted.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Next_show_promoted.xib; sourceTree = "<group>"; };
+		4DED55331E7E53B5007A58F4 /* CACellVC_Next_show.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Next_show.xib; sourceTree = "<group>"; };
+		4DED55341E7E53B5007A58F4 /* CACellVC_Next_show~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Next_show~ipad.xib"; sourceTree = "<group>"; };
+		4DED55351E7E53B5007A58F4 /* CACellVC_Next_standard~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Next_standard~ipad.xib"; sourceTree = "<group>"; };
+		4DED553C1E7E53E8007A58F4 /* CACellVC_Next_generic_header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Next_generic_header.xib; sourceTree = "<group>"; };
+		712D50ED1E4A5FD500D73BB7 /* CACellVC_Miaomi_Show.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Miaomi_Show.xib; sourceTree = "<group>"; };
+		712D50F11E4ADBFB00D73BB7 /* CACellVC_Miaomi_Show~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Miaomi_Show~ipad.xib"; sourceTree = "<group>"; };
+		71360ADF1E0934A500EF903B /* CACellAtomMediaContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomMediaContainer.xib; sourceTree = "<group>"; };
+		71360AE01E0934A500EF903B /* CACellAtomMediaList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomMediaList.xib; sourceTree = "<group>"; };
+		71360AE11E0934A500EF903B /* CACellAtomMediaPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellAtomMediaPlayer.xib; sourceTree = "<group>"; };
+		714284A81E4B607A00BE9D75 /* CACellVC_Miaomi_AllShowsGrid~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Miaomi_AllShowsGrid~ipad.xib"; sourceTree = "<group>"; };
+		714284AA1E4B608700BE9D75 /* CACellVC_Miaomi_AllShowsGrid.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Miaomi_AllShowsGrid.xib; sourceTree = "<group>"; };
+		716C93EC1E54C61B004D0988 /* GANavigationBarL33.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GANavigationBarL33.xib; path = NavigationBar/GANavigationBarL33.xib; sourceTree = "<group>"; };
+		71B71EC71E6363910032C164 /* CACellVC_Miaomi_AllShows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Miaomi_AllShows.xib; sourceTree = "<group>"; };
+		71B71EC91E6363A00032C164 /* CACellVC_Miaomi_AllShows~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Miaomi_AllShows~ipad.xib"; sourceTree = "<group>"; };
+		71F66BEC1E50B479007E6111 /* CACellVC_Miaomi_Logo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Miaomi_Logo.xib; sourceTree = "<group>"; };
+		71F66BF01E50B75D007E6111 /* CACellVC_Miaomi_Logo~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_Miaomi_Logo~ipad.xib"; sourceTree = "<group>"; };
+		7D0645BE043990DD56620F2B /* Pods_ComponentStyles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComponentStyles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8381EFDCBB1B9749DE1B14A3 /* Pods_ComponentStylesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComponentStylesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9DDC5E19C0288D39E97BA5 /* Pods-ComponentStyles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentStyles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentStyles/Pods-ComponentStyles.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6C25241E1A4A41007553D1 /* CACellVC_Channel20_Carousel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Channel20_Carousel.xib; sourceTree = "<group>"; };
+		FA6C25251E1A4A41007553D1 /* CACellVC_Channel20_generic_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Channel20_generic_cell.xib; sourceTree = "<group>"; };
+		FA6C25261E1A4A41007553D1 /* CACellVC_Channel20_top_generic_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Channel20_top_generic_cell.xib; sourceTree = "<group>"; };
+		FA6C25271E1A4A41007553D1 /* CACellVC_Kan_Ganre_Item.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Kan_Ganre_Item.xib; sourceTree = "<group>"; };
+		FA6C25281E1A4A41007553D1 /* CACellVC_Kan_Item_SideDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Kan_Item_SideDetails.xib; sourceTree = "<group>"; };
+		FA6C25291E1A4A41007553D1 /* CACellVC_Kan_Radio_Section_Item.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Kan_Radio_Section_Item.xib; sourceTree = "<group>"; };
+		FA6C252A1E1A4A41007553D1 /* CACellVC_L24_CarouselHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_CarouselHeader.xib; sourceTree = "<group>"; };
+		FA6C252B1E1A4A41007553D1 /* CACellVC_L24_CarouselItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_CarouselItem.xib; sourceTree = "<group>"; };
+		FA6C252C1E1A4A41007553D1 /* CACellVC_L24_CenteredLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_CenteredLabel.xib; sourceTree = "<group>"; };
+		FA6C252D1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_FeaturedShow.xib; sourceTree = "<group>"; };
+		FA6C252E1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CACellVC_L24_FeaturedShow~ipad.xib"; sourceTree = "<group>"; };
+		FA6C252F1E1A4A41007553D1 /* CACellVC_L24_LiveScreenItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_LiveScreenItem.xib; sourceTree = "<group>"; };
+		FA6C25301E1A4A41007553D1 /* CACellVC_L24_ShowItem_FullWidth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_ShowItem_FullWidth.xib; sourceTree = "<group>"; };
+		FA6C25311E1A4A41007553D1 /* CACellVC_L24_ShowItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_ShowItem.xib; sourceTree = "<group>"; };
+		FA6C25321E1A4A41007553D1 /* CACellVC_RTL_Channel20_Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_RTL_Channel20_Header.xib; sourceTree = "<group>"; };
+		FA6C25331E1A4A41007553D1 /* CACellVC_Side_Titles_Channel20_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Side_Titles_Channel20_RTL.xib; sourceTree = "<group>"; };
+		FA6C25341E1A4A41007553D1 /* CACellVC_Side_Titles_Lasestrellas_RTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Side_Titles_Lasestrellas_RTL.xib; sourceTree = "<group>"; };
+		FA6C25351E1A4A41007553D1 /* CACellVCBabyTVPlayAll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVCBabyTVPlayAll.xib; sourceTree = "<group>"; };
+		FA6C25481E1A4A52007553D1 /* CACellVC_Kan_Center_Title_No_Image_Thin_Bottom_Line.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_Kan_Center_Title_No_Image_Thin_Bottom_Line.xib; sourceTree = "<group>"; };
+		FA6C25491E1A4A52007553D1 /* CACellVC_L24_Title_with_bg_image.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L24_Title_with_bg_image.xib; sourceTree = "<group>"; };
+		FAD3E5CA1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_left_withPadding.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_FullWidth_left_withPadding.xib; sourceTree = "<group>"; };
+		FAD3E5CB1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_right_withPadding.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_FullWidth_right_withPadding.xib; sourceTree = "<group>"; };
+		FAF58EBE1D07FF290003BF22 /* CACellVC_L14_CenteredLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_CenteredLabel.xib; sourceTree = "<group>"; };
+		FAF58EBF1D07FF290003BF22 /* CACellVC_L14_EpgItem_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_EpgItem_ipad.xib; sourceTree = "<group>"; };
+		FAF58EC01D07FF290003BF22 /* CACellVC_L14_EpgItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_EpgItem.xib; sourceTree = "<group>"; };
+		FAF58EC11D07FF290003BF22 /* CACellVC_L14_VodItem_FullWidth_withPadding.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_FullWidth_withPadding.xib; sourceTree = "<group>"; };
+		FAF58EC21D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_leftPadding.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_HalfWidth_leftPadding.xib; sourceTree = "<group>"; };
+		FAF58EC31D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_middePadding.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_HalfWidth_middePadding.xib; sourceTree = "<group>"; };
+		FAF58EC41D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_rightPadding.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_HalfWidth_rightPadding.xib; sourceTree = "<group>"; };
+		FAF58EC51D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_HalfWidth.xib; sourceTree = "<group>"; };
+		FAF58EC61D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails_nodates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_SideDetails_nodates.xib; sourceTree = "<group>"; };
+		FAF58EC71D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_VodItem_SideDetails.xib; sourceTree = "<group>"; };
+		FAF58ED31D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader_with_padding.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_LTR_Underlined_VodHeader_with_padding.xib; sourceTree = "<group>"; };
+		FAF58ED41D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_LTR_Underlined_VodHeader.xib; sourceTree = "<group>"; };
+		FAFEBD381D227AB4002B11BE /* CACellVC_L14_Black_Carousel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CACellVC_L14_Black_Carousel.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4000E4121C96E64000DC8477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD55FD0345480C2F361414A /* Pods_ComponentStyles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40277FB41CAA3FC50020960C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40277FBC1CAA3FC50020960C /* ComponentStyles.framework in Frameworks */,
+				A7CF8D218F7B3F6CADCFC9BE /* Pods_ComponentStylesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EA7FA0128E85E03C08A573 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF9DDC5E19C0288D39E97BA5 /* Pods-ComponentStyles.debug.xcconfig */,
+				3DC8E9C29FCB5612E33A7E38 /* Pods-ComponentStyles.release.xcconfig */,
+				300A6C6B38BDE18AC472CBF1 /* Pods-ComponentStylesTests.debug.xcconfig */,
+				464D2C799BF3681A1D32D1B9 /* Pods-ComponentStylesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4000E40C1C96E64000DC8477 = {
+			isa = PBXGroup;
+			children = (
+				4000E4181C96E64000DC8477 /* ComponentStyles */,
+				40277FB81CAA3FC50020960C /* ComponentStylesTests */,
+				4000E4171C96E64000DC8477 /* Products */,
+				40E923051CA24F7400861073 /* Resources */,
+				18EA7FA0128E85E03C08A573 /* Pods */,
+				412453EA7E1CD27A3171706B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4000E4171C96E64000DC8477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4000E4161C96E64000DC8477 /* ComponentStyles.framework */,
+				40277FB71CAA3FC50020960C /* ComponentStylesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4000E4181C96E64000DC8477 /* ComponentStyles */ = {
+			isa = PBXGroup;
+			children = (
+				4000E4191C96E64000DC8477 /* ComponentStyles.h */,
+				4000E41B1C96E64000DC8477 /* Info.plist */,
+				401640351CA43E0B0017243B /* ComponentsStylesHelper.swift */,
+			);
+			path = ComponentStyles;
+			sourceTree = "<group>";
+		};
+		40277FB81CAA3FC50020960C /* ComponentStylesTests */ = {
+			isa = PBXGroup;
+			children = (
+				40277FB91CAA3FC50020960C /* ComponentStylesTests.swift */,
+				40277FBB1CAA3FC50020960C /* Info.plist */,
+			);
+			path = ComponentStylesTests;
+			sourceTree = "<group>";
+		};
+		40E923051CA24F7400861073 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40E923081CA257C700861073 /* xibs */,
+				40E923061CA256C400861073 /* CAComponentsStylesMapping.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40E923081CA257C700861073 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				716C93EA1E54B3A1004D0988 /* NavigationBar */,
+				4D5BC8351E269EE200FF0AB3 /* CustomViewControllerStyle */,
+				40E923091CA257C700861073 /* Carousel */,
+				40E9231B1CA257C700861073 /* Cell */,
+				40E923BF1CA257C700861073 /* Collection */,
+				40E923C61CA257C700861073 /* Composite */,
+				40E923C81CA257C700861073 /* DropSheet */,
+				40E923CA1CA257C700861073 /* Popover */,
+				40E923CC1CA257C700861073 /* SectionPicker */,
+				40E923D01CA257C700861073 /* Table */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		40E923091CA257C700861073 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				40E9230A1CA257C700861073 /* CACarouselViewController */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		40E9230A1CA257C700861073 /* CACarouselViewController */ = {
+			isa = PBXGroup;
+			children = (
+				401BA23C1DD378EC009BF8E2 /* CACarouselVC_Comicon.xib */,
+				40E9230B1CA257C700861073 /* CACarouselVC_Bars.xib */,
+				40E9230C1CA257C700861073 /* CACarouselVC_Bars_AlmostBottom.xib */,
+				40E9230D1CA257C700861073 /* CACarouselVC_Bars_AlmostBottom_tlv.xib */,
+				40E9230E1CA257C700861073 /* CACarouselVC_Bars_Noticieros.xib */,
+				40E9230F1CA257C700861073 /* CACarouselVC_Bars_Noticieros_promoted_ipad.xib */,
+				40E923101CA257C700861073 /* CACarouselVC_Bars_TLC_Show.xib */,
+				40E923111CA257C700861073 /* CACarouselVC_BottomRight.xib */,
+				40E923121CA257C700861073 /* CACarouselVC_Center.xib */,
+				40E923131CA257C700861073 /* CACarouselVC_Center_Bottom_thai.xib */,
+				40E923141CA257C700861073 /* CACarouselVC_Center_Deportes.xib */,
+				40E923151CA257C700861073 /* CACarouselVC_Center_Deportes_Promoted.xib */,
+				40E923161CA257C700861073 /* CACarouselVC_Center_Photogallery.xib */,
+				40E923171CA257C700861073 /* CACarouselVC_Center_Top.xib */,
+				40E923181CA257C700861073 /* CACarouselVC_Left.xib */,
+				40E923191CA257C700861073 /* CACarouselVC_Left_channel10.xib */,
+				40E9231A1CA257C700861073 /* CACarouselVC_Right.xib */,
+			);
+			path = CACarouselViewController;
+			sourceTree = "<group>";
+		};
+		40E9231B1CA257C700861073 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40E9231C1CA257C700861073 /* AtomCell */,
+				40E923271CA257C700861073 /* HTMLCell */,
+				40E9232A1CA257C700861073 /* PromotionImageCell */,
+				40E9232D1CA257C700861073 /* StandardCell */,
+				40E923AD1CA257C700861073 /* TitleCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		40E9231C1CA257C700861073 /* AtomCell */ = {
+			isa = PBXGroup;
+			children = (
+				4D43CE6B1E5AC3D100369C13 /* CACellAtomMediaPlayerL26.xib */,
+				40E9231D1CA257C700861073 /* CACellAtomArticleStandard.xib */,
+				40E9231E1CA257C700861073 /* CACellAtomArticleStandard_nativeShare.xib */,
+				40E9231F1CA257C700861073 /* CACellAtomArticleStandard_nativeShare~ipad.xib */,
+				40E923201CA257C700861073 /* CACellAtomArticleStandard~ipad.xib */,
+				40E923211CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes.xib */,
+				40E923221CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes~ipad.xib */,
+				40E923231CA257C700861073 /* CACellAtomPhotoGalleryStandard.xib */,
+				40E923241CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare.xib */,
+				40E923251CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare~ipad.xib */,
+				40E923261CA257C700861073 /* CACellAtomPhotoGalleryStandard~ipad.xib */,
+				71360AE11E0934A500EF903B /* CACellAtomMediaPlayer.xib */,
+				71360AE01E0934A500EF903B /* CACellAtomMediaList.xib */,
+				71360ADF1E0934A500EF903B /* CACellAtomMediaContainer.xib */,
+			);
+			path = AtomCell;
+			sourceTree = "<group>";
+		};
+		40E923271CA257C700861073 /* HTMLCell */ = {
+			isa = PBXGroup;
+			children = (
+				40E923281CA257C700861073 /* CACellVC_HTML.xib */,
+				40E923291CA257C700861073 /* CACellVC_HTML_Button.xib */,
+			);
+			path = HTMLCell;
+			sourceTree = "<group>";
+		};
+		40E9232A1CA257C700861073 /* PromotionImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				40E9232B1CA257C700861073 /* CACellPromotionImage.xib */,
+				40E9232C1CA257C700861073 /* CACellPromotionImageWithTitle.xib */,
+			);
+			path = PromotionImageCell;
+			sourceTree = "<group>";
+		};
+		40E9232D1CA257C700861073 /* StandardCell */ = {
+			isa = PBXGroup;
+			children = (
+				4D809C051EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic_promoted.xib */,
+				4D809C061EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic.xib */,
+				4D1A1A1B1E96333D00555746 /* CACellVC_Next_intermidiate.xib */,
+				4DED55301E7E53B5007A58F4 /* CACellVC_Next_more.xib */,
+				4DED55311E7E53B5007A58F4 /* CACellVC_Next_more~ipad.xib */,
+				4DED55321E7E53B5007A58F4 /* CACellVC_Next_show_promoted.xib */,
+				4DED55331E7E53B5007A58F4 /* CACellVC_Next_show.xib */,
+				4DED55341E7E53B5007A58F4 /* CACellVC_Next_show~ipad.xib */,
+				4DED55351E7E53B5007A58F4 /* CACellVC_Next_standard~ipad.xib */,
+				4DBAE09C1E795C5B002DE689 /* CACellVC_Next_standard.xib */,
+				4D5FD4F71E2F91A90010B456 /* CACellVC_Channel20_top_list_cell.xib */,
+				FA6C25241E1A4A41007553D1 /* CACellVC_Channel20_Carousel.xib */,
+				FA6C25251E1A4A41007553D1 /* CACellVC_Channel20_generic_cell.xib */,
+				FA6C25261E1A4A41007553D1 /* CACellVC_Channel20_top_generic_cell.xib */,
+				FA6C25271E1A4A41007553D1 /* CACellVC_Kan_Ganre_Item.xib */,
+				FA6C25281E1A4A41007553D1 /* CACellVC_Kan_Item_SideDetails.xib */,
+				FA6C25291E1A4A41007553D1 /* CACellVC_Kan_Radio_Section_Item.xib */,
+				FA6C252A1E1A4A41007553D1 /* CACellVC_L24_CarouselHeader.xib */,
+				FA6C252B1E1A4A41007553D1 /* CACellVC_L24_CarouselItem.xib */,
+				FA6C252C1E1A4A41007553D1 /* CACellVC_L24_CenteredLabel.xib */,
+				FA6C252D1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow.xib */,
+				FA6C252E1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow~ipad.xib */,
+				FA6C252F1E1A4A41007553D1 /* CACellVC_L24_LiveScreenItem.xib */,
+				FA6C25301E1A4A41007553D1 /* CACellVC_L24_ShowItem_FullWidth.xib */,
+				FA6C25311E1A4A41007553D1 /* CACellVC_L24_ShowItem.xib */,
+				FA6C25321E1A4A41007553D1 /* CACellVC_RTL_Channel20_Header.xib */,
+				FA6C25331E1A4A41007553D1 /* CACellVC_Side_Titles_Channel20_RTL.xib */,
+				FA6C25341E1A4A41007553D1 /* CACellVC_Side_Titles_Lasestrellas_RTL.xib */,
+				FA6C25351E1A4A41007553D1 /* CACellVCBabyTVPlayAll.xib */,
+				FAFEBD381D227AB4002B11BE /* CACellVC_L14_Black_Carousel.xib */,
+				FAF58EBE1D07FF290003BF22 /* CACellVC_L14_CenteredLabel.xib */,
+				FAF58EBF1D07FF290003BF22 /* CACellVC_L14_EpgItem_ipad.xib */,
+				FAF58EC01D07FF290003BF22 /* CACellVC_L14_EpgItem.xib */,
+				FAF58EC11D07FF290003BF22 /* CACellVC_L14_VodItem_FullWidth_withPadding.xib */,
+				239FEC431E1123F90012DA14 /* CACellVCImageOnlyMPlay.xib */,
+				FAD3E5CA1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_left_withPadding.xib */,
+				FAD3E5CB1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_right_withPadding.xib */,
+				FAF58EC21D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_leftPadding.xib */,
+				FAF58EC31D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_middePadding.xib */,
+				FAF58EC41D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_rightPadding.xib */,
+				FAF58EC51D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth.xib */,
+				FAF58EC61D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails_nodates.xib */,
+				FAF58EC71D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails.xib */,
+				239FEC411E1123C10012DA14 /* CACellVC_L23_DetailedCell.xib */,
+				40E9232E1CA257C700861073 /* CACellVC.xib */,
+				40E9232F1CA257C700861073 /* CACellVC_BabyFirstTVShowScreen.xib */,
+				40E923301CA257C700861073 /* CACellVC_BabyFirstTVShowScreen~ipad.xib */,
+				40E923311CA257C700861073 /* CACellVC_Badge_Side_Title.xib */,
+				40E923321CA257C700861073 /* CACellVC_Bottom_Titles_Reshet_RTL.xib */,
+				40E923331CA257C700861073 /* CACellVC_caracol_standard_iPad.xib */,
+				40E923341CA257C700861073 /* CACellVC_caracol_standard_iPhone.xib */,
+				40E923351CA257C700861073 /* CACellVC_Carousel_Reshet_cell.xib */,
+				23484E6F1D09CE1A00AE1DAC /* CACellVC_JellyJamm_AllShows.xib */,
+				239C01AE1CF2056D0067BAD7 /* CACellVC_JellyJamm_AllShows~ipad.xib */,
+				23484E6B1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Big.xib */,
+				23484E6C1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Regular.xib */,
+				239C01A61CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Big~ipad.xib */,
+				239C01A71CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Regular~ipad.xib */,
+				23E866201CF5E7160073CE62 /* CACellVC_JellyJamm_Show~ipad.xib */,
+				239C01A81CF1D1D30067BAD7 /* CACellVC_TVGO_Favorites.xib */,
+				40E923361CA257C700861073 /* CACellVC_Reshet_generic_cell.xib */,
+				239FB3E41DB1412D0095E57C /* CACellVC_lasestrellas_vod_cell.xib */,
+				40E923371CA257C700861073 /* CACellVC_ch1_show.xib */,
+				40E923381CA257C700861073 /* CACellVC_ch1_show_picker.xib */,
+				40E923391CA257C700861073 /* CACellVC_ch1_standard.xib */,
+				40E9233A1CA257C700861073 /* CACellVC_ch1_vod.xib */,
+				40E9233B1CA257C700861073 /* CACellVC_channel10_RTL.xib */,
+				40E9233C1CA257C700861073 /* CACellVC_frecuencia_standard_cell.xib */,
+				40E9233D1CA257C700861073 /* CACellVC_Fuse_AllShows.xib */,
+				40E9233E1CA257C700861073 /* CACellVC_Fuse_AllShows~ipad.xib */,
+				40E9233F1CA257C700861073 /* CACellVC_Fuse_Black.xib */,
+				40E923401CA257C700861073 /* CACellVC_Fuse_Black_Carousel.xib */,
+				40E923411CA257C700861073 /* CACellVC_Fuse_Black_Carousel~ipad.xib */,
+				40E923421CA257C700861073 /* CACellVC_Fuse_Home_iPad_Carousel.xib */,
+				40E923431CA257C700861073 /* CACellVC_Fuse_List.xib */,
+				40E923441CA257C700861073 /* CACellVC_Hot_Carousel_RTL.xib */,
+				40E923451CA257C700861073 /* CACellVC_Hot_RTL.xib */,
+				40E923461CA257C700861073 /* CACellVC_Hot_RTL~ipad.xib */,
+				40E923471CA257C700861073 /* CACellVC_HQME_Test.xib */,
+				40E923481CA257C700861073 /* CACellVC_LTR.xib */,
+				40E923491CA257C700861073 /* CACellVC_LTR_Small.xib */,
+				40E9234A1CA257C700861073 /* CACellVC_LTR~ipad.xib */,
+				40E9234B1CA257C700861073 /* CACellVC_Reshet_RTL_Carousel.xib */,
+				236DCC3D1E1858D5004BBA60 /* CACellVC_Carousel_RPC_LTR.xib */,
+				40E9234E1CA257C700861073 /* CACellVC_RPC_Categories.xib */,
+				40E9234F1CA257C700861073 /* CACellVC_RPC_Categories~ipad.xib */,
+				40E923501CA257C700861073 /* CACellVC_RPC_Home_Vod.xib */,
+				40E923511CA257C700861073 /* CACellVC_RPC_Home_Vod~ipad.xib */,
+				40E923521CA257C700861073 /* CACellVC_RPC_iPhone_standard.xib */,
+				40E923531CA257C700861073 /* CACellVC_RPC_Show~ipad.xib */,
+				40E923541CA257C700861073 /* CACellVC_RPC~ipad.xib */,
+				40E923551CA257C700861073 /* CACellVC_RTL.xib */,
+				40E923561CA257C700861073 /* CACellVC_RTL_Reshet_Header.xib */,
+				239FB3E61DB15FA10095E57C /* CACellVC_Lasestrellas_Header.xib */,
+				40E923571CA257C700861073 /* CACellVC_RTL_Reshet_Promoted.xib */,
+				40E923581CA257C700861073 /* CACellVC_Side_Title_Only_Hot_RTL.xib */,
+				40E923591CA257C700861073 /* CACellVC_Side_Titles.xib */,
+				239FEC451E12C21C0012DA14 /* CACellVC_Side_Titles_rpc.xib */,
+				40E9235A1CA257C700861073 /* CACellVC_Side_Titles_Hot_RTL.xib */,
+				40E9235B1CA257C700861073 /* CACellVC_Side_Titles_Reshet_RTL.xib */,
+				40E9235C1CA257C700861073 /* CACellVC_telefe_standard.xib */,
+				40E9235D1CA257C700861073 /* CACellVC_Telemetro_Categories.xib */,
+				40E9235E1CA257C700861073 /* CACellVC_Telemetro_Categories~ipad.xib */,
+				40E9235F1CA257C700861073 /* CACellVC_telemetro_favorites.xib */,
+				40E923601CA257C700861073 /* CACellVC_telemetro_favorites~ipad.xib */,
+				40E923611CA257C700861073 /* CACellVC_telemetro_home.xib */,
+				40E923621CA257C700861073 /* CACellVC_telemetro_home_one_line.xib */,
+				40E923631CA257C700861073 /* CACellVC_telemetro_home_one_line~ipad.xib */,
+				40E923641CA257C700861073 /* CACellVC_telemetro_home~ipad.xib */,
+				40E923651CA257C700861073 /* CACellVC_Thai_AllShows.xib */,
+				40E923661CA257C700861073 /* CACellVC_Thai_Article.xib */,
+				40E923671CA257C700861073 /* CACellVC_Thai_Article~ipad.xib */,
+				40E923681CA257C700861073 /* CACellVC_Thai_Promoted_Article~ipad.xib */,
+				40E923691CA257C700861073 /* CACellVC_Thai_Promoted_Show~ipad.xib */,
+				40E9236A1CA257C700861073 /* CACellVC_Thai_Show.xib */,
+				40E9236B1CA257C700861073 /* CACellVC_Thai_Show~ipad.xib */,
+				40E9236C1CA257C700861073 /* CACellVC_Thai_Standard.xib */,
+				40E9236D1CA257C700861073 /* CACellVC_Thai_Standard~ipad.xib */,
+				40E9236E1CA257C700861073 /* CACellVC_tlv_channel_cell.xib */,
+				40E9236F1CA257C700861073 /* CACellVC_tlv_intermidiate.xib */,
+				40E923701CA257C700861073 /* CACellVC_tlv_show.xib */,
+				40E923711CA257C700861073 /* CACellVC_tlv_show_details.xib */,
+				40E923721CA257C700861073 /* CACellVC_tlv_show_details_ipad.xib */,
+				40E923731CA257C700861073 /* CACellVC_tlv_show_ipad.xib */,
+				40E923741CA257C700861073 /* CACellVC_tlv_special_iPad.xib */,
+				40E923751CA257C700861073 /* CACellVC_tlv_special_iphone.xib */,
+				40E923761CA257C700861073 /* CACellVC_tlv_standard_Big.xib */,
+				40E923771CA257C700861073 /* CACellVC_tlv_standard_Big_ipad.xib */,
+				40E923781CA257C700861073 /* CACellVC_tlv_standard_cell.xib */,
+				40E923791CA257C700861073 /* CACellVC_tlv_standard_iPhoneCell.xib */,
+				40E9237A1CA257C700861073 /* CACellVC_tlv_standard_Small.xib */,
+				23118A841CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard.xib */,
+				231EF3321D363A7200A3465F /* CACellVC_TVGO_Intermediate.xib */,
+				23118A851CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard~ipad.xib */,
+				40E9237B1CA257C700861073 /* CACellVC_TVGO_Carousel.xib */,
+				40E9237C1CA257C700861073 /* CACellVC_TVGO_Carousel~ipad.xib */,
+				40E9237D1CA257C700861073 /* CACellVC_TVGO_HomeStandard.xib */,
+				40E9237E1CA257C700861073 /* CACellVC_TVGO_HomeStandard~ipad.xib */,
+				40E9237F1CA257C700861073 /* CACellVCBabyFirstSubscription.xib */,
+				40E923801CA257C700861073 /* CACellVCBabyFirstSubscription~ipad.xib */,
+				40E923811CA257C700861073 /* CACellVCBabyFirstTVAllShows.xib */,
+				40E923821CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText.xib */,
+				40E923831CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText_iphone.xib */,
+				40E923841CA257C700861073 /* CACellVCBabyFirstTVAllShows~ipad.xib */,
+				40E923851CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall.xib */,
+				40E923861CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall~ipad.xib */,
+				40E923871CA257C700861073 /* CACellVCBabyFirstTVTitle.xib */,
+				40E923881CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_ipad.xib */,
+				239E13201CFDD47E006B5528 /* CACellVCJellyJammTitleDescription~ipad.xib */,
+				40E923891CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_iphone.xib */,
+				40E9238A1CA257C700861073 /* CACellVCBabyTVDateUntil.xib */,
+				40E9238B1CA257C700861073 /* CACellVCBabyTVEdit.xib */,
+				40E9238C1CA257C700861073 /* CACellVCBabyTVEdit~ipad.xib */,
+				40E9238D1CA257C700861073 /* CACellVCBabyTVFavorites.xib */,
+				40E9238E1CA257C700861073 /* CACellVCBabyTVStandard.xib */,
+				40E9238F1CA257C700861073 /* CACellVCBabyTVSubscription.xib */,
+				40E923901CA257C700861073 /* CACellVCBabyTVSubscription~ipad.xib */,
+				40E923911CA257C700861073 /* CACellVCBabyTVTitle.xib */,
+				40E923921CA257C700861073 /* CACellVCBabyTVTitleSubtitle.xib */,
+				40E923931CA257C700861073 /* CACellVCDeportesHome.xib */,
+				40E923941CA257C700861073 /* CACellVCDeportesHomeBig.xib */,
+				40E923951CA257C700861073 /* CACellVCDeportesHomeBig~ipad.xib */,
+				40E923961CA257C700861073 /* CACellVCDeportesHomePromoted.xib */,
+				40E923971CA257C700861073 /* CACellVCDeportesHomePromoted~ipad.xib */,
+				40E923981CA257C700861073 /* CACellVCDeportesHome~ipad.xib */,
+				40E923991CA257C700861073 /* CACellVCHotShow.xib */,
+				40E9239A1CA257C700861073 /* CACellVCImageOnly.xib */,
+				40E9239B1CA257C700861073 /* CACellVCNoticiasAtomNoImage.xib */,
+				40E9239C1CA257C700861073 /* CACellVCNoticiasAtomNoImage_ipad.xib */,
+				40E9239D1CA257C700861073 /* CACellVCNoticiasBigAtom.xib */,
+				40E9239E1CA257C700861073 /* CACellVCNoticiasBigPromotedAtom_ipad.xib */,
+				40E9239F1CA257C700861073 /* CACellVCNoticierosAtomNoImage.xib */,
+				40E923A01CA257C700861073 /* CACellVCNoticierosAtomNoImage_ipad.xib */,
+				40E923A11CA257C700861073 /* CACellVCNoticierosBig.xib */,
+				40E923A21CA257C700861073 /* CACellVCNoticierosBig_ipad.xib */,
+				40E923A31CA257C700861073 /* CACellVCNoticierosBigAtom.xib */,
+				40E923A41CA257C700861073 /* CACellVCNoticierosBigAtom_ipad.xib */,
+				40E923A51CA257C700861073 /* CACellVCNoticierosBigPromoted_ipad.xib */,
+				40E923A61CA257C700861073 /* CACellVCNoticierosBigPromotedAtom_ipad.xib */,
+				40E923A71CA257C700861073 /* CACellVCNoticierosShow_ipad.xib */,
+				40E923A81CA257C700861073 /* CACellVCNoticierosStandard.xib */,
+				40E923A91CA257C700861073 /* CACellVCNoticierosStandard_ipad.xib */,
+				40E923AA1CA257C700861073 /* CACellVCNoticierosStandardAtom.xib */,
+				40E923AB1CA257C700861073 /* CACellVCNoticierosStandardAtom_ipad.xib */,
+				40E923AC1CA257C700861073 /* CACellVCTelevisaIntermidiate.xib */,
+				71F66BEC1E50B479007E6111 /* CACellVC_Miaomi_Logo.xib */,
+				71F66BF01E50B75D007E6111 /* CACellVC_Miaomi_Logo~ipad.xib */,
+				712D50ED1E4A5FD500D73BB7 /* CACellVC_Miaomi_Show.xib */,
+				712D50F11E4ADBFB00D73BB7 /* CACellVC_Miaomi_Show~ipad.xib */,
+				714284AA1E4B608700BE9D75 /* CACellVC_Miaomi_AllShowsGrid.xib */,
+				714284A81E4B607A00BE9D75 /* CACellVC_Miaomi_AllShowsGrid~ipad.xib */,
+				71B71EC71E6363910032C164 /* CACellVC_Miaomi_AllShows.xib */,
+				71B71EC91E6363A00032C164 /* CACellVC_Miaomi_AllShows~ipad.xib */,
+			);
+			path = StandardCell;
+			sourceTree = "<group>";
+		};
+		40E923AD1CA257C700861073 /* TitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				4DED553C1E7E53E8007A58F4 /* CACellVC_Next_generic_header.xib */,
+				FA6C25481E1A4A52007553D1 /* CACellVC_Kan_Center_Title_No_Image_Thin_Bottom_Line.xib */,
+				FA6C25491E1A4A52007553D1 /* CACellVC_L24_Title_with_bg_image.xib */,
+				FAF58ED31D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader_with_padding.xib */,
+				FAF58ED41D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader.xib */,
+				40E923AE1CA257C700861073 /* CACellVC_Center_Title_No_Image.xib */,
+				231DA0141E25AC360098645C /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line_mplay.xib */,
+				40E923AF1CA257C700861073 /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line.xib */,
+				40E923B01CA257C700861073 /* CACellVC_Center_Title_No_Image_Two_lines.xib */,
+				40E923B11CA257C700861073 /* CACellVC_HOT_Center_Title_No_Image.xib */,
+				40E923B21CA257C700861073 /* CACellVC_LTR_Header.xib */,
+				40E923B31CA257C700861073 /* CACellVC_LTR_Title.xib */,
+				40E923B41CA257C700861073 /* CACellVC_LTR_Title_No_Image.xib */,
+				40E923B51CA257C700861073 /* CACellVC_LTR_Title_Photogallery.xib */,
+				40E923B61CA257C700861073 /* CACellVC_LTR_Title_Photogallery_ipad.xib */,
+				40E923B71CA257C700861073 /* CACellVC_LTR_title_thai.xib */,
+				40E923B81CA257C700861073 /* CACellVC_LTR~ipad.xib */,
+				40E923B91CA257C700861073 /* CACellVC_RTL_Header.xib */,
+				40E923BA1CA257C700861073 /* CACellVC_RTL_Title.xib */,
+				40E923BB1CA257C700861073 /* CACellVC_RTL_Title2.xib */,
+				40E923BC1CA257C700861073 /* CACellVC_storeFront_cell.xib */,
+				40E923BD1CA257C700861073 /* CACellVC_storeFront_Header.xib */,
+				40E923BE1CA257C700861073 /* CACellVC_thai_Center_Title_No_Image.xib */,
+			);
+			path = TitleCell;
+			sourceTree = "<group>";
+		};
+		40E923BF1CA257C700861073 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				40E923C01CA257C700861073 /* CACollectionVC.xib */,
+				40E923C11CA257C700861073 /* CACollectionVCBabyFirstTVShow.xib */,
+				40E923C21CA257C700861073 /* CACollectionVCBabyFirstTVShow~ipad.xib */,
+				40E923C31CA257C700861073 /* CACollectionVCBabyTVShow.xib */,
+				40E923C41CA257C700861073 /* CACollectionVCBabyTVShow~ipad.xib */,
+				40E923C51CA257C700861073 /* CACollectionWithCloseVC.xib */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		40E923C61CA257C700861073 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				40E923C71CA257C700861073 /* CACompositeVC.xib */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		40E923C81CA257C700861073 /* DropSheet */ = {
+			isa = PBXGroup;
+			children = (
+				40E923C91CA257C700861073 /* CADropSheetStandard.xib */,
+			);
+			path = DropSheet;
+			sourceTree = "<group>";
+		};
+		40E923CA1CA257C700861073 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				40E923CB1CA257C700861073 /* CAPopoverStandard.xib */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		40E923CC1CA257C700861073 /* SectionPicker */ = {
+			isa = PBXGroup;
+			children = (
+				40E923CD1CA257C700861073 /* CASectionPickerViewController */,
+			);
+			path = SectionPicker;
+			sourceTree = "<group>";
+		};
+		40E923CD1CA257C700861073 /* CASectionPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40E923CE1CA257C700861073 /* CASectionPickerViewController.xib */,
+			);
+			path = CASectionPickerViewController;
+			sourceTree = "<group>";
+		};
+		40E923D01CA257C700861073 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				40E923D11CA257C700861073 /* CATableStandard.xib */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		412453EA7E1CD27A3171706B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D0645BE043990DD56620F2B /* Pods_ComponentStyles.framework */,
+				8381EFDCBB1B9749DE1B14A3 /* Pods_ComponentStylesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D5BC8351E269EE200FF0AB3 /* CustomViewControllerStyle */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BC8361E269EE200FF0AB3 /* HQME */,
+			);
+			path = CustomViewControllerStyle;
+			sourceTree = "<group>";
+		};
+		4D5BC8361E269EE200FF0AB3 /* HQME */ = {
+			isa = PBXGroup;
+			children = (
+				4DD931FD1E2765FC003F8E6A /* CAHQMEViewControllerBabyTV.xib */,
+				4DD931FE1E2765FD003F8E6A /* CAHQMEViewControllerBabyTV~ipad.xib */,
+				4D5BC8371E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst.xib */,
+				4D5BC8381E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst~ipad.xib */,
+			);
+			path = HQME;
+			sourceTree = "<group>";
+		};
+		716C93EA1E54B3A1004D0988 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				716C93EC1E54C61B004D0988 /* GANavigationBarL33.xib */,
+			);
+			name = NavigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4000E4131C96E64000DC8477 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4000E41A1C96E64000DC8477 /* ComponentStyles.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4000E4151C96E64000DC8477 /* ComponentStyles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4000E41E1C96E64000DC8477 /* Build configuration list for PBXNativeTarget "ComponentStyles" */;
+			buildPhases = (
+				96AF08C753180724695B7DB3 /* [CP] Check Pods Manifest.lock */,
+				4000E4111C96E64000DC8477 /* Sources */,
+				4000E4121C96E64000DC8477 /* Frameworks */,
+				4000E4131C96E64000DC8477 /* Headers */,
+				4000E4141C96E64000DC8477 /* Resources */,
+				C695A7AAD8FF59A758FAE91E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComponentStyles;
+			productName = ComponentStyles;
+			productReference = 4000E4161C96E64000DC8477 /* ComponentStyles.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40277FB61CAA3FC50020960C /* ComponentStylesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40277FBF1CAA3FC50020960C /* Build configuration list for PBXNativeTarget "ComponentStylesTests" */;
+			buildPhases = (
+				E1ADC16959CBCF55C145E78C /* [CP] Check Pods Manifest.lock */,
+				40277FB31CAA3FC50020960C /* Sources */,
+				40277FB41CAA3FC50020960C /* Frameworks */,
+				40277FB51CAA3FC50020960C /* Resources */,
+				86D23E67BE3CA6D030527862 /* [CP] Embed Pods Frameworks */,
+				BECE1CFA1573B1A4D0D2738C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40277FBE1CAA3FC50020960C /* PBXTargetDependency */,
+			);
+			name = ComponentStylesTests;
+			productName = ComponentStylesTests;
+			productReference = 40277FB71CAA3FC50020960C /* ComponentStylesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4000E40D1C96E64000DC8477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anton Kononenko";
+				TargetAttributes = {
+					4000E4151C96E64000DC8477 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
+					};
+					40277FB61CAA3FC50020960C = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 4000E4101C96E64000DC8477 /* Build configuration list for PBXProject "ComponentStyles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4000E40C1C96E64000DC8477;
+			productRefGroup = 4000E4171C96E64000DC8477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4000E4151C96E64000DC8477 /* ComponentStyles */,
+				40277FB61CAA3FC50020960C /* ComponentStylesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4000E4141C96E64000DC8477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E923EB1CA257C700861073 /* CACellAtomPhotoGalleryStandard~ipad.xib in Resources */,
+				40E924501CA257C700861073 /* CACellVCBabyTVStandard.xib in Resources */,
+				40E924891CA257C700861073 /* CASectionPickerViewController.xib in Resources */,
+				FA6C25421E1A4A41007553D1 /* CACellVC_L24_ShowItem_FullWidth.xib in Resources */,
+				40E924641CA257C700861073 /* CACellVCNoticierosBig_ipad.xib in Resources */,
+				23118A871CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard~ipad.xib in Resources */,
+				FA6C25471E1A4A41007553D1 /* CACellVCBabyTVPlayAll.xib in Resources */,
+				40E9241D1CA257C700861073 /* CACellVC_Side_Titles_Reshet_RTL.xib in Resources */,
+				FA6C253F1E1A4A41007553D1 /* CACellVC_L24_FeaturedShow.xib in Resources */,
+				FAF58ED11D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails_nodates.xib in Resources */,
+				40E924291CA257C700861073 /* CACellVC_Thai_Article~ipad.xib in Resources */,
+				40E924241CA257C700861073 /* CACellVC_telemetro_home_one_line.xib in Resources */,
+				40E923F51CA257C700861073 /* CACellVC_caracol_standard_iPad.xib in Resources */,
+				40E9247B1CA257C700861073 /* CACellVC_RTL_Title.xib in Resources */,
+				40E924481CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall~ipad.xib in Resources */,
+				40E9241C1CA257C700861073 /* CACellVC_Side_Titles_Hot_RTL.xib in Resources */,
+				40E923D91CA257C700861073 /* CACarouselVC_Center.xib in Resources */,
+				40E924741CA257C700861073 /* CACellVC_LTR_Title.xib in Resources */,
+				4DED553B1E7E53B5007A58F4 /* CACellVC_Next_standard~ipad.xib in Resources */,
+				40E923DD1CA257C700861073 /* CACarouselVC_Center_Photogallery.xib in Resources */,
+				40E924601CA257C700861073 /* CACellVCNoticiasBigPromotedAtom_ipad.xib in Resources */,
+				40E924141CA257C700861073 /* CACellVC_RPC_iPhone_standard.xib in Resources */,
+				40E924721CA257C700861073 /* CACellVC_HOT_Center_Title_No_Image.xib in Resources */,
+				716C93ED1E54C61B004D0988 /* GANavigationBarL33.xib in Resources */,
+				40E924071CA257C700861073 /* CACellVC_Hot_RTL.xib in Resources */,
+				FA6C253C1E1A4A41007553D1 /* CACellVC_L24_CarouselHeader.xib in Resources */,
+				40E9245C1CA257C700861073 /* CACellVCImageOnly.xib in Resources */,
+				40E923EC1CA257C700861073 /* CACellVC_HTML.xib in Resources */,
+				40E9242E1CA257C700861073 /* CACellVC_Thai_Standard.xib in Resources */,
+				40E924331CA257C700861073 /* CACellVC_tlv_show_details.xib in Resources */,
+				40E924401CA257C700861073 /* CACellVC_TVGO_HomeStandard~ipad.xib in Resources */,
+				40E923ED1CA257C700861073 /* CACellVC_HTML_Button.xib in Resources */,
+				40E923D21CA257C700861073 /* CACarouselVC_Bars.xib in Resources */,
+				FA6C25411E1A4A41007553D1 /* CACellVC_L24_LiveScreenItem.xib in Resources */,
+				FA6C253E1E1A4A41007553D1 /* CACellVC_L24_CenteredLabel.xib in Resources */,
+				40E924001CA257C700861073 /* CACellVC_Fuse_AllShows~ipad.xib in Resources */,
+				FA6C25381E1A4A41007553D1 /* CACellVC_Channel20_top_generic_cell.xib in Resources */,
+				40E923E51CA257C700861073 /* CACellAtomArticleStandard~ipad.xib in Resources */,
+				FAF58ED01D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth.xib in Resources */,
+				40E923E31CA257C700861073 /* CACellAtomArticleStandard_nativeShare.xib in Resources */,
+				4D5BC8391E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst.xib in Resources */,
+				40E924841CA257C700861073 /* CACollectionVCBabyTVShow~ipad.xib in Resources */,
+				40E924041CA257C700861073 /* CACellVC_Fuse_Home_iPad_Carousel.xib in Resources */,
+				FAF58ED51D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader_with_padding.xib in Resources */,
+				4DED55391E7E53B5007A58F4 /* CACellVC_Next_show.xib in Resources */,
+				71360AE21E0934A500EF903B /* CACellAtomMediaContainer.xib in Resources */,
+				FA6C254A1E1A4A52007553D1 /* CACellVC_Kan_Center_Title_No_Image_Thin_Bottom_Line.xib in Resources */,
+				40E923EA1CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare~ipad.xib in Resources */,
+				231EF3331D363A7200A3465F /* CACellVC_TVGO_Intermediate.xib in Resources */,
+				40E9247D1CA257C700861073 /* CACellVC_storeFront_cell.xib in Resources */,
+				40E923071CA256C400861073 /* CAComponentsStylesMapping.plist in Resources */,
+				40E924081CA257C700861073 /* CACellVC_Hot_RTL~ipad.xib in Resources */,
+				FAFEBD391D227AB4002B11BE /* CACellVC_L14_Black_Carousel.xib in Resources */,
+				FA6C25371E1A4A41007553D1 /* CACellVC_Channel20_generic_cell.xib in Resources */,
+				40E9247E1CA257C700861073 /* CACellVC_storeFront_Header.xib in Resources */,
+				40E923DC1CA257C700861073 /* CACarouselVC_Center_Deportes_Promoted.xib in Resources */,
+				40E9246F1CA257C700861073 /* CACellVC_Center_Title_No_Image.xib in Resources */,
+				40E9242D1CA257C700861073 /* CACellVC_Thai_Show~ipad.xib in Resources */,
+				4D43CE6C1E5AC3D100369C13 /* CACellAtomMediaPlayerL26.xib in Resources */,
+				40E924881CA257C700861073 /* CAPopoverStandard.xib in Resources */,
+				40E924211CA257C700861073 /* CACellVC_telemetro_favorites.xib in Resources */,
+				40E924151CA257C700861073 /* CACellVC_RPC_Show~ipad.xib in Resources */,
+				714284AB1E4B608700BE9D75 /* CACellVC_Miaomi_AllShowsGrid.xib in Resources */,
+				FAD3E5CD1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_right_withPadding.xib in Resources */,
+				40E923E81CA257C700861073 /* CACellAtomPhotoGalleryStandard.xib in Resources */,
+				40E924101CA257C700861073 /* CACellVC_RPC_Categories.xib in Resources */,
+				FAF58ECB1D07FF290003BF22 /* CACellVC_L14_EpgItem.xib in Resources */,
+				40E923E71CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes~ipad.xib in Resources */,
+				40E923F71CA257C700861073 /* CACellVC_Carousel_Reshet_cell.xib in Resources */,
+				40E9248B1CA257C700861073 /* CATableStandard.xib in Resources */,
+				FA6C25391E1A4A41007553D1 /* CACellVC_Kan_Ganre_Item.xib in Resources */,
+				40E923D81CA257C700861073 /* CACarouselVC_BottomRight.xib in Resources */,
+				23484E6E1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Regular.xib in Resources */,
+				40E924591CA257C700861073 /* CACellVCDeportesHomePromoted~ipad.xib in Resources */,
+				23118A861CEA10BE00AFAF48 /* CACellVC_TVGO_ShowStandard.xib in Resources */,
+				40E923F91CA257C700861073 /* CACellVC_ch1_show.xib in Resources */,
+				40E924231CA257C700861073 /* CACellVC_telemetro_home.xib in Resources */,
+				40E924441CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText.xib in Resources */,
+				40E9241A1CA257C700861073 /* CACellVC_Side_Title_Only_Hot_RTL.xib in Resources */,
+				FA6C25451E1A4A41007553D1 /* CACellVC_Side_Titles_Channel20_RTL.xib in Resources */,
+				FAD3E5CC1D25425F00E8879B /* CACellVC_L14_VodItem_FullWidth_left_withPadding.xib in Resources */,
+				40E924311CA257C700861073 /* CACellVC_tlv_intermidiate.xib in Resources */,
+				40E923E21CA257C700861073 /* CACellAtomArticleStandard.xib in Resources */,
+				40E924761CA257C700861073 /* CACellVC_LTR_Title_Photogallery.xib in Resources */,
+				40E923DF1CA257C700861073 /* CACarouselVC_Left.xib in Resources */,
+				40E924771CA257C700861073 /* CACellVC_LTR_Title_Photogallery_ipad.xib in Resources */,
+				712D50EE1E4A5FD500D73BB7 /* CACellVC_Miaomi_Show.xib in Resources */,
+				40E9245E1CA257C700861073 /* CACellVCNoticiasAtomNoImage_ipad.xib in Resources */,
+				40E924111CA257C700861073 /* CACellVC_RPC_Categories~ipad.xib in Resources */,
+				40E9245A1CA257C700861073 /* CACellVCDeportesHome~ipad.xib in Resources */,
+				40E9243E1CA257C700861073 /* CACellVC_TVGO_Carousel~ipad.xib in Resources */,
+				40E923D41CA257C700861073 /* CACarouselVC_Bars_AlmostBottom_tlv.xib in Resources */,
+				236DCC3E1E1858D5004BBA60 /* CACellVC_Carousel_RPC_LTR.xib in Resources */,
+				40E924161CA257C700861073 /* CACellVC_RPC~ipad.xib in Resources */,
+				40E924801CA257C700861073 /* CACollectionVC.xib in Resources */,
+				40E924261CA257C700861073 /* CACellVC_telemetro_home~ipad.xib in Resources */,
+				40E9242F1CA257C700861073 /* CACellVC_Thai_Standard~ipad.xib in Resources */,
+				40E923EE1CA257C700861073 /* CACellPromotionImage.xib in Resources */,
+				40E924091CA257C700861073 /* CACellVC_HQME_Test.xib in Resources */,
+				40E9246E1CA257C700861073 /* CACellVCTelevisaIntermidiate.xib in Resources */,
+				40E924011CA257C700861073 /* CACellVC_Fuse_Black.xib in Resources */,
+				40E923E11CA257C700861073 /* CACarouselVC_Right.xib in Resources */,
+				40E9245F1CA257C700861073 /* CACellVCNoticiasBigAtom.xib in Resources */,
+				40E924661CA257C700861073 /* CACellVCNoticierosBigAtom_ipad.xib in Resources */,
+				40E924201CA257C700861073 /* CACellVC_Telemetro_Categories~ipad.xib in Resources */,
+				40E923DE1CA257C700861073 /* CACarouselVC_Center_Top.xib in Resources */,
+				4DBAE09E1E795C5B002DE689 /* CACellVC_Next_standard.xib in Resources */,
+				40E924561CA257C700861073 /* CACellVCDeportesHomeBig.xib in Resources */,
+				40E924321CA257C700861073 /* CACellVC_tlv_show.xib in Resources */,
+				FAF58ECF1D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_rightPadding.xib in Resources */,
+				FA6C253A1E1A4A41007553D1 /* CACellVC_Kan_Item_SideDetails.xib in Resources */,
+				40E924871CA257C700861073 /* CADropSheetStandard.xib in Resources */,
+				40E924671CA257C700861073 /* CACellVCNoticierosBigPromoted_ipad.xib in Resources */,
+				40E923FF1CA257C700861073 /* CACellVC_Fuse_AllShows.xib in Resources */,
+				FA6C254B1E1A4A52007553D1 /* CACellVC_L24_Title_with_bg_image.xib in Resources */,
+				40E924491CA257C700861073 /* CACellVCBabyFirstTVTitle.xib in Resources */,
+				40E923DB1CA257C700861073 /* CACarouselVC_Center_Deportes.xib in Resources */,
+				FAF58EC91D07FF290003BF22 /* CACellVC_L14_CenteredLabel.xib in Resources */,
+				40E923D71CA257C700861073 /* CACarouselVC_Bars_TLC_Show.xib in Resources */,
+				FA6C25431E1A4A41007553D1 /* CACellVC_L24_ShowItem.xib in Resources */,
+				4DED553D1E7E53E8007A58F4 /* CACellVC_Next_generic_header.xib in Resources */,
+				40E923F41CA257C700861073 /* CACellVC_Bottom_Titles_Reshet_RTL.xib in Resources */,
+				239C01AB1CF1D1D30067BAD7 /* CACellVC_TVGO_Favorites.xib in Resources */,
+				40E9244C1CA257C700861073 /* CACellVCBabyTVDateUntil.xib in Resources */,
+				40E9247F1CA257C700861073 /* CACellVC_thai_Center_Title_No_Image.xib in Resources */,
+				239FEC441E1123F90012DA14 /* CACellVCImageOnlyMPlay.xib in Resources */,
+				40E924281CA257C700861073 /* CACellVC_Thai_Article.xib in Resources */,
+				40E924551CA257C700861073 /* CACellVCDeportesHome.xib in Resources */,
+				40E924181CA257C700861073 /* CACellVC_RTL_Reshet_Header.xib in Resources */,
+				FA6C25401E1A4A41007553D1 /* CACellVC_L24_FeaturedShow~ipad.xib in Resources */,
+				40E923FA1CA257C700861073 /* CACellVC_ch1_show_picker.xib in Resources */,
+				40E9240D1CA257C700861073 /* CACellVC_Reshet_RTL_Carousel.xib in Resources */,
+				40E924711CA257C700861073 /* CACellVC_Center_Title_No_Image_Two_lines.xib in Resources */,
+				40E924461CA257C700861073 /* CACellVCBabyFirstTVAllShows~ipad.xib in Resources */,
+				40E9246C1CA257C700861073 /* CACellVCNoticierosStandardAtom.xib in Resources */,
+				40E923FB1CA257C700861073 /* CACellVC_ch1_standard.xib in Resources */,
+				4D1A1A1C1E96333D00555746 /* CACellVC_Next_intermidiate.xib in Resources */,
+				40E924131CA257C700861073 /* CACellVC_RPC_Home_Vod~ipad.xib in Resources */,
+				4DD931FF1E2765FD003F8E6A /* CAHQMEViewControllerBabyTV.xib in Resources */,
+				40E923E41CA257C700861073 /* CACellAtomArticleStandard_nativeShare~ipad.xib in Resources */,
+				40E924451CA257C700861073 /* CACellVCBabyFirstTVAllShowsWithText_iphone.xib in Resources */,
+				FA6C253B1E1A4A41007553D1 /* CACellVC_Kan_Radio_Section_Item.xib in Resources */,
+				40E923D51CA257C700861073 /* CACarouselVC_Bars_Noticieros.xib in Resources */,
+				40E923D31CA257C700861073 /* CACarouselVC_Bars_AlmostBottom.xib in Resources */,
+				40E924351CA257C700861073 /* CACellVC_tlv_show_ipad.xib in Resources */,
+				40E923F31CA257C700861073 /* CACellVC_Badge_Side_Title.xib in Resources */,
+				23484E701D09CE1A00AE1DAC /* CACellVC_JellyJamm_AllShows.xib in Resources */,
+				40E923DA1CA257C700861073 /* CACarouselVC_Center_Bottom_thai.xib in Resources */,
+				40E924531CA257C700861073 /* CACellVCBabyTVTitle.xib in Resources */,
+				4D809C081EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic.xib in Resources */,
+				40E924581CA257C700861073 /* CACellVCDeportesHomePromoted.xib in Resources */,
+				40E9240C1CA257C700861073 /* CACellVC_LTR~ipad.xib in Resources */,
+				40E924191CA257C700861073 /* CACellVC_RTL_Reshet_Promoted.xib in Resources */,
+				71B71EC81E6363910032C164 /* CACellVC_Miaomi_AllShows.xib in Resources */,
+				40E923F01CA257C700861073 /* CACellVC.xib in Resources */,
+				40E923F61CA257C700861073 /* CACellVC_caracol_standard_iPhone.xib in Resources */,
+				40E923F21CA257C700861073 /* CACellVC_BabyFirstTVShowScreen~ipad.xib in Resources */,
+				40E9240B1CA257C700861073 /* CACellVC_LTR_Small.xib in Resources */,
+				40E924341CA257C700861073 /* CACellVC_tlv_show_details_ipad.xib in Resources */,
+				40E9243B1CA257C700861073 /* CACellVC_tlv_standard_iPhoneCell.xib in Resources */,
+				40E924411CA257C700861073 /* CACellVCBabyFirstSubscription.xib in Resources */,
+				40E924631CA257C700861073 /* CACellVCNoticierosBig.xib in Resources */,
+				40E9247A1CA257C700861073 /* CACellVC_RTL_Header.xib in Resources */,
+				40E924371CA257C700861073 /* CACellVC_tlv_special_iphone.xib in Resources */,
+				4DED55371E7E53B5007A58F4 /* CACellVC_Next_more~ipad.xib in Resources */,
+				23484E6D1D09A30D00AE1DAC /* CACellVC_JellyJamm_Home_Big.xib in Resources */,
+				239FB3E71DB15FA10095E57C /* CACellVC_Lasestrellas_Header.xib in Resources */,
+				40E9243A1CA257C700861073 /* CACellVC_tlv_standard_cell.xib in Resources */,
+				4D5FD4F81E2F91A90010B456 /* CACellVC_Channel20_top_list_cell.xib in Resources */,
+				40E924541CA257C700861073 /* CACellVCBabyTVTitleSubtitle.xib in Resources */,
+				239FEC461E12C21C0012DA14 /* CACellVC_Side_Titles_rpc.xib in Resources */,
+				40E924361CA257C700861073 /* CACellVC_tlv_special_iPad.xib in Resources */,
+				40E9244B1CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_iphone.xib in Resources */,
+				40E9246B1CA257C700861073 /* CACellVCNoticierosStandard_ipad.xib in Resources */,
+				40E924781CA257C700861073 /* CACellVC_LTR_title_thai.xib in Resources */,
+				40E924121CA257C700861073 /* CACellVC_RPC_Home_Vod.xib in Resources */,
+				40E9243D1CA257C700861073 /* CACellVC_TVGO_Carousel.xib in Resources */,
+				40E924821CA257C700861073 /* CACollectionVCBabyFirstTVShow~ipad.xib in Resources */,
+				239E13211CFDD47E006B5528 /* CACellVCJellyJammTitleDescription~ipad.xib in Resources */,
+				40E924791CA257C700861073 /* CACellVC_LTR~ipad.xib in Resources */,
+				40E9243C1CA257C700861073 /* CACellVC_tlv_standard_Small.xib in Resources */,
+				40E924811CA257C700861073 /* CACollectionVCBabyFirstTVShow.xib in Resources */,
+				40E924391CA257C700861073 /* CACellVC_tlv_standard_Big_ipad.xib in Resources */,
+				40E924751CA257C700861073 /* CACellVC_LTR_Title_No_Image.xib in Resources */,
+				40E924851CA257C700861073 /* CACollectionWithCloseVC.xib in Resources */,
+				40E924521CA257C700861073 /* CACellVCBabyTVSubscription~ipad.xib in Resources */,
+				40E923FE1CA257C700861073 /* CACellVC_frecuencia_standard_cell.xib in Resources */,
+				40E924611CA257C700861073 /* CACellVCNoticierosAtomNoImage.xib in Resources */,
+				40E9241F1CA257C700861073 /* CACellVC_Telemetro_Categories.xib in Resources */,
+				71B71ECA1E6363A00032C164 /* CACellVC_Miaomi_AllShows~ipad.xib in Resources */,
+				4D5BC83A1E269EE200FF0AB3 /* CAHQMEViewControllerBabyFirst~ipad.xib in Resources */,
+				71F66BED1E50B479007E6111 /* CACellVC_Miaomi_Logo.xib in Resources */,
+				239C01A91CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Big~ipad.xib in Resources */,
+				40E924051CA257C700861073 /* CACellVC_Fuse_List.xib in Resources */,
+				40E9240A1CA257C700861073 /* CACellVC_LTR.xib in Resources */,
+				40E924681CA257C700861073 /* CACellVCNoticierosBigPromotedAtom_ipad.xib in Resources */,
+				FA6C25361E1A4A41007553D1 /* CACellVC_Channel20_Carousel.xib in Resources */,
+				71F66BF11E50B75D007E6111 /* CACellVC_Miaomi_Logo~ipad.xib in Resources */,
+				40E9242A1CA257C700861073 /* CACellVC_Thai_Promoted_Article~ipad.xib in Resources */,
+				40E9247C1CA257C700861073 /* CACellVC_RTL_Title2.xib in Resources */,
+				40E9245B1CA257C700861073 /* CACellVCHotShow.xib in Resources */,
+				40E924691CA257C700861073 /* CACellVCNoticierosShow_ipad.xib in Resources */,
+				FA6C25461E1A4A41007553D1 /* CACellVC_Side_Titles_Lasestrellas_RTL.xib in Resources */,
+				239FB3E51DB1412D0095E57C /* CACellVC_lasestrellas_vod_cell.xib in Resources */,
+				40E924221CA257C700861073 /* CACellVC_telemetro_favorites~ipad.xib in Resources */,
+				FAF58ECC1D07FF290003BF22 /* CACellVC_L14_VodItem_FullWidth_withPadding.xib in Resources */,
+				40E9241E1CA257C700861073 /* CACellVC_telefe_standard.xib in Resources */,
+				FAF58ECD1D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_leftPadding.xib in Resources */,
+				40E9243F1CA257C700861073 /* CACellVC_TVGO_HomeStandard.xib in Resources */,
+				71360AE41E0934A500EF903B /* CACellAtomMediaPlayer.xib in Resources */,
+				71360AE31E0934A500EF903B /* CACellAtomMediaList.xib in Resources */,
+				40E923E91CA257C700861073 /* CACellAtomPhotoGalleryStandard_nativeShare.xib in Resources */,
+				40E923FC1CA257C700861073 /* CACellVC_ch1_vod.xib in Resources */,
+				40E9245D1CA257C700861073 /* CACellVCNoticiasAtomNoImage.xib in Resources */,
+				4DD932001E2765FD003F8E6A /* CAHQMEViewControllerBabyTV~ipad.xib in Resources */,
+				FAF58ED61D07FF3A0003BF22 /* CACellVC_L14_LTR_Underlined_VodHeader.xib in Resources */,
+				40E924251CA257C700861073 /* CACellVC_telemetro_home_one_line~ipad.xib in Resources */,
+				40E923E61CA257C700861073 /* CACellAtomPhotoGalleryAmericaDeportes.xib in Resources */,
+				40E924861CA257C700861073 /* CACompositeVC.xib in Resources */,
+				40E924731CA257C700861073 /* CACellVC_LTR_Header.xib in Resources */,
+				40E9242B1CA257C700861073 /* CACellVC_Thai_Promoted_Show~ipad.xib in Resources */,
+				239C01AF1CF2056D0067BAD7 /* CACellVC_JellyJamm_AllShows~ipad.xib in Resources */,
+				4DED55361E7E53B5007A58F4 /* CACellVC_Next_more.xib in Resources */,
+				40E923E01CA257C700861073 /* CACarouselVC_Left_channel10.xib in Resources */,
+				40E9244A1CA257C700861073 /* CACellVCBabyFirstTVTitleDescription_ipad.xib in Resources */,
+				714284A91E4B607A00BE9D75 /* CACellVC_Miaomi_AllShowsGrid~ipad.xib in Resources */,
+				40E924381CA257C700861073 /* CACellVC_tlv_standard_Big.xib in Resources */,
+				40E9244D1CA257C700861073 /* CACellVCBabyTVEdit.xib in Resources */,
+				FAF58ED21D07FF290003BF22 /* CACellVC_L14_VodItem_SideDetails.xib in Resources */,
+				40E9246A1CA257C700861073 /* CACellVCNoticierosStandard.xib in Resources */,
+				4D809C071EA8FF6300BEE4A6 /* CACellVC_KanVideo_generic_promoted.xib in Resources */,
+				239C01AA1CF1D1D30067BAD7 /* CACellVC_JellyJamm_Home_Regular~ipad.xib in Resources */,
+				40E924421CA257C700861073 /* CACellVCBabyFirstSubscription~ipad.xib in Resources */,
+				40E9246D1CA257C700861073 /* CACellVCNoticierosStandardAtom_ipad.xib in Resources */,
+				40E924171CA257C700861073 /* CACellVC_RTL.xib in Resources */,
+				40E923D61CA257C700861073 /* CACarouselVC_Bars_Noticieros_promoted_ipad.xib in Resources */,
+				40E924621CA257C700861073 /* CACellVCNoticierosAtomNoImage_ipad.xib in Resources */,
+				40E9242C1CA257C700861073 /* CACellVC_Thai_Show.xib in Resources */,
+				40E924701CA257C700861073 /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line.xib in Resources */,
+				40E924471CA257C700861073 /* CACellVCBabyFirstTVSubscriptionSmall.xib in Resources */,
+				40E9244E1CA257C700861073 /* CACellVCBabyTVEdit~ipad.xib in Resources */,
+				40E923F11CA257C700861073 /* CACellVC_BabyFirstTVShowScreen.xib in Resources */,
+				4DED553A1E7E53B5007A58F4 /* CACellVC_Next_show~ipad.xib in Resources */,
+				FAF58ECE1D07FF290003BF22 /* CACellVC_L14_VodItem_HalfWidth_middePadding.xib in Resources */,
+				40E924511CA257C700861073 /* CACellVCBabyTVSubscription.xib in Resources */,
+				40E924031CA257C700861073 /* CACellVC_Fuse_Black_Carousel~ipad.xib in Resources */,
+				231DA0151E25AC360098645C /* CACellVC_Center_Title_No_Image_Thin_Bottom_Line_mplay.xib in Resources */,
+				40E924651CA257C700861073 /* CACellVCNoticierosBigAtom.xib in Resources */,
+				40E924301CA257C700861073 /* CACellVC_tlv_channel_cell.xib in Resources */,
+				FAF58ECA1D07FF290003BF22 /* CACellVC_L14_EpgItem_ipad.xib in Resources */,
+				40E9241B1CA257C700861073 /* CACellVC_Side_Titles.xib in Resources */,
+				40E924571CA257C700861073 /* CACellVCDeportesHomeBig~ipad.xib in Resources */,
+				40E924061CA257C700861073 /* CACellVC_Hot_Carousel_RTL.xib in Resources */,
+				239FEC421E1123C10012DA14 /* CACellVC_L23_DetailedCell.xib in Resources */,
+				401BA23D1DD378EC009BF8E2 /* CACarouselVC_Comicon.xib in Resources */,
+				FA6C25441E1A4A41007553D1 /* CACellVC_RTL_Channel20_Header.xib in Resources */,
+				40E924831CA257C700861073 /* CACollectionVCBabyTVShow.xib in Resources */,
+				40E924271CA257C700861073 /* CACellVC_Thai_AllShows.xib in Resources */,
+				40E924021CA257C700861073 /* CACellVC_Fuse_Black_Carousel.xib in Resources */,
+				40E924431CA257C700861073 /* CACellVCBabyFirstTVAllShows.xib in Resources */,
+				40E9244F1CA257C700861073 /* CACellVCBabyTVFavorites.xib in Resources */,
+				40E923F81CA257C700861073 /* CACellVC_Reshet_generic_cell.xib in Resources */,
+				40E923EF1CA257C700861073 /* CACellPromotionImageWithTitle.xib in Resources */,
+				4DED55381E7E53B5007A58F4 /* CACellVC_Next_show_promoted.xib in Resources */,
+				FA6C253D1E1A4A41007553D1 /* CACellVC_L24_CarouselItem.xib in Resources */,
+				40E923FD1CA257C700861073 /* CACellVC_channel10_RTL.xib in Resources */,
+				712D50F21E4ADBFB00D73BB7 /* CACellVC_Miaomi_Show~ipad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40277FB51CAA3FC50020960C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86D23E67BE3CA6D030527862 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComponentStylesTests/Pods-ComponentStylesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96AF08C753180724695B7DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BECE1CFA1573B1A4D0D2738C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComponentStylesTests/Pods-ComponentStylesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C695A7AAD8FF59A758FAE91E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComponentStyles/Pods-ComponentStyles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1ADC16959CBCF55C145E78C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4000E4111C96E64000DC8477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401640361CA43E0B0017243B /* ComponentsStylesHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40277FB31CAA3FC50020960C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40277FBA1CAA3FC50020960C /* ComponentStylesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40277FBE1CAA3FC50020960C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4000E4151C96E64000DC8477 /* ComponentStyles */;
+			targetProxy = 40277FBD1CAA3FC50020960C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4000E41C1C96E64000DC8477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4000E41D1C96E64000DC8477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4000E41F1C96E64000DC8477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9DDC5E19C0288D39E97BA5 /* Pods-ComponentStyles.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ComponentStyles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Applicaster.ComponentStyles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4000E4201C96E64000DC8477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC8E9C29FCB5612E33A7E38 /* Pods-ComponentStyles.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ComponentStyles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Applicaster.ComponentStyles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40277FC01CAA3FC50020960C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300A6C6B38BDE18AC472CBF1 /* Pods-ComponentStylesTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = ComponentStylesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Applicaster.ComponentStylesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40277FC11CAA3FC50020960C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464D2C799BF3681A1D32D1B9 /* Pods-ComponentStylesTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = ComponentStylesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Applicaster.ComponentStylesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4000E4101C96E64000DC8477 /* Build configuration list for PBXProject "ComponentStyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4000E41C1C96E64000DC8477 /* Debug */,
+				4000E41D1C96E64000DC8477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4000E41E1C96E64000DC8477 /* Build configuration list for PBXNativeTarget "ComponentStyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4000E41F1C96E64000DC8477 /* Debug */,
+				4000E4201C96E64000DC8477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40277FBF1CAA3FC50020960C /* Build configuration list for PBXNativeTarget "ComponentStylesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40277FC01CAA3FC50020960C /* Debug */,
+				40277FC11CAA3FC50020960C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4000E40D1C96E64000DC8477 /* Project object */;
+}

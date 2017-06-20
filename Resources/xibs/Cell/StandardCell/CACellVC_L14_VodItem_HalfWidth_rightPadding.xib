@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemImageView" destination="a05-86-kil" id="923-Ln-K7s"/>
+                <outlet property="itemNameLabel" destination="tDU-jQ-6fM" id="pWy-mB-JV5"/>
+                <outlet property="view" destination="6dN-3g-JfJ" id="QH9-FU-0wu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6dN-3g-JfJ">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a05-86-kil" customClass="APImageView">
+                    <rect key="frame" x="7" y="0.0" width="134" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a05-86-kil" secondAttribute="height" multiplier="224:126" id="Jav-zE-30T"/>
+                        <constraint firstAttribute="height" constant="126" id="oDQ-r2-D1E"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="oDQ-r2-D1E"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="constraints">
+                            <exclude reference="Jav-zE-30T"/>
+                            <include reference="oDQ-r2-D1E"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDU-jQ-6fM">
+                    <rect key="frame" x="7" y="82" width="134" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="8KD-g6-dRp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tDU-jQ-6fM" firstAttribute="top" secondItem="a05-86-kil" secondAttribute="bottom" constant="7" id="6hf-rt-I6t">
+                    <variation key="heightClass=regular-widthClass=regular" constant="11"/>
+                </constraint>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="tDU-jQ-6fM" secondAttribute="bottom" constant="3" id="7MQ-4n-7Gw">
+                    <variation key="heightClass=regular-widthClass=regular" constant="11"/>
+                </constraint>
+                <constraint firstItem="tDU-jQ-6fM" firstAttribute="leading" secondItem="a05-86-kil" secondAttribute="leading" id="FmX-gn-STe"/>
+                <constraint firstItem="tDU-jQ-6fM" firstAttribute="trailing" secondItem="a05-86-kil" secondAttribute="trailing" id="Vd4-pI-uO5"/>
+                <constraint firstItem="a05-86-kil" firstAttribute="top" secondItem="6dN-3g-JfJ" secondAttribute="top" id="Y9k-VA-VmZ"/>
+                <constraint firstAttribute="trailing" secondItem="a05-86-kil" secondAttribute="trailing" constant="14" id="khO-Gt-HQF">
+                    <variation key="heightClass=regular-widthClass=regular" constant="32"/>
+                </constraint>
+                <constraint firstItem="a05-86-kil" firstAttribute="leading" secondItem="6dN-3g-JfJ" secondAttribute="leading" constant="7" id="oNz-XP-AWo">
+                    <variation key="heightClass=regular-widthClass=regular" constant="11"/>
+                </constraint>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="315.5" y="332"/>
+        </view>
+    </objects>
+</document>

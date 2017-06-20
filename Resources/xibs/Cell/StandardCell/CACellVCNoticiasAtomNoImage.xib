@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemNameLabel" destination="ndI-j9-n0g" id="SGN-b9-nDj"/>
+                <outlet property="itemTimeLabel" destination="zPy-co-5Pi" id="gD2-Sb-g36"/>
+                <outlet property="view" destination="iN0-l3-epB" id="iFp-NP-iza"/>
+                <outletCollection property="buttonsViewCollection" destination="ngL-kU-s8M" id="WdZ-1h-Hvk"/>
+                <outletCollection property="imageViewCollection" destination="klG-Uk-aXv" id="CfF-JX-gYJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GAHiddenKickerViewContainer">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="136"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPy-co-5Pi" userLabel="update Date">
+                    <rect key="frame" x="10" y="15" width="250" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="FrY-ER-Buv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1" verticalCompressionResistancePriority="1" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndI-j9-n0g" userLabel="Title Label">
+                    <rect key="frame" x="10" y="28" width="280" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="e6H-ng-yjn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngL-kU-s8M" customClass="CAButton">
+                    <rect key="frame" x="262" y="95" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="Hhc-Eq-gX6"/>
+                        <constraint firstAttribute="height" constant="28" id="Hnh-Mm-FsT"/>
+                    </constraints>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="klG-Uk-aXv" userLabel="Indication" customClass="APImageView">
+                    <rect key="frame" x="10" y="103" width="12" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="6bH-r2-EN0"/>
+                        <constraint firstAttribute="width" constant="12" id="tbj-my-7Cg"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ndI-j9-n0g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" priority="1" constant="15" id="2eT-Lq-WPh"/>
+                <constraint firstAttribute="bottom" secondItem="klG-Uk-aXv" secondAttribute="bottom" constant="21" id="7Yv-0o-EOA"/>
+                <constraint firstItem="zPy-co-5Pi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="GcI-C1-8nD"/>
+                <constraint firstAttribute="bottom" secondItem="klG-Uk-aXv" secondAttribute="bottom" constant="6" id="Kkq-Nq-5tp"/>
+                <constraint firstAttribute="bottom" secondItem="ngL-kU-s8M" secondAttribute="bottom" constant="13" id="LH6-xP-wr4"/>
+                <constraint firstItem="zPy-co-5Pi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="M5Z-Uf-Omh"/>
+                <constraint firstItem="klG-Uk-aXv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="S3E-g6-guw"/>
+                <constraint firstItem="ndI-j9-n0g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Vn8-7g-2C5"/>
+                <constraint firstAttribute="trailing" secondItem="ndI-j9-n0g" secondAttribute="trailing" constant="10" id="Yze-z7-UwA"/>
+                <constraint firstAttribute="trailing" secondItem="ngL-kU-s8M" secondAttribute="trailing" constant="10" id="b6u-IL-hMR"/>
+                <constraint firstAttribute="trailing" secondItem="zPy-co-5Pi" secondAttribute="trailing" constant="40" id="efX-vj-Wrb"/>
+                <constraint firstItem="ngL-kU-s8M" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fcJ-0O-zdH"/>
+                <constraint firstItem="ngL-kU-s8M" firstAttribute="top" secondItem="ndI-j9-n0g" secondAttribute="bottom" constant="9" id="h0z-BM-JXd"/>
+                <constraint firstItem="ndI-j9-n0g" firstAttribute="top" secondItem="zPy-co-5Pi" secondAttribute="bottom" constant="13" id="iD4-Te-MLm"/>
+                <constraint firstItem="klG-Uk-aXv" firstAttribute="top" secondItem="ndI-j9-n0g" secondAttribute="bottom" constant="13" id="uIW-Qv-kBq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Kkq-Nq-5tp"/>
+                    <exclude reference="uIW-Qv-kBq"/>
+                    <exclude reference="fcJ-0O-zdH"/>
+                    <exclude reference="h0z-BM-JXd"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

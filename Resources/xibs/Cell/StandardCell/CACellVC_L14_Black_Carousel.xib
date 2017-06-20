@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemImageView" destination="Y9M-4P-u1B" id="CY6-F7-JCj"/>
+                <outlet property="itemNameLabel" destination="Bkk-T1-DFS" id="ipw-Po-udR"/>
+                <outlet property="itemShowNameLabel" destination="9wc-cb-LcX" id="s8A-Mg-eMJ"/>
+                <outlet property="videoContainerView" destination="2Xl-ki-9Dl" id="QVj-C3-ShA"/>
+                <outlet property="view" destination="y5R-TO-IFs" id="oOE-cp-i2W"/>
+                <outletCollection property="imageViewCollection" destination="8hV-KX-jkn" id="mCv-jS-ZpK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="y5R-TO-IFs">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y9M-4P-u1B" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="326" height="181"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8hV-KX-jkn" userLabel="ShadowImageView" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="142" width="326" height="39"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="YZF-5a-fwC"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XgY-zr-RuE" userLabel="Titles container" customClass="APHiddenKickerViewContainer">
+                    <rect key="frame" x="10" y="142" width="306" height="39"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wc-cb-LcX">
+                            <rect key="frame" x="0.0" y="3" width="306" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="1Ac-2p-C8m"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkk-T1-DFS">
+                            <rect key="frame" x="0.0" y="3" width="306" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="aWt-SB-tXu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9wc-cb-LcX" secondAttribute="trailing" id="53c-gf-aRY"/>
+                        <constraint firstItem="Bkk-T1-DFS" firstAttribute="height" secondItem="XgY-zr-RuE" secondAttribute="height" priority="400" id="JCi-1V-wqG"/>
+                        <constraint firstItem="Bkk-T1-DFS" firstAttribute="leading" secondItem="XgY-zr-RuE" secondAttribute="leading" id="YIN-Rr-5EY"/>
+                        <constraint firstItem="9wc-cb-LcX" firstAttribute="top" secondItem="XgY-zr-RuE" secondAttribute="top" constant="3" id="ZbP-3D-LJP"/>
+                        <constraint firstItem="Bkk-T1-DFS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="9wc-cb-LcX" secondAttribute="bottom" id="cQ5-ZN-REa"/>
+                        <constraint firstItem="9wc-cb-LcX" firstAttribute="leading" secondItem="XgY-zr-RuE" secondAttribute="leading" id="dGv-z8-Pxd"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9wc-cb-LcX" secondAttribute="bottom" priority="500" id="gWJ-FF-U84"/>
+                        <constraint firstItem="Bkk-T1-DFS" firstAttribute="top" secondItem="XgY-zr-RuE" secondAttribute="top" priority="500" constant="3" id="mmI-hu-ZNV"/>
+                        <constraint firstAttribute="trailing" secondItem="Bkk-T1-DFS" secondAttribute="trailing" id="u9B-2h-BeU"/>
+                        <constraint firstItem="9wc-cb-LcX" firstAttribute="height" secondItem="XgY-zr-RuE" secondAttribute="height" priority="400" id="xs9-9F-JBI"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Bkk-T1-DFS" secondAttribute="bottom" id="yQ7-Bq-341"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Xl-ki-9Dl" customClass="APUnhittableView">
+                    <rect key="frame" x="0.0" y="0.0" width="326" height="181"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Y9M-4P-u1B" firstAttribute="top" secondItem="y5R-TO-IFs" secondAttribute="top" id="5kV-es-TvS"/>
+                <constraint firstAttribute="bottom" secondItem="Y9M-4P-u1B" secondAttribute="bottom" id="8ux-u2-R4I"/>
+                <constraint firstItem="Y9M-4P-u1B" firstAttribute="leading" secondItem="y5R-TO-IFs" secondAttribute="leading" id="9EJ-Tn-60Y"/>
+                <constraint firstItem="8hV-KX-jkn" firstAttribute="bottom" secondItem="2Xl-ki-9Dl" secondAttribute="bottom" id="JDb-xj-gWg"/>
+                <constraint firstItem="8hV-KX-jkn" firstAttribute="trailing" secondItem="XgY-zr-RuE" secondAttribute="trailing" constant="10" id="NMV-jO-u9w"/>
+                <constraint firstAttribute="trailing" secondItem="Y9M-4P-u1B" secondAttribute="trailing" id="RQK-B8-97D"/>
+                <constraint firstAttribute="bottom" secondItem="2Xl-ki-9Dl" secondAttribute="bottom" id="RoF-TG-0EQ"/>
+                <constraint firstItem="8hV-KX-jkn" firstAttribute="bottom" secondItem="XgY-zr-RuE" secondAttribute="bottom" id="USF-r9-PAD"/>
+                <constraint firstAttribute="trailing" secondItem="2Xl-ki-9Dl" secondAttribute="trailing" id="aqA-sy-9P3"/>
+                <constraint firstItem="8hV-KX-jkn" firstAttribute="height" secondItem="XgY-zr-RuE" secondAttribute="height" id="cas-2i-eUK"/>
+                <constraint firstItem="2Xl-ki-9Dl" firstAttribute="top" secondItem="y5R-TO-IFs" secondAttribute="top" id="hz0-US-WQ4"/>
+                <constraint firstItem="8hV-KX-jkn" firstAttribute="leading" secondItem="y5R-TO-IFs" secondAttribute="leading" id="mJj-TY-MCI"/>
+                <constraint firstItem="8hV-KX-jkn" firstAttribute="leading" secondItem="XgY-zr-RuE" secondAttribute="leading" constant="-10" id="sel-Hr-Cf7"/>
+                <constraint firstAttribute="trailing" secondItem="8hV-KX-jkn" secondAttribute="trailing" id="tGW-RK-pH1"/>
+                <constraint firstItem="2Xl-ki-9Dl" firstAttribute="leading" secondItem="y5R-TO-IFs" secondAttribute="leading" id="wUg-eC-ifK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="697" y="516.5"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

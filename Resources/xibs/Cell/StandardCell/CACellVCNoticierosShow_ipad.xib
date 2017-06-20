@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemImageView" destination="tgR-ak-VJX" id="UTt-5X-Gnt"/>
+                <outlet property="itemNameLabel" destination="qfd-zW-tJw" id="cZt-66-By7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="0OP-mr-6nY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1004" height="304"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tgR-ak-VJX" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="1004" height="260"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tgR-ak-VJX" secondAttribute="height" multiplier="251:65" id="IXv-AQ-pDk"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfd-zW-tJw">
+                    <rect key="frame" x="10" y="270" width="984" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tgR-ak-VJX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4SS-Tf-auo"/>
+                <constraint firstAttribute="trailing" secondItem="qfd-zW-tJw" secondAttribute="trailing" constant="10" id="NtW-d3-dCo"/>
+                <constraint firstAttribute="trailing" secondItem="tgR-ak-VJX" secondAttribute="trailing" id="Ojy-kH-tqB"/>
+                <constraint firstAttribute="bottom" secondItem="qfd-zW-tJw" secondAttribute="bottom" constant="10" id="YGW-D6-Rmf"/>
+                <constraint firstItem="qfd-zW-tJw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ZMQ-ls-X8H"/>
+                <constraint firstItem="qfd-zW-tJw" firstAttribute="top" secondItem="tgR-ak-VJX" secondAttribute="bottom" constant="10" id="ck0-ps-nhy"/>
+                <constraint firstItem="tgR-ak-VJX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ijY-8G-COF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="393" y="345"/>
+        </view>
+    </objects>
+</document>

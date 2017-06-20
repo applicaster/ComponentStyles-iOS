@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="itemNameLabel" destination="L94-FL-Jwi" id="Gv2-fg-tNQ"/>
+                <outlet property="view" destination="fEQ-vk-iRG" id="n2R-G4-kru"/>
+                <outletCollection property="imageViewCollection" destination="8hI-az-fQ9" id="tml-KK-tdc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fEQ-vk-iRG" customClass="APHiddenKickerViewContainer">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8hI-az-fQ9" userLabel="ColorIndication Image View" customClass="APImageView">
+                    <rect key="frame" x="166" y="7" width="154" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="244" id="fWU-gb-eu9"/>
+                        <constraint firstAttribute="height" constant="25" id="xvx-y8-tjr"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L94-FL-Jwi">
+                    <rect key="frame" x="166" y="19.5" width="148" height="0.0"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="148" id="uDl-TY-bFX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="L94-FL-Jwi" firstAttribute="centerY" secondItem="fEQ-vk-iRG" secondAttribute="centerY" constant="2" id="4nc-0h-7ts"/>
+                <constraint firstItem="8hI-az-fQ9" firstAttribute="leading" relation="lessThanOrEqual" secondItem="fEQ-vk-iRG" secondAttribute="leading" priority="750" constant="166" id="5iP-dP-a81"/>
+                <constraint firstItem="8hI-az-fQ9" firstAttribute="leading" secondItem="L94-FL-Jwi" secondAttribute="leading" id="K95-s4-ltE"/>
+                <constraint firstAttribute="trailing" secondItem="L94-FL-Jwi" secondAttribute="trailing" constant="6" id="Pxy-7q-Cwu"/>
+                <constraint firstAttribute="trailing" secondItem="8hI-az-fQ9" secondAttribute="trailing" id="ZvJ-pq-j1t"/>
+                <constraint firstItem="8hI-az-fQ9" firstAttribute="centerY" secondItem="fEQ-vk-iRG" secondAttribute="centerY" constant="2" id="ksD-uI-Xgl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="141" y="202.5"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

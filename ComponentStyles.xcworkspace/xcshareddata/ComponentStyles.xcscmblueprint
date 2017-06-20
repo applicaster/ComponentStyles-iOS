@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "27F78BE5775583146EDFFD103294145D3835D411",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9A348BF3F3E6AB2FB070AE659546544C24B4B757" : 0,
+    "27F78BE5775583146EDFFD103294145D3835D411" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CEDC90B5-F127-4541-9E2B-F0184F307280",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9A348BF3F3E6AB2FB070AE659546544C24B4B757" : "",
+    "27F78BE5775583146EDFFD103294145D3835D411" : "ComponentsStyles\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ComponentStyles",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ComponentStyles.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/applicaster\/ComponentsStyles-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "27F78BE5775583146EDFFD103294145D3835D411"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/applicaster\/Zapp-iOS-7.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A348BF3F3E6AB2FB070AE659546544C24B4B757"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="borderView" destination="j8E-2J-PbD" id="NXx-fT-k4k"/>
+                <outlet property="itemImageView" destination="PDy-JH-mMV" id="YQx-Xe-cAK"/>
+                <outlet property="itemNameLabel" destination="OX0-e8-yvd" id="2zG-WI-ItY"/>
+                <outlet property="view" destination="atK-AZ-Wdl" id="D66-3C-IVd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="atK-AZ-Wdl">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="268"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8E-2J-PbD" userLabel="Border View">
+                    <rect key="frame" x="-2" y="0.0" width="402" height="270"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PDy-JH-mMV" userLabel="backGround Image " customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="398" height="268"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H7e-tW-7k9" customClass="GAHiddenKickerViewContainer">
+                    <rect key="frame" x="0.0" y="180" width="398" height="88"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9jO-Dq-uDn" userLabel="ViewContainer">
+                            <rect key="frame" x="192" y="28" width="196" height="24"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OX0-e8-yvd" userLabel="item name">
+                                    <rect key="frame" x="12" y="0.0" width="174" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="174" id="KBg-Hb-Uuj"/>
+                                        <constraint firstAttribute="height" constant="24" id="f9b-FC-3Xz"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rm4-QS-PNb" userLabel="Red View">
+                                    <rect key="frame" x="0.0" y="0.0" width="12" height="24"/>
+                                    <color key="backgroundColor" red="0.81568627450980391" green="0.066666666666666666" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="EFB-e3-iPx"/>
+                                        <constraint firstAttribute="width" constant="12" id="cqB-EQ-QCp"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="5yY-E1-mcH"/>
+                                <constraint firstAttribute="bottom" secondItem="rm4-QS-PNb" secondAttribute="bottom" id="MlR-Dp-sR0"/>
+                                <constraint firstItem="OX0-e8-yvd" firstAttribute="top" secondItem="9jO-Dq-uDn" secondAttribute="top" id="Vck-77-Jd0"/>
+                                <constraint firstAttribute="trailing" secondItem="OX0-e8-yvd" secondAttribute="trailing" constant="10" id="XoN-ra-HoS"/>
+                                <constraint firstAttribute="width" constant="196" id="mNl-Ai-7Ik"/>
+                                <constraint firstAttribute="trailing" secondItem="rm4-QS-PNb" secondAttribute="trailing" constant="184" id="yp5-QH-2Bz"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9jO-Dq-uDn" secondAttribute="trailing" constant="10" id="dU3-1z-wMB"/>
+                        <constraint firstAttribute="bottom" secondItem="9jO-Dq-uDn" secondAttribute="bottom" constant="36" id="dmE-c3-F72"/>
+                        <constraint firstAttribute="height" constant="88" id="nzk-vo-Ipo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="j8E-2J-PbD" secondAttribute="trailing" constant="-2" id="9f6-Fe-bKY"/>
+                <constraint firstItem="j8E-2J-PbD" firstAttribute="leading" secondItem="atK-AZ-Wdl" secondAttribute="leading" constant="-2" id="LSJ-Tc-eEo"/>
+                <constraint firstItem="PDy-JH-mMV" firstAttribute="leading" secondItem="atK-AZ-Wdl" secondAttribute="leading" id="SXm-Rm-mm3"/>
+                <constraint firstItem="j8E-2J-PbD" firstAttribute="top" secondItem="atK-AZ-Wdl" secondAttribute="top" id="Tcw-Og-gUJ"/>
+                <constraint firstAttribute="trailing" secondItem="H7e-tW-7k9" secondAttribute="trailing" id="TgC-F8-GrY"/>
+                <constraint firstItem="H7e-tW-7k9" firstAttribute="leading" secondItem="atK-AZ-Wdl" secondAttribute="leading" id="ZUs-nD-5IH"/>
+                <constraint firstAttribute="bottom" secondItem="H7e-tW-7k9" secondAttribute="bottom" id="cz0-MM-tN9"/>
+                <constraint firstItem="PDy-JH-mMV" firstAttribute="top" secondItem="atK-AZ-Wdl" secondAttribute="top" id="jBu-aA-809"/>
+                <constraint firstAttribute="bottom" secondItem="j8E-2J-PbD" secondAttribute="bottom" constant="-2" id="l0N-8w-vFE"/>
+                <constraint firstAttribute="bottom" secondItem="PDy-JH-mMV" secondAttribute="bottom" id="mYR-As-hpn"/>
+                <constraint firstAttribute="trailing" secondItem="PDy-JH-mMV" secondAttribute="trailing" id="osC-tH-3A7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="423" y="323"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

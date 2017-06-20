@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACarouselViewController">
+            <connections>
+                <outlet property="borderView" destination="c9h-9v-ytA" id="5Aa-7E-d1W"/>
+                <outlet property="carouselView" destination="MPw-FD-aNZ" id="TLi-cc-eHH"/>
+                <outlet property="view" destination="Qa0-Tt-1oz" id="PVW-cL-tHO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Qa0-Tt-1oz">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view appearanceType="aqua" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9h-9v-ytA" userLabel="BorderView">
+                    <rect key="frame" x="-2" y="0.0" width="404" height="402"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="MPw-FD-aNZ" userLabel="CarouselView" customClass="APPromotionView">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="Tcq-MA-pvg" customClass="APBarPageControl">
+                            <rect key="frame" x="0.0" y="363" width="400" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="currentPageIndicatorTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Tcq-MA-pvg" secondAttribute="bottom" id="Xi0-LZ-KdD"/>
+                        <constraint firstItem="Tcq-MA-pvg" firstAttribute="leading" secondItem="MPw-FD-aNZ" secondAttribute="leading" id="egh-md-nG6"/>
+                        <constraint firstAttribute="trailing" secondItem="Tcq-MA-pvg" secondAttribute="trailing" id="lEa-wG-LCt"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="yiW-ho-9kL"/>
+                        <outlet property="delegate" destination="-1" id="Axa-Zl-hA9"/>
+                        <outlet property="pageControl" destination="Tcq-MA-pvg" id="Vom-mU-e2S"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="c9h-9v-ytA" firstAttribute="top" secondItem="Qa0-Tt-1oz" secondAttribute="top" id="B0k-mB-aUz"/>
+                <constraint firstItem="MPw-FD-aNZ" firstAttribute="top" secondItem="Qa0-Tt-1oz" secondAttribute="top" id="DUi-D2-SYe"/>
+                <constraint firstAttribute="bottom" secondItem="c9h-9v-ytA" secondAttribute="bottom" constant="-2" id="I7J-vX-yzx"/>
+                <constraint firstItem="MPw-FD-aNZ" firstAttribute="leading" secondItem="Qa0-Tt-1oz" secondAttribute="leading" id="IiF-CP-lxF"/>
+                <constraint firstAttribute="bottom" secondItem="MPw-FD-aNZ" secondAttribute="bottom" id="Ri5-SD-51k"/>
+                <constraint firstItem="c9h-9v-ytA" firstAttribute="leading" secondItem="Qa0-Tt-1oz" secondAttribute="leading" constant="-2" id="XEq-nr-fHB"/>
+                <constraint firstAttribute="trailing" secondItem="MPw-FD-aNZ" secondAttribute="trailing" id="XGL-9e-Spk"/>
+                <constraint firstAttribute="trailing" secondItem="c9h-9v-ytA" secondAttribute="trailing" constant="-2" id="aIn-Uu-9ZB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

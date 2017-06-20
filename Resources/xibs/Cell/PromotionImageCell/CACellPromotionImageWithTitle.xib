@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellPromotionImageViewController">
+            <connections>
+                <outlet property="constraintHeightScalableView" destination="Xu9-g9-XEb" id="1gq-TD-Jah"/>
+                <outlet property="constraintLeftScalableView" destination="mzJ-5s-SNV" id="TqH-3t-ldu"/>
+                <outlet property="constraintTopScalableView" destination="Qn8-lz-z8O" id="TjP-NE-gDy"/>
+                <outlet property="constraintWidthScalableView" destination="COo-H5-Y6i" id="44w-dS-Xrh"/>
+                <outlet property="infoButton" destination="hhh-vP-jlB" id="Z2M-nh-GqV"/>
+                <outlet property="itemImageView" destination="a7n-tN-t18" id="411-ej-AMJ"/>
+                <outlet property="itemNameLabel" destination="n0R-at-I0G" id="806-Mp-Fcz"/>
+                <outlet property="scalebleView" destination="JnK-kV-WIq" id="imp-Es-5ye"/>
+                <outlet property="view" destination="KRo-EG-Pgb" id="BVr-Xu-YRI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="KRo-EG-Pgb">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a7n-tN-t18" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0R-at-I0G" userLabel="itemNameLabel">
+                    <rect key="frame" x="10" y="190" width="300" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="yNH-b1-HKW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view hidden="YES" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JnK-kV-WIq" userLabel="ScalableView">
+                    <rect key="frame" x="10" y="10" width="0.0" height="0.0"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" id="COo-H5-Y6i"/>
+                        <constraint firstAttribute="height" id="Xu9-g9-XEb"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhh-vP-jlB" userLabel="Info Button">
+                    <rect key="frame" x="12" y="12" width="38" height="38"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="38" id="SwA-SE-M9W"/>
+                        <constraint firstAttribute="height" constant="38" id="wdo-A8-zMh"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="handleUserPushInfoButton:" destination="-1" eventType="touchUpInside" id="Qby-Wf-lAg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="n0R-at-I0G" firstAttribute="leading" secondItem="KRo-EG-Pgb" secondAttribute="leading" constant="10" id="1Kd-tE-p1h"/>
+                <constraint firstAttribute="trailing" secondItem="n0R-at-I0G" secondAttribute="trailing" constant="10" id="1ts-1V-aFu"/>
+                <constraint firstItem="a7n-tN-t18" firstAttribute="leading" secondItem="KRo-EG-Pgb" secondAttribute="leading" id="3qJ-mT-tNR"/>
+                <constraint firstAttribute="bottom" secondItem="a7n-tN-t18" secondAttribute="bottom" id="8vN-sp-P0F"/>
+                <constraint firstItem="a7n-tN-t18" firstAttribute="top" secondItem="KRo-EG-Pgb" secondAttribute="top" id="F5D-m2-JGO"/>
+                <constraint firstItem="hhh-vP-jlB" firstAttribute="leading" secondItem="KRo-EG-Pgb" secondAttribute="leading" constant="12" id="OxV-Oy-LVg"/>
+                <constraint firstAttribute="trailing" secondItem="a7n-tN-t18" secondAttribute="trailing" id="PF9-qL-ASd"/>
+                <constraint firstItem="JnK-kV-WIq" firstAttribute="top" secondItem="KRo-EG-Pgb" secondAttribute="top" constant="10" id="Qn8-lz-z8O"/>
+                <constraint firstItem="hhh-vP-jlB" firstAttribute="top" secondItem="KRo-EG-Pgb" secondAttribute="top" constant="12" id="afe-IB-npF"/>
+                <constraint firstItem="JnK-kV-WIq" firstAttribute="leading" secondItem="KRo-EG-Pgb" secondAttribute="leading" constant="10" id="mzJ-5s-SNV"/>
+                <constraint firstAttribute="bottom" secondItem="n0R-at-I0G" secondAttribute="bottom" constant="10" id="sSH-qH-Ll4"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

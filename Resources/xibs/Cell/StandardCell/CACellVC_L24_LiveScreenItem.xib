@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="broadcastTimeProgressBarContainerView" destination="1N8-JX-dhE" id="tho-My-eG1"/>
+                <outlet property="itemBroadcastTimeLabel" destination="iE1-DY-03E" id="EFX-oh-mgj"/>
+                <outlet property="itemDescriptionLabel" destination="NQI-wL-jVQ" id="i2E-Tm-cDE"/>
+                <outlet property="itemLockedImageView" destination="L72-mE-lL9" id="1yt-NB-WVj"/>
+                <outlet property="itemNameLabel" destination="tDU-jQ-6fM" id="hX9-7N-5by"/>
+                <outlet property="logoImageView" destination="a05-86-kil" id="BlZ-lg-SpP"/>
+                <outlet property="view" destination="6dN-3g-JfJ" id="QH9-FU-0wu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6dN-3g-JfJ">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="116"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a05-86-kil" userLabel="Logo Image View" customClass="APImageView">
+                    <rect key="frame" x="12" y="18.5" width="105.5" height="79"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a05-86-kil" secondAttribute="height" multiplier="4:3" id="Fgg-CW-Zad"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dj3-Nh-uH0" userLabel="Titles container" customClass="APHiddenKickerViewContainer">
+                    <rect key="frame" x="129.5" y="10" width="237.5" height="96"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDU-jQ-6fM">
+                            <rect key="frame" x="0.0" y="0.0" width="237.5" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Sw7-qN-cuc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="252" horizontalCompressionResistancePriority="100" verticalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iE1-DY-03E">
+                            <rect key="frame" x="-0.5" y="4" width="238" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="nyZ-oc-bVi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1N8-JX-dhE" customClass="CAProgressBarContainerView">
+                            <rect key="frame" x="0.5" y="8" width="237" height="3"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="3" id="MII-A2-rPp"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-wL-jVQ">
+                            <rect key="frame" x="0.0" y="15" width="237.5" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Oh0-Gg-UrY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NQI-wL-jVQ" secondAttribute="bottom" id="1Rg-lD-Oi4"/>
+                        <constraint firstAttribute="trailing" secondItem="iE1-DY-03E" secondAttribute="trailing" id="53S-3g-rch"/>
+                        <constraint firstAttribute="trailing" secondItem="NQI-wL-jVQ" secondAttribute="trailing" id="727-cu-ERs"/>
+                        <constraint firstItem="1N8-JX-dhE" firstAttribute="top" secondItem="iE1-DY-03E" secondAttribute="bottom" constant="4" id="8Q8-Ky-LNw"/>
+                        <constraint firstItem="tDU-jQ-6fM" firstAttribute="top" secondItem="dj3-Nh-uH0" secondAttribute="top" id="B75-9T-U3s"/>
+                        <constraint firstItem="1N8-JX-dhE" firstAttribute="top" secondItem="dj3-Nh-uH0" secondAttribute="top" priority="250" id="M1j-Nq-4CM"/>
+                        <constraint firstItem="tDU-jQ-6fM" firstAttribute="leading" secondItem="dj3-Nh-uH0" secondAttribute="leading" id="NH0-r2-IWp"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="top" secondItem="tDU-jQ-6fM" secondAttribute="bottom" priority="500" constant="10" id="UF7-b7-x8T"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iE1-DY-03E" secondAttribute="bottom" priority="750" constant="10" id="aei-KA-rcI"/>
+                        <constraint firstAttribute="trailing" secondItem="1N8-JX-dhE" secondAttribute="trailing" id="b2W-sO-g9i"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="leading" secondItem="dj3-Nh-uH0" secondAttribute="leading" id="bVn-ry-xFT"/>
+                        <constraint firstItem="1N8-JX-dhE" firstAttribute="leading" secondItem="dj3-Nh-uH0" secondAttribute="leading" id="bs5-pT-n78"/>
+                        <constraint firstItem="1N8-JX-dhE" firstAttribute="top" secondItem="tDU-jQ-6fM" secondAttribute="bottom" priority="750" id="gEf-VL-qkn"/>
+                        <constraint firstItem="iE1-DY-03E" firstAttribute="leading" secondItem="dj3-Nh-uH0" secondAttribute="leading" id="hvW-SA-5eR"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="top" secondItem="dj3-Nh-uH0" secondAttribute="top" priority="200" id="nHh-Ti-cDO"/>
+                        <constraint firstAttribute="trailing" secondItem="tDU-jQ-6fM" secondAttribute="trailing" id="nVo-fa-DTr"/>
+                        <constraint firstItem="NQI-wL-jVQ" firstAttribute="top" secondItem="1N8-JX-dhE" secondAttribute="bottom" constant="4" id="rGQ-Rj-aHP"/>
+                        <constraint firstItem="iE1-DY-03E" firstAttribute="top" secondItem="dj3-Nh-uH0" secondAttribute="top" priority="500" id="tZR-dc-vln"/>
+                        <constraint firstItem="iE1-DY-03E" firstAttribute="top" secondItem="tDU-jQ-6fM" secondAttribute="bottom" constant="4" id="ul1-id-p44"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L72-mE-lL9" customClass="APImageView">
+                    <rect key="frame" x="347" y="0.0" width="36" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="6Jw-OJ-B9D"/>
+                        <constraint firstAttribute="height" constant="36" id="KoS-ia-nRP"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="L72-mE-lL9" firstAttribute="top" secondItem="6dN-3g-JfJ" secondAttribute="top" id="5KF-av-Th1"/>
+                <constraint firstAttribute="bottom" secondItem="dj3-Nh-uH0" secondAttribute="bottom" constant="10" id="78N-la-V8y"/>
+                <constraint firstItem="a05-86-kil" firstAttribute="top" secondItem="6dN-3g-JfJ" secondAttribute="top" constant="18.5" id="AmW-cl-eyf"/>
+                <constraint firstAttribute="bottom" secondItem="a05-86-kil" secondAttribute="bottom" constant="18.5" id="CUU-eV-1z8"/>
+                <constraint firstAttribute="trailing" secondItem="L72-mE-lL9" secondAttribute="trailing" id="ENz-q8-MRB"/>
+                <constraint firstItem="dj3-Nh-uH0" firstAttribute="top" secondItem="6dN-3g-JfJ" secondAttribute="top" constant="10" id="aqD-d1-yrH"/>
+                <constraint firstItem="dj3-Nh-uH0" firstAttribute="leading" secondItem="a05-86-kil" secondAttribute="trailing" constant="12" id="hrc-yx-uMq"/>
+                <constraint firstItem="a05-86-kil" firstAttribute="leading" secondItem="6dN-3g-JfJ" secondAttribute="leading" constant="12" id="iM8-Sb-yfY"/>
+                <constraint firstAttribute="trailing" secondItem="dj3-Nh-uH0" secondAttribute="trailing" constant="16" id="l5c-Mw-bMe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="496" y="171"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="ipad9_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

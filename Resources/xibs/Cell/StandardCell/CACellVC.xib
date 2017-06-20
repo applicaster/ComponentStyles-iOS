@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CACellViewController">
+            <connections>
+                <outlet property="borderView" destination="bPL-nH-cm6" id="gAm-w9-TCD"/>
+                <outlet property="itemImageView" destination="B9R-oq-qCr" id="Ug1-sG-1Jd"/>
+                <outlet property="itemNameLabel" destination="GT3-wL-iMP" id="lIt-bA-VvH"/>
+                <outlet property="shadowImageView" destination="JsL-Q4-x3h" id="HNi-yV-kfi"/>
+                <outlet property="view" destination="fEQ-vk-iRG" id="KOQ-VB-hmc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fEQ-vk-iRG">
+            <rect key="frame" x="0.0" y="0.0" width="483" height="414"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPL-nH-cm6" userLabel="Border View">
+                    <rect key="frame" x="-2" y="0.0" width="487" height="416"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B9R-oq-qCr" customClass="APImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="483" height="414"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-Q4-x3h" userLabel="Shadow Image View">
+                    <rect key="frame" x="0.0" y="334" width="483" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="kgk-jg-sum"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GT3-wL-iMP" userLabel="Label - titleLbl">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="mN2-SI-mkq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="JsL-Q4-x3h" secondAttribute="bottom" id="4T1-66-AlB"/>
+                <constraint firstAttribute="trailing" secondItem="B9R-oq-qCr" secondAttribute="trailing" id="8CZ-xO-fs1"/>
+                <constraint firstItem="B9R-oq-qCr" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" id="Ajb-dl-pUW"/>
+                <constraint firstAttribute="bottom" secondItem="bPL-nH-cm6" secondAttribute="bottom" constant="-2" id="DTp-rg-jcQ"/>
+                <constraint firstAttribute="bottom" secondItem="GT3-wL-iMP" secondAttribute="bottom" constant="12" id="PAn-jk-yb2"/>
+                <constraint firstItem="bPL-nH-cm6" firstAttribute="top" secondItem="fEQ-vk-iRG" secondAttribute="top" id="PD5-ai-c7R"/>
+                <constraint firstItem="JsL-Q4-x3h" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" id="UeI-aR-EkT"/>
+                <constraint firstItem="B9R-oq-qCr" firstAttribute="top" secondItem="fEQ-vk-iRG" secondAttribute="top" id="X4I-rY-94h"/>
+                <constraint firstAttribute="trailing" secondItem="bPL-nH-cm6" secondAttribute="trailing" constant="-2" id="aNj-9B-5Im"/>
+                <constraint firstAttribute="trailing" secondItem="JsL-Q4-x3h" secondAttribute="trailing" id="aaz-Be-6ed"/>
+                <constraint firstItem="bPL-nH-cm6" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" constant="-2" id="fyS-tE-AJP"/>
+                <constraint firstAttribute="trailing" secondItem="GT3-wL-iMP" secondAttribute="trailing" constant="12" id="lXd-2A-YEZ"/>
+                <constraint firstAttribute="bottom" secondItem="B9R-oq-qCr" secondAttribute="bottom" id="sIk-yZ-93L"/>
+                <constraint firstItem="GT3-wL-iMP" firstAttribute="leading" secondItem="fEQ-vk-iRG" secondAttribute="leading" constant="12" id="zJa-W3-DFU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
