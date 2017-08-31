@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,6 +15,7 @@
                 <outlet property="itemDescriptionLabel" destination="ifR-m1-16p" id="koI-1I-Moh"/>
                 <outlet property="itemDurationLabel" destination="OWR-bR-Bex" id="xCP-sT-10f"/>
                 <outlet property="itemImageView" destination="lYY-cI-eTG" id="VtH-gY-wAx"/>
+                <outlet property="itemLockedImageView" destination="s3L-hD-z7b" id="tkV-Gp-1XY"/>
                 <outlet property="itemNameLabel" destination="vcN-95-m3h" id="vKe-M0-9Bl"/>
                 <outlet property="playButton" destination="L9U-q6-0Yb" id="dm5-Ye-l9N"/>
                 <outlet property="shadowImageView" destination="hsf-l3-HKC" id="2yf-c4-qmI"/>
@@ -71,13 +72,13 @@
                         <action selector="favoritesButtonTapped:" destination="-1" eventType="touchUpInside" id="FTn-MQ-RJv"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPw-G8-6xZ" userLabel="Lock Button">
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s3L-hD-z7b" customClass="APImageView">
                     <rect key="frame" x="40" y="0.0" width="30" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="30" id="Wl4-6f-NSU"/>
-                        <constraint firstAttribute="height" constant="30" id="vnK-Gq-Bhl"/>
+                        <constraint firstAttribute="width" constant="30" id="ZkO-iz-C05"/>
+                        <constraint firstAttribute="height" constant="30" id="qrb-Ym-r1W"/>
                     </constraints>
-                </button>
+                </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2q-2l-ESo" userLabel="Content View">
                     <rect key="frame" x="110" y="0.0" width="200" height="83"/>
                     <subviews>
@@ -114,6 +115,8 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="gTh-IM-f7z" firstAttribute="leading" secondItem="s3L-hD-z7b" secondAttribute="trailing" id="2yf-qu-eF2"/>
+                <constraint firstItem="s3L-hD-z7b" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7CK-Tz-fDL"/>
                 <constraint firstAttribute="bottom" secondItem="c2q-2l-ESo" secondAttribute="bottom" id="8ob-wi-LVO"/>
                 <constraint firstItem="lYY-cI-eTG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Afy-ne-K1a"/>
                 <constraint firstItem="L9U-q6-0Yb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EIA-n3-VJs"/>
@@ -125,11 +128,9 @@
                 <constraint firstItem="gTh-IM-f7z" firstAttribute="trailing" secondItem="lYY-cI-eTG" secondAttribute="trailing" id="Vp2-M6-sHz"/>
                 <constraint firstItem="hsf-l3-HKC" firstAttribute="leading" secondItem="lYY-cI-eTG" secondAttribute="trailing" constant="-100" id="eF5-t9-UuF"/>
                 <constraint firstItem="OWR-bR-Bex" firstAttribute="leading" secondItem="L9U-q6-0Yb" secondAttribute="trailing" constant="1" id="hda-34-Tgh"/>
-                <constraint firstItem="VPw-G8-6xZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nJC-FS-9bJ"/>
                 <constraint firstAttribute="bottom" secondItem="OWR-bR-Bex" secondAttribute="bottom" constant="5" id="nha-vn-P96"/>
                 <constraint firstAttribute="trailing" secondItem="c2q-2l-ESo" secondAttribute="trailing" constant="10" id="qvN-Ly-zUt"/>
                 <constraint firstItem="gTh-IM-f7z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="v8O-98-bVp"/>
-                <constraint firstItem="gTh-IM-f7z" firstAttribute="leading" secondItem="VPw-G8-6xZ" secondAttribute="trailing" id="xlb-q3-5u9"/>
                 <constraint firstAttribute="bottom" secondItem="lYY-cI-eTG" secondAttribute="bottom" id="ztL-6R-qhI"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
