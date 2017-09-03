@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,6 +15,7 @@
                 <outlet property="itemDescriptionLabel" destination="ifR-m1-16p" id="koI-1I-Moh"/>
                 <outlet property="itemDurationLabel" destination="OWR-bR-Bex" id="xCP-sT-10f"/>
                 <outlet property="itemImageView" destination="lYY-cI-eTG" id="VtH-gY-wAx"/>
+                <outlet property="itemLockedImageView" destination="WIK-bI-0ma" id="UM8-nc-MiG"/>
                 <outlet property="itemNameLabel" destination="vcN-95-m3h" id="vKe-M0-9Bl"/>
                 <outlet property="playButton" destination="L9U-q6-0Yb" id="dm5-Ye-l9N"/>
                 <outlet property="shadowImageView" destination="hsf-l3-HKC" id="2yf-c4-qmI"/>
@@ -71,13 +72,13 @@
                         <action selector="favoritesButtonTapped:" destination="-1" eventType="touchUpInside" id="FTn-MQ-RJv"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPw-G8-6xZ" userLabel="Lock Button">
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WIK-bI-0ma" userLabel="Item Locked Image View" customClass="APImageView">
                     <rect key="frame" x="100" y="0.0" width="40" height="40"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="40" id="Wl4-6f-NSU"/>
-                        <constraint firstAttribute="height" constant="40" id="vnK-Gq-Bhl"/>
+                        <constraint firstAttribute="height" constant="40" id="6Cz-Ft-Gmg"/>
+                        <constraint firstAttribute="width" constant="40" id="lfP-dt-jnM"/>
                     </constraints>
-                </button>
+                </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2q-2l-ESo" userLabel="Content View">
                     <rect key="frame" x="193" y="0.0" width="347" height="149"/>
                     <subviews>
@@ -90,7 +91,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-m1-16p" userLabel="Show Name Label">
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-m1-16p" userLabel="Show Name Label">
                             <rect key="frame" x="0.0" y="2" width="347" height="0.0"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
@@ -113,6 +114,7 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="WIK-bI-0ma" firstAttribute="trailing" secondItem="gTh-IM-f7z" secondAttribute="leading" id="1dS-YL-Xmf"/>
                 <constraint firstAttribute="bottom" secondItem="c2q-2l-ESo" secondAttribute="bottom" id="8ob-wi-LVO"/>
                 <constraint firstItem="lYY-cI-eTG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Afy-ne-K1a"/>
                 <constraint firstItem="L9U-q6-0Yb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EIA-n3-VJs"/>
@@ -124,11 +126,10 @@
                 <constraint firstItem="hsf-l3-HKC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aaM-7v-jjD"/>
                 <constraint firstItem="OWR-bR-Bex" firstAttribute="leading" secondItem="L9U-q6-0Yb" secondAttribute="trailing" constant="1" id="hda-34-Tgh"/>
                 <constraint firstItem="hsf-l3-HKC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="id3-X1-KQa"/>
-                <constraint firstItem="VPw-G8-6xZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nJC-FS-9bJ"/>
+                <constraint firstItem="WIK-bI-0ma" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jke-m1-JrE"/>
                 <constraint firstAttribute="bottom" secondItem="OWR-bR-Bex" secondAttribute="bottom" constant="10" id="nha-vn-P96"/>
                 <constraint firstAttribute="trailing" secondItem="c2q-2l-ESo" secondAttribute="trailing" constant="10" id="qvN-Ly-zUt"/>
                 <constraint firstItem="gTh-IM-f7z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="v8O-98-bVp"/>
-                <constraint firstItem="gTh-IM-f7z" firstAttribute="leading" secondItem="VPw-G8-6xZ" secondAttribute="trailing" id="xlb-q3-5u9"/>
                 <constraint firstAttribute="bottom" secondItem="lYY-cI-eTG" secondAttribute="bottom" id="ztL-6R-qhI"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
